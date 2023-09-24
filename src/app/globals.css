@@ -191,9 +191,8 @@ article {
 
 .icon-box ion-icon { --ionicon-stroke-width: 35px; }
 
-article { display: none; }
 
-article.active {
+article {
   display: block;
   animation: fade 0.5s ease backwards;
 }
