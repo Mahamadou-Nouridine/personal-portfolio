@@ -10,18 +10,19 @@ export default function Home() {
 
       <section class="about-text">
         <p>
-          I&apos;m Freelance Architect from Lagos, Nigeria. I enjoy turning your
-          dream home to reality with my beautiful and intuitive designs.
-        </p>
-
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
-          consequatur ducimus, dolorem molestias tenetur dolorum odit earum hic
-          aut voluptatibus distinctio, nemo fugit eveniet rerum nam natus
-          inventore, perferendis aliquid! Lorem ipsum dolor sit amet,
-          consectetur adipisicing elit. Saepe vitae ea, ipsa, laudantium
-          reprehenderit a deserunt rem cupiditate, deleniti esse facilis et.
-          Itaque nam officia, voluptas quos tempora temporibus consectetur.
+          I am a Fullstack web developer with strong knowledge of many different
+          front-end and back-end technologies, responsive frameworks, databases,
+          and best code practices. My objective is simply to be the best web
+          developer that I can be and to contribute to the technology industry
+          with all that I know and can do. I am dedicated to perfecting my craft
+          by learning from more seasoned developers, remaining humble, and
+          continuously making strides to learn all that I can about development.
+          I&apos;m passionate about AI, I&apos;m currently learning machine learning in
+          parallel with Python. I&apos;m curious about learning new things and
+          updating my knowledge. I studied Mathematics, and I believe that my
+          understanding of problem-solving and complex algorithms are also
+          skills that have and will continue to contribute to my overall success
+          as a developer.
         </p>
       </section>
 
