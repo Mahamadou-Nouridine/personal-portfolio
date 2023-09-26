@@ -335,6 +335,7 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
+  overflow: hidden;
 }
 
 .info-content .name {
@@ -1414,6 +1415,7 @@ textarea.form-input::-webkit-resizer {
   .avatar-box {
     border-radius: 30px;
     height: auto;
+    overflow: hidden;
   }
 
   .avatar-box img {
