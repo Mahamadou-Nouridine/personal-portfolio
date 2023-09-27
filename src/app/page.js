@@ -17,12 +17,12 @@ export default function Home() {
           with all that I know and can do. I am dedicated to perfecting my craft
           by learning from more seasoned developers, remaining humble, and
           continuously making strides to learn all that I can about development.
-          I&apos;m passionate about AI, I&apos;m currently learning machine learning in
-          parallel with Python. I&apos;m curious about learning new things and
-          updating my knowledge. I studied Mathematics, and I believe that my
-          understanding of problem-solving and complex algorithms are also
-          skills that have and will continue to contribute to my overall success
-          as a developer.
+          I&apos;m passionate about AI, I&apos;m currently learning machine
+          learning in parallel with Python. I&apos;m curious about learning new
+          things and updating my knowledge. I studied Mathematics, and I believe
+          that my understanding of problem-solving and complex algorithms are
+          also skills that have and will continue to contribute to my overall
+          success as a developer.
         </p>
       </section>
 
@@ -36,48 +36,49 @@ export default function Home() {
         <ul class="service-list">
           <li class="service-item">
             <div class="service-icon-box">
-              <img
-                src="./assets/images/icon-design.svg
-          "
+              <Image
+                src="./assets/images/svg-icons/backend.svg"
                 alt="design icon"
-                width="40"
+                width={70}
+                height={70}
               />
             </div>
 
             <div class="service-content-box">
-              <h4 class="h4 service-item-title">Architecutural Design</h4>
+              <h4 class="h4 service-item-title">Backend Development</h4>
 
               <p class="service-item-text">
-                The most modern and high-quality design made at a professional
-                level.
+                Implementation of simples and complexes application architectures with modern technologies and frameworks.
               </p>
             </div>
           </li>
 
           <li class="service-item">
             <div class="service-icon-box">
-              <img
-                src="./assets/images/icon-dev.svg"
+              <Image
+                src="./assets/images/svg-icons/frontend.svg"
                 alt="Web development icon"
-                width="40"
+                width={70}
+                height={70}
               />
             </div>
 
             <div class="service-content-box">
-              <h4 class="h4 service-item-title">3D Modeling</h4>
+              <h4 class="h4 service-item-title">Front-End Development</h4>
 
               <p class="service-item-text">
-                High-quality development of sites at the professional level.
+                High-quality development of user interfaces at the professional level with modern technologies and frameworks.
               </p>
             </div>
           </li>
 
           <li class="service-item">
             <div class="service-icon-box">
-              <img
-                src="./assets/images/icon-app.svg"
+              <Image
+                src="./assets/images/svg-icons/mobile.svg"
                 alt="mobile app icon"
-                width="40"
+                width={70}
+                height={70}
               />
             </div>
 
@@ -92,19 +93,19 @@ export default function Home() {
 
           <li class="service-item">
             <div class="service-icon-box">
-              <img
-                src="./assets/images/icon-photo.svg"
-                alt="camera icon"
-                width="40"
+              <Image
+                src="./assets/images/svg-icons/deployment.svg"
+                alt="Deployment"
+                width={70}
+                height={70}
               />
             </div>
 
             <div class="service-content-box">
-              <h4 class="h4 service-item-title">Photography</h4>
+              <h4 class="h4 service-item-title">Deployment</h4>
 
               <p class="service-item-text">
-                I make high-quality photos of any category at a professional
-                level.
+                I bring your solutions ready to be consumed by your end users.
               </p>
             </div>
           </li>
