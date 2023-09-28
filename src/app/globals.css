@@ -114,6 +114,11 @@ li {
   list-style: none;
 }
 
+.nextimg{
+  width: 60px;
+  height: auto;
+}
+
 img,
 ion-icon,
 a,
