@@ -6,7 +6,7 @@ import Testimonial from "./Testimonial";
 
 const TestimonialSection = () => {
   const testimonials = new Array(4).fill(1);
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   const handleShow = () => setShow(true)
   return (
     <>
