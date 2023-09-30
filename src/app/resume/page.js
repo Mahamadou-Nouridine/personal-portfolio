@@ -1,4 +1,6 @@
 import React from "react";
+import EducationSection from "../components/resume/EducationSection.jsx";
+// import EducationSection from "../components/resume/EducationSection";
 
 const resume = () => {
   return (
@@ -8,54 +10,7 @@ const resume = () => {
         <h2 class="h2 article-title">Resume</h2>
       </header>
 
-      <section class="timeline">
-        <div class="title-wrapper">
-          <div class="icon-box">
-            <ion-icon name="book-outline"></ion-icon>
-          </div>
-
-          <h3 class="h3">Education</h3>
-        </div>
-
-        <ol class="timeline-list">
-          <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">
-              Federal University of Technology Akure
-            </h4>
-
-            <span>2013 — 2017</span>
-
-            <p class="timeline-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-              ut delectus et odit eligendi corporis.
-            </p>
-          </li>
-
-          <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Military High school</h4>
-
-            <span>2006 — 2007</span>
-
-            <p class="timeline-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-              ut delectus et odit eligendi corporis.
-            </p>
-          </li>
-
-          <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">
-              High school of art and design
-            </h4>
-
-            <span>2002 — 2004</span>
-
-            <p class="timeline-text">
-              Duis aute irure dolor in reprehenderit in voluptate, quila
-              voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
-            </p>
-          </li>
-        </ol>
-      </section>
+      <EducationSection />
 
       <section class="timeline">
         <div class="title-wrapper">
