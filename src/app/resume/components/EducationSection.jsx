@@ -1,6 +1,6 @@
 import React from "react";
 import educations from '../../../data/educations'
-import EducationItem from '../../components/resume/EducationItem'
+import EducationItem from './EducationItem'
 
 const EducationSection = () => {
   return (
