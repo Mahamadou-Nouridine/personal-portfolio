@@ -33,7 +33,7 @@ const Sidebar = () => {
       <div className="sidebar-info_more">
         <div className="separator"></div>
 
-        <ul className="contacts-list">
+        <ul className="contacts-list p-0">
           <li className="contact-item">
             <div className="icon-box">
               <ion-icon name="mail-outline"></ion-icon>
@@ -89,7 +89,7 @@ const Sidebar = () => {
 
         <div className="separator"></div>
 
-        <ul className="social-list">
+        <ul className="social-list p-0">
           <li className="social-item">
             <a href="https://github.com/Mahamadou-Nouridine" target="_blank" className="social-link">
             <ion-icon name="logo-github"></ion-icon>

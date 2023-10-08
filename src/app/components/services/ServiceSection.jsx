@@ -8,7 +8,7 @@ const ServiceSection = () => {
     <section class="service">
       <h3 class="h3 service-title">What I Do</h3>
 
-      <ul class="service-list">
+      <ul class="service-list p-0">
         {services.map((service, index) => (
           <Service service={service} key={index} />
         ))}

@@ -489,6 +489,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin: auto;
   padding: 0 10px;
 }
 

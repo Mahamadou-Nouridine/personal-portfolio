@@ -11,7 +11,7 @@ const blog = () => {
         </header>
 
         <section class="blog-posts">
-          <ul class="blog-posts-list">
+          <ul class="blog-posts-list p-0">
             <li class="blog-post-item">
               <a href="#">
                 <figure class="blog-banner-box">

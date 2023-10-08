@@ -1,7 +1,7 @@
 import Image from "next/image";
-import TestimonialSection from './components/testimonial/TestimonialSection'
-import ServiceSection from './components/services/ServiceSection'
-import ClientSection from './components/clients/ClientSection'
+import TestimonialSection from "./components/testimonial/TestimonialSection";
+import ServiceSection from "./components/services/ServiceSection";
+import ClientSection from "./components/clients/ClientSection";
 // import styles from "./page.module.css";
 
 export default function Home() {
@@ -29,7 +29,7 @@ export default function Home() {
         </p>
       </section>
 
-     <ServiceSection />
+      <ServiceSection />
 
       <TestimonialSection />
 
