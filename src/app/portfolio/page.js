@@ -1,7 +1,6 @@
 'use client'
 import React, { useState } from "react";
 import PortfolioModal from "../components/PortfolioModal.jsx"
-import { Image } from "react-bootstrap";
 import PortfolioItem from './components/PortfolioItem.jsx'
 
 const Portfolio = () => {
@@ -66,7 +65,7 @@ const Portfolio = () => {
           </ul>
         </div>
 
-        <ul className="project-list">
+        <ul className="project-list p-0">
           {new Array(10).fill(1).map(el => <PortfolioItem hadleShow={hadleShow} key={el} />)}
         </ul>
       </section>

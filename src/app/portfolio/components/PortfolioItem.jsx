@@ -8,7 +8,7 @@ const PortfolioItem = ({hadleShow}) => {
       data-filter-item
       data-category="building drawing"
     >
-      <div href="#">
+      <div >
         <figure className="project-img">
           <div onClick={hadleShow} style={{cursor: "pointer"}} className="project-item-icon-box">
             <ion-icon name="eye-outline"></ion-icon>
