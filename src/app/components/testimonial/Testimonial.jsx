@@ -3,9 +3,9 @@ import React from "react";
 
 const Testimonial = ({ handleShow }) => {
   return (
-    <li class="testimonials-item" onClick={handleShow}>
-      <div class="content-card" data-testimonials-item>
-        <figure class="testimonials-avatar-box">
+    <li className="testimonials-item" onClick={handleShow}>
+      <div className="content-card" data-testimonials-item>
+        <figure className="testimonials-avatar-box">
           <Image
             src="/assets/images/avatar-1.png"
             alt="Daniel lewis"
@@ -16,11 +16,11 @@ const Testimonial = ({ handleShow }) => {
           />
         </figure>
 
-        <h4 class="h4 testimonials-item-title" data-testimonials-title>
+        <h4 className="h4 testimonials-item-title" data-testimonials-title>
           Daniel lewis
         </h4>
 
-        <div class="testimonials-text" data-testimonials-text>
+        <div className="testimonials-text" data-testimonials-text>
           <p>
             I wanted to take a moment to express my sincere appreciation for the
             incredible work that you have done in designing our new home. From

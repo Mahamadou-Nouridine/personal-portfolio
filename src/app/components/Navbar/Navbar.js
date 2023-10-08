@@ -10,44 +10,44 @@ const Navbar = () => {
   const colorizeActiveLink = (path) =>
     pathname === path ? "navbar-link active" : "navbar-link";
   return (
-    <nav class="navbar">
-      <ul class="navbar-list">
-        <li class="navbar-item">
-          <Link href="/" class={colorizeActiveLink("/")} data-nav-link>
+    <nav className="navbar">
+      <ul className="navbar-list">
+        <li className="navbar-item">
+          <Link href="/" className={colorizeActiveLink("/")} data-nav-link>
             About
           </Link>
         </li>
 
-        <li class="navbar-item">
+        <li className="navbar-item">
           <Link
             href="/resume"
-            class={colorizeActiveLink("/resume")}
+            className={colorizeActiveLink("/resume")}
             data-nav-link
           >
             Resume
           </Link>
         </li>
 
-        <li class="navbar-item">
+        <li className="navbar-item">
           <Link
             href="/portfolio"
-            class={colorizeActiveLink("/portfolio")}
+            className={colorizeActiveLink("/portfolio")}
             data-nav-link
           >
             Portfolio
           </Link>
         </li>
 
-        <li class="navbar-item">
-          <Link href="/blog" class={colorizeActiveLink("/blog")} data-nav-link>
+        <li className="navbar-item">
+          <Link href="/blog" className={colorizeActiveLink("/blog")} data-nav-link>
             Blog
           </Link>
         </li>
 
-        <li class="navbar-item">
+        <li className="navbar-item">
           <Link
             href="/contact"
-            class={colorizeActiveLink("/contact")}
+            className={colorizeActiveLink("/contact")}
             data-nav-link
           >
             Contact

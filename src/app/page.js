@@ -6,12 +6,12 @@ import ClientSection from './components/clients/ClientSection'
 
 export default function Home() {
   return (
-    <article class="about  active" data-page="about">
+    <article className="about  active" data-page="about">
       <header>
-        <h2 class="h2 article-title">About me</h2>
+        <h2 className="h2 article-title">About me</h2>
       </header>
 
-      <section class="about-text">
+      <section className="about-text">
         <p>
           I am a Fullstack web developer with strong knowledge of many different
           front-end and back-end technologies, responsive frameworks, databases,

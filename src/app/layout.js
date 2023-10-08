@@ -4,6 +4,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Navbar from "./components/Navbar/Navbar";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +28,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <main>
           <Sidebar />
-          <div class="main-content">
+          <div className="main-content">
             <Navbar />
             {children}
           </div>

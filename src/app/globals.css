@@ -114,8 +114,13 @@ li {
   list-style: none;
 }
 
-.nextimg{
+.nextimg {
   width: 60px;
+  height: auto;
+}
+
+.portfolio-image {
+  width: 100%;
   height: auto;
 }
 
@@ -658,6 +663,11 @@ main {
   visibility: hidden;
 }
 
+.portfolio-modal-container {
+  max-width: 500px;
+  margin: auto;
+}
+
 .modal-container::-webkit-scrollbar {
   display: none;
 }
@@ -701,7 +711,28 @@ main {
   z-index: 2;
 }
 
+/*Portfolio modal*/
+.portfolio-modal {
+  background: var(--eerie-black-2);
+  position: relative;
+  padding: 15px;
+  margin: 15px 12px;
+  border: 1px solid var(--jet);
+  border-radius: 14px;
+  box-shadow: var(--shadow-5);
+  transform: scale(1.2);
+  opacity: 0;
+  transition: var(--transition-1);
+  z-index: 2;
+}
+
 .modal-container.active .testimonials-modal {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/*Portfolio modal*/
+.modal-container.active .portfolio-modal {
   transform: scale(1);
   opacity: 1;
 }
@@ -720,6 +751,7 @@ main {
   color: var(--white-2);
   font-size: 18px;
   opacity: 0.7;
+  z-index: 3;
 }
 
 .modal-close-btn:hover,
@@ -1009,7 +1041,7 @@ main {
   }
 }
 
-.project-item > a {
+.project-item > div {
   width: 100%;
 }
 
@@ -1034,7 +1066,7 @@ main {
   transition: var(--transition-1);
 }
 
-.project-item > a:hover .project-img::before {
+.project-item > div:hover .project-img::before {
   background: hsla(0, 0%, 0%, 0.5);
 }
 
@@ -1055,7 +1087,7 @@ main {
   transition: var(--transition-1);
 }
 
-.project-item > a:hover .project-item-icon-box {
+.project-item > div:hover .project-item-icon-box {
   --scale: 1;
   opacity: 1;
 }
@@ -1071,7 +1103,7 @@ main {
   transition: var(--transition-1);
 }
 
-.project-item > a:hover img {
+.project-item > div:hover img {
   transform: scale(1.1);
 }
 
@@ -1563,6 +1595,16 @@ textarea.form-input::-webkit-resizer {
     border-radius: 20px;
   }
 
+  /*Portfolio modal*/
+  .portfolio-modal {
+    /* display: flex;
+    justify-content: flex-start; */
+    align-items: stretch;
+    gap: 25px;
+    padding: 30px;
+    border-radius: 20px;
+  }
+
   .modal-img-wrapper {
     display: flex;
     flex-direction: column;
@@ -1710,6 +1752,12 @@ textarea.form-input::-webkit-resizer {
   /* testimonials modal */
 
   .testimonials-modal {
+    gap: 35px;
+    max-width: 680px;
+  }
+
+  /*Portfolio modal*/
+  .portfolio-modal {
     gap: 35px;
     max-width: 680px;
   }
