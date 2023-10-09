@@ -31,7 +31,7 @@ const PortfolioModal = ({show, handleClose}) => {
             Daniel lewis
           </h4>
 
-          <time datetime="2021-06-14">14 June, 2021</time>
+          <time dateTime="2021-06-14">14 June, 2021</time>
 
           <div data-modal-text>
             <p>

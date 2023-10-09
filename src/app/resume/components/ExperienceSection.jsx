@@ -13,7 +13,7 @@ const ExperienceSection = () => {
         <h3 className="h3">Experience</h3>
       </div>
 
-      <ol className="timeline-list">
+      <ol className="timeline-list p-0">
         {experiences.map((experience, index) => <ExperienceItem key={index} experience={experience} />)}
       </ol>
     </section>

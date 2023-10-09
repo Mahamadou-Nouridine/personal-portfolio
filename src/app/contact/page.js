@@ -2,12 +2,12 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <article class="contact" data-page="contact">
+    <article className="contact" data-page="contact">
       <header>
-        <h2 class="h2 article-title">Contact</h2>
+        <h2 className="h2 article-title">Contact</h2>
       </header>
 
-      <section class="mapbox" data-mapbox>
+      <section className="mapbox" data-mapbox>
         <figure>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63432.57438824277!2d3.380540514233446!3d6.453569645603896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf4cc9b07cf55%3A0xc4ae10b395418b9b!2sLagos%20Island!5e0!3m2!1sen!2sng!4v1683226870013!5m2!1sen!2sng"
@@ -21,15 +21,15 @@ const Contact = () => {
         </figure>
       </section>
 
-      <section class="contact-form">
-        <h3 class="h3 form-title">Contact Form</h3>
+      <section className="contact-form">
+        <h3 className="h3 form-title">Contact Form</h3>
 
-        <form action="#" class="form" data-form>
-          <div class="input-wrapper">
+        <form action="#" className="form" data-form>
+          <div className="input-wrapper">
             <input
               type="text"
               name="fullname"
-              class="form-input"
+              className="form-input"
               placeholder="Full name"
               required
               data-form-input
@@ -38,7 +38,7 @@ const Contact = () => {
             <input
               type="email"
               name="email"
-              class="form-input"
+              className="form-input"
               placeholder="Email address"
               required
               data-form-input
@@ -47,13 +47,13 @@ const Contact = () => {
 
           <textarea
             name="message"
-            class="form-input"
+            className="form-input"
             placeholder="Your Message"
             required
             data-form-input
           ></textarea>
 
-          <button class="form-btn" type="submit" disabled data-form-btn>
+          <button className="form-btn" type="submit" disabled data-form-btn>
             <ion-icon name="paper-plane"></ion-icon>
             <span>Send Message</span>
           </button>

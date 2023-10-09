@@ -66,7 +66,7 @@ const Portfolio = () => {
         </div>
 
         <ul className="project-list p-0">
-          {new Array(10).fill(1).map(el => <PortfolioItem hadleShow={hadleShow} key={el} />)}
+          {new Array(10).fill(1).map((el, index) => <PortfolioItem hadleShow={hadleShow} key={index} />)}
         </ul>
       </section>
       <PortfolioModal show={show} handleClose={handleClose} />

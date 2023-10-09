@@ -14,12 +14,12 @@ const TestimonialSection = () => {
     - testimonials
   --> */}
 
-      <section class="testimonials">
-        <h3 class="h3 testimonials-title">Testimonials</h3>
+      <section className="testimonials">
+        <h3 className="h3 testimonials-title">Testimonials</h3>
 
-        <ul class="testimonials-list has-scrollbar">
-          {testimonials.map((testimonial) => (
-            <Testimonial handleShow={handleShow} key={testimonial} />
+        <ul className="testimonials-list has-scrollbar">
+          {testimonials.map((testimonial, index) => (
+            <Testimonial handleShow={handleShow} key={index} />
           ))}
         </ul>
       </section>
@@ -30,18 +30,18 @@ const TestimonialSection = () => {
   --> */}
 
       <div
-        class={`modal-container ${show ? "active" : ""}`}
+        className={`modal-container ${show ? "active" : ""}`}
         data-modal-container
       >
-        <div class={`overlay ${show ? "active" : ""}`} data-overlay></div>
+        <div className={`overlay ${show ? "active" : ""}`} data-overlay></div>
 
-        <section class="testimonials-modal">
-          <button onClick={() => setShow(false)} class="modal-close-btn" data-modal-close-btn>
+        <section className="testimonials-modal">
+          <button onClick={() => setShow(false)} className="modal-close-btn" data-modal-close-btn>
             <ion-icon name="close-outline"></ion-icon>
           </button>
 
-          <div class="modal-img-wrapper">
-            <figure class="modal-avatar-box">
+          <div className="modal-img-wrapper">
+            <figure className="modal-avatar-box">
               <img
                 src="./assets/images/avatar-1.png"
                 alt="Daniel lewis"
@@ -53,12 +53,12 @@ const TestimonialSection = () => {
             <img src="./assets/images/icon-quote.svg" alt="quote icon" />
           </div>
 
-          <div class="modal-content">
-            <h4 class="h3 modal-title" data-modal-title>
+          <div className="modal-content">
+            <h4 className="h3 modal-title" data-modal-title>
               Daniel lewis
             </h4>
 
-            <time datetime="2021-06-14">14 June, 2021</time>
+            <time dateTime="2021-06-14">14 June, 2021</time>
 
             <div data-modal-text>
               <p>

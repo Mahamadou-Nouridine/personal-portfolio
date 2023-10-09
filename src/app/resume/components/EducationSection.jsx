@@ -4,16 +4,16 @@ import EducationItem from './EducationItem'
 
 const EducationSection = () => {
   return (
-    <section class="timeline">
-      <div class="title-wrapper">
-        <div class="icon-box">
+    <section className="timeline">
+      <div className="title-wrapper">
+        <div className="icon-box">
           <ion-icon name="book-outline"></ion-icon>
         </div>
 
-        <h3 class="h3">Education</h3>
+        <h3 className="h3">Education</h3>
       </div>
 
-      <ol class="timeline-list">
+      <ol className="timeline-list p-0">
         {educations.map((education, index) => <EducationItem education={education} key={index}/>)}
       </ol>
     </section>

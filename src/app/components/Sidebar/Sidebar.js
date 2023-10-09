@@ -70,7 +70,7 @@ const Sidebar = () => {
             <div className="contact-info">
               <p className="contact-title">Birthday</p>
 
-              <time datetime="1982-06-23">December 28</time>
+              <time dateTime="1982-06-23">December 28</time>
             </div>
           </li>
 

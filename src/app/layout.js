@@ -21,8 +21,8 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
           integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-          crossorigin="anonymous"
-          referrerpolicy="no-referrer"
+          crossOrigin="anonymous"
+          // referrerPolicy="no-referrer"
         />
       </head>
       <body className={inter.className}>
@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
         src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
       ></script>
       <script
-        nomodule
+        noModule
         defer
         async
         src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"

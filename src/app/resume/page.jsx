@@ -7,9 +7,9 @@ import SkillsSection from "./components/SkillsSection";
 const resume = () => {
   return (
     // <div style={{color: "white"}}>This is the resume</div>
-    <article class="resume" data-page="resume">
+    <article className="resume" data-page="resume">
       <header>
-        <h2 class="h2 article-title">Resume</h2>
+        <h2 className="h2 article-title">Resume</h2>
       </header>
 
       <EducationSection />
