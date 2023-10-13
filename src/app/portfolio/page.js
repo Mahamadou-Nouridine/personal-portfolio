@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from "react";
-import PortfolioModal from "../components/PortfolioModal.jsx"
+import PortfolioModal from "./components/PortfolioModal.jsx"
 import PortfolioItem from './components/PortfolioItem.jsx'
 
 const Portfolio = () => {

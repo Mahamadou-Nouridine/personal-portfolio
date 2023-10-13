@@ -9,8 +9,7 @@ const ExperienceItem = ({ experience }) => {
       <span>
         {experience.from} — {experience.to}
       </span>
-
-      <p className="timeline-text">{experience.description}</p>
+      <pre className="timeline-text">{experience.description}</pre>
     </li>
   );
 };

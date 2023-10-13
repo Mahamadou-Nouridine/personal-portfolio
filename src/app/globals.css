@@ -903,8 +903,14 @@ main {
 }
 
 .timeline-text {
+  display: block;
+  font-family: var(--ff-poppins);
+  white-space: pre;
+  margin: 0.3em 0;
+  text-wrap: wrap;
   color: var(--light-gray);
   font-weight: var(--fw-300);
+  font-size: 0.95em;
   line-height: 1.6;
 }
 
@@ -1343,6 +1349,71 @@ textarea.form-input::-webkit-resizer {
 }
 
 .form-btn:disabled:hover::before {
+  background: var(--bg-gradient-jet);
+}
+
+/*Action buttons*/
+
+.action-buttons {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  gap: 10px;
+}
+.action-buttons button {
+  position: relative;
+  width: 100%;
+  max-width: 150px;
+  background: var(--border-gradient-onyx);
+  color: var(--orange-yellow-crayola);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 20px;
+  border-radius: 14px;
+  font-size: var(--fs-6);
+  text-transform: capitalize;
+  box-shadow: var(--shadow-3);
+  z-index: 1;
+  transition: var(--transition-1);
+}
+
+.action-buttons button::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
+  transition: var(--transition-1);
+}
+
+/* .action-buttons button .icon {
+  font-size: 20px;
+} */
+
+.action-buttons button:hover {
+  background: var(--bg-gradient-yellow-1);
+  color: var(--orange-yellow-crayola);
+}
+
+.action-buttons button:hover::before {
+  background: var(--bg-gradient-yellow-2);
+}
+
+.action-buttons button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  color: rgba(128, 128, 128, 0.448);
+}
+
+.action-buttons button:disabled:hover {
+  background: var(--border-gradient-onyx);
+}
+
+.action-buttons button:disabled:hover::before {
+  /* cursor: pointer; */
   background: var(--bg-gradient-jet);
 }
 
