@@ -34,7 +34,7 @@ const PortfolioModal = ({ show, handleClose }) => {
           <div className="action-buttons">
             <span
               className="d-inline-block"
-              tabindex="0"
+              tabIndex="0"
               data-toggle="tooltip"
               title="This application is private"
             >

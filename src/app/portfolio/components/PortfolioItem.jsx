@@ -1,7 +1,7 @@
 import React from "react";
 import { Image } from "react-bootstrap";
 
-const PortfolioItem = ({hadleShow}) => {
+const PortfolioItem = ({hadleShow, project}) => {
   return (
     <li
       className="project-item  active"
@@ -14,10 +14,10 @@ const PortfolioItem = ({hadleShow}) => {
             <ion-icon name="eye-outline"></ion-icon>
           </div>
 
-          <Image src="./assets/images/house.jpg" alt="finance" loading="lazy" />
+          <Image src={project.displayImage} alt="finance" loading="lazy" />
         </figure>
 
-        <h3 className="project-title">architecture</h3>
+        <h3 className="project-title">{project.name}</h3>
 
         <p className="project-category">Building Drawing</p>
       </div>

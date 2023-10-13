@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import PortfolioModal from "./components/PortfolioModal.jsx"
 import PortfolioItem from './components/PortfolioItem.jsx'
+import projects from "@/data/projects.js";
 
 const Portfolio = () => {
   const [show, setShow] = useState(false)
@@ -66,7 +67,7 @@ const Portfolio = () => {
         </div>
 
         <ul className="project-list p-0">
-          {new Array(10).fill(1).map((el, index) => <PortfolioItem hadleShow={hadleShow} key={index} />)}
+          {projects.map((project, index) => <PortfolioItem project={project} hadleShow={hadleShow} key={index} />)}
         </ul>
       </section>
       <PortfolioModal show={show} handleClose={handleClose} />
