@@ -45,7 +45,7 @@ const blog = () => {
             <li className="blog-post-item">
               <a href="#">
                 <figure className="blog-banner-box">
-                  <img
+                  <Image
                     src="./assets/images/blog-2.jpg"
                     alt="Best fonts every designer"
                     loading="lazy"
@@ -74,7 +74,7 @@ const blog = () => {
             <li className="blog-post-item">
               <a href="#">
                 <figure className="blog-banner-box">
-                  <img
+                  <Image
                     src="./assets/images/blog-3.jpg"
                     alt="Design digest #80"
                     loading="lazy"
@@ -103,7 +103,7 @@ const blog = () => {
             <li className="blog-post-item">
               <a href="#">
                 <figure className="blog-banner-box">
-                  <img
+                  <Image
                     src="./assets/images/blog-4.jpg"
                     alt="UI interactions of the week"
                     loading="lazy"
@@ -134,7 +134,7 @@ const blog = () => {
             <li className="blog-post-item">
               <a href="#">
                 <figure className="blog-banner-box">
-                  <img
+                  <Image
                     src="./assets/images/blog-5.jpg"
                     alt="The forgotten art of spacing"
                     loading="lazy"
@@ -165,7 +165,7 @@ const blog = () => {
             <li className="blog-post-item">
               <a href="#">
                 <figure className="blog-banner-box">
-                  <img
+                  <Image
                     src="./assets/images/blog-6.jpg"
                     alt="Design digest #79"
                     loading="lazy"

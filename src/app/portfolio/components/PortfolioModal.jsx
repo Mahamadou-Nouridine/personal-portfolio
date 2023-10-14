@@ -23,7 +23,7 @@ const PortfolioModal = ({ show, handleClose }) => {
 
         <div className="portfolio-modal-img-wrapper" style={{ width: "100%" }}>
           <figure className="portfolio-image-box" style={{ width: "100%" }}>
-            {/* <img
+            {/* <Image
               src="./assets/images/project-6.png"
               alt="metaspark"
               loading="lazy"

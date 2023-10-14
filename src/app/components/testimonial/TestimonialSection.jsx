@@ -1,8 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import React, { useState } from "react";
 import Testimonial from "./Testimonial";
+import { Image } from "react-bootstrap";
 
 const TestimonialSection = () => {
   const testimonials = new Array(4).fill(1);
@@ -42,7 +42,7 @@ const TestimonialSection = () => {
 
           <div className="modal-img-wrapper">
             <figure className="modal-avatar-box">
-              <img
+              <Image
                 src="./assets/images/avatar-1.png"
                 alt="Daniel lewis"
                 width="80"
@@ -50,7 +50,7 @@ const TestimonialSection = () => {
               />
             </figure>
 
-            <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            <Image src="./assets/images/icon-quote.svg" alt="quote icon" />
           </div>
 
           <div className="modal-content">
