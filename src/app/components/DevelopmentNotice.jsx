@@ -36,7 +36,7 @@ const DevelopmentNotice = () => {
             <p>
               This Website is under construction, some data/information may not be
               true. Consider living me an email via my email id{" "}
-              <a className="d-inline" href="">
+              <a className="d-inline" href="mailto:mahamadounouridinem@gmail.com">
                 mahamadounouridinem@gmail.com
               </a>
               .
