@@ -3,7 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 // import ExampleCarouselImage from "components/ExampleCarouselImage";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
-function ImageCaroussel() {
+function ImageCaroussel({images}) {
   return (
     <Carousel
       variant="dark"
@@ -36,44 +36,21 @@ function ImageCaroussel() {
         </div>
       }
     >
-      <Carousel.Item>
+      {images.map((image, index) => (<Carousel.Item key={index}>
+        <figure className="caroussel-img">
         <Image
-          src="./assets/images/project-6.png"
+          src={image}
           alt="metaspark"
           loading="lazy"
           style={{ width: "100%" }}
         />
+        </figure>
         {/* <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption> */}
-      </Carousel.Item>
-      <Carousel.Item>
-        <Image
-          src="./assets/images/project-6.png"
-          alt="metaspark"
-          loading="lazy"
-          style={{ width: "100%" }}
-        />
-        {/* <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption> */}
-      </Carousel.Item>
-      <Carousel.Item>
-        <Image
-          src="./assets/images/project-6.png"
-          alt="metaspark"
-          loading="lazy"
-          style={{ width: "100%" }}
-        />
-        {/* <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption> */}
-      </Carousel.Item>
+      </Carousel.Item>))}
+
     </Carousel>
   );
 }

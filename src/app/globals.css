@@ -1062,6 +1062,19 @@ main {
   margin-bottom: 15px;
 }
 
+/*Caroussel image*/
+.caroussel-img {
+  position: relative;
+  width: 100%;
+  /* max-width: 200px; */
+  height: auto;
+  /* max-height: 250px; */
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+/*Caroussel image*/
+
 .project-img::before {
   content: "";
   position: absolute;
@@ -1441,7 +1454,7 @@ textarea.form-input::-webkit-resizer {
 
   .project-img,
   .blog-banner-box {
-    height: auto;
+    height: 200px;
   }
 }
 
@@ -1798,7 +1811,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .has-scrollbar::-webkit-scrollbar-button {
-    width: 100px;
+    width: 100%;
   }
 
   /**

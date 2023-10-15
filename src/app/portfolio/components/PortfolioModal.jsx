@@ -4,8 +4,8 @@ import { Button } from "react-bootstrap";
 import ImageCaroussel from "./ImageCaroussel";
 import { BiCodeAlt, BiLinkExternal } from "react-icons/bi";
 
-const PortfolioModal = ({ show, handleClose }) => {
-  return (
+const PortfolioModal = ({ show, handleClose, project }) => {
+  return project ? (
     <div
       className={`modal-container ${show ? "active" : ""}`}
       data-modal-container
@@ -23,52 +23,63 @@ const PortfolioModal = ({ show, handleClose }) => {
 
         <div className="portfolio-modal-img-wrapper" style={{ width: "100%" }}>
           <figure className="portfolio-image-box" style={{ width: "100%" }}>
-            {/* <Image
-              src="./assets/images/project-6.png"
-              alt="metaspark"
-              loading="lazy"
-              style={{ width: "100%"}}
-            /> */}
-            <ImageCaroussel />
+            <ImageCaroussel images={project.images} />
           </figure>
           <div className="action-buttons">
             <span
-              className="d-inline-block"
+              className="d-block"
               tabIndex="0"
               data-toggle="tooltip"
-              title="This application is private"
+              title={project.demo.message}
             >
-              <Button disabled variant="neutral">
-                <span>demo</span>
+              <Button disabled={!project.demo.public} variant="neutral">
+                <a
+                  style={{ color: "unset" }}
+                  className="d-inline"
+                  href={project.demo.link}
+                  target="_blank"
+                >
+                  demo
+                </a>
                 <BiLinkExternal style={{ fontSize: 20 }} className="icon" />
               </Button>
             </span>
-            <Button variant="neutral">
-              <span>Source</span>
-              <BiCodeAlt style={{ fontSize: 20 }} className="icon" />
-            </Button>
+            <span
+              className="d-block"
+              tabIndex="0"
+              data-toggle="tooltip"
+              title={project.sourceCode.message}
+            >
+              <Button disabled={!project.sourceCode.public} variant="neutral">
+                <a
+                  style={{ color: "unset" }}
+                  className="d-inline"
+                  href={project.sourceCode.link}
+                  target="_blank"
+                >
+                  Source
+                </a>
+                <BiCodeAlt style={{ fontSize: 20 }} className="icon" />
+              </Button>
+            </span>
           </div>
         </div>
 
         <div className="modal-content">
           <h4 className="h3 modal-title" data-modal-title>
-            Daniel lewis
+            {project.name}
           </h4>
 
-          <time dateTime="2021-06-14">14 June, 2021</time>
+          <time dateTime="2021-06-14">{project.date}</time>
 
           <div data-modal-text>
-            <p>
-              Richard was hired to create a corporate identity. We were very
-              pleased with the work done. She has a lot of experience and is
-              very concerned about the needs of client. Lorem ipsum dolor sit
-              amet, ullamcous cididt consectetur adipiscing elit, seds do et
-              eiusmod tempor incididunt ut laborels dolore magnarels alia.
-            </p>
+            <p>{project.description}</p>
           </div>
         </div>
       </section>
     </div>
+  ) : (
+    ""
   );
 };
 

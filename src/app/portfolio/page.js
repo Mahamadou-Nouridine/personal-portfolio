@@ -8,6 +8,7 @@ const Portfolio = () => {
   const [show, setShow] = useState(false)
   const handleClose = () => setShow(false)
   const hadleShow = () => setShow(true)
+  const [selected, select] = useState(null)
 
   return (
     <article className="portfolio" data-page="portfolio">
@@ -67,10 +68,10 @@ const Portfolio = () => {
         </div>
 
         <ul className="project-list p-0">
-          {projects.map((project, index) => <PortfolioItem project={project} hadleShow={hadleShow} key={index} />)}
+          {projects.map((project, index) => <PortfolioItem select={select} project={project} hadleShow={hadleShow} key={index} />)}
         </ul>
       </section>
-      <PortfolioModal show={show} handleClose={handleClose} />
+      <PortfolioModal project={selected} show={show} handleClose={handleClose} />
     </article>
   );
 };
