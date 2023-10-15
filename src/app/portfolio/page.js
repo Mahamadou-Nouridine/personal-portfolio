@@ -7,8 +7,14 @@ import projects from "@/data/projects.js";
 
 const Portfolio = () => {
   const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
-  const hadleShow = () => setShow(true);
+  const handleClose = () => {
+    document.body.style.overflow = "unset";
+    setShow(false);
+  };
+  const hadleShow = () => {
+    document.body.style.overflow = "hidden";
+    setShow(true);
+  };
   const [selected, select] = useState(null);
   const [selectedTag, selectTag] = useState(null);
   const tags = [...new Set(projects.map((project) => project.tags).flat(1))];

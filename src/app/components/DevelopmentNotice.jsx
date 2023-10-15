@@ -1,9 +1,13 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Image } from "react-bootstrap";
 
 const DevelopmentNotice = () => {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
+  useEffect(() => {
+    document.body.style.overflow = "hidden";
+    setShow(true);
+  }, []);
   return (
     <div
       className={`modal-container ${show ? "active" : ""}`}
@@ -13,7 +17,10 @@ const DevelopmentNotice = () => {
 
       <section className="testimonials-modal">
         <button
-          onClick={() => setShow(false)}
+          onClick={() => {
+            setShow(false);
+            document.body.style.overflow = "unset";
+          }}
           className="modal-close-btn"
           data-modal-close-btn
         >
@@ -34,9 +41,12 @@ const DevelopmentNotice = () => {
         <div className="modal-content">
           <div data-modal-text>
             <p>
-              This Website is under construction, some data/information may not be
-              true. Consider living me an email via my email id{" "}
-              <a className="d-inline" href="mailto:mahamadounouridinem@gmail.com">
+              This Website is under construction, some data/information may not
+              be true. Consider living me an email via my email id{" "}
+              <a
+                className="d-inline"
+                href="mailto:mahamadounouridinem@gmail.com"
+              >
                 mahamadounouridinem@gmail.com
               </a>
               .

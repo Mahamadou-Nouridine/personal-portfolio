@@ -7,7 +7,14 @@ import { Image } from "react-bootstrap";
 const TestimonialSection = () => {
   const testimonials = new Array(4).fill(1);
   const [show, setShow] = useState(false);
-  const handleShow = () => setShow(true)
+  const handleClose = () => {
+    document.body.style.overflow = "unset";
+    setShow(false);
+  };
+  const handleShow = () => {
+    document.body.style.overflow = "hidden";
+    setShow(true);
+  };
   return (
     <>
       {/* <!--
@@ -36,7 +43,7 @@ const TestimonialSection = () => {
         <div className={`overlay ${show ? "active" : ""}`} data-overlay></div>
 
         <section className="testimonials-modal">
-          <button onClick={() => setShow(false)} className="modal-close-btn" data-modal-close-btn>
+          <button onClick={handleClose} className="modal-close-btn" data-modal-close-btn>
             <ion-icon name="close-outline"></ion-icon>
           </button>
 
