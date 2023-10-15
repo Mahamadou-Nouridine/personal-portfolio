@@ -1,14 +1,17 @@
-import Image from "next/image";
+// import Image from "next/image";
+import { urlGenerator } from "@/data/testimonials";
 import React from "react";
+import { Image } from "react-bootstrap";
 
-const Testimonial = ({ handleShow }) => {
+const Testimonial = ({ handleShow, testimonial }) => {
+
   return (
-    <li className="testimonials-item" onClick={handleShow}>
+    <li className="testimonials-item" onClick={() => handleShow(testimonial)}>
       <div className="content-card" data-testimonials-item>
         <figure className="testimonials-avatar-box">
           <Image
-            src="/assets/images/avatar-1.png"
-            alt="Daniel lewis"
+            src={urlGenerator(testimonial.author)}
+            alt={testimonial.author}
             width={1000}
             height={1000}
             className="nextimg"
@@ -17,16 +20,12 @@ const Testimonial = ({ handleShow }) => {
         </figure>
 
         <h4 className="h4 testimonials-item-title" data-testimonials-title>
-          Daniel lewis
+          {testimonial.author}
         </h4>
 
         <div className="testimonials-text" data-testimonials-text>
           <p>
-            I wanted to take a moment to express my sincere appreciation for the
-            incredible work that you have done in designing our new home. From
-            the moment we first met, it was clear that you had a true passion
-            for architecture and an unwavering commitment to creating spaces
-            that are both beautiful and functional.
+            {testimonial.text}
           </p>
         </div>
       </div>

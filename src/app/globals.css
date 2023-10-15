@@ -40,7 +40,7 @@
 
   /* solid */
 
-  --jet: hsl(0, 0%, 22%);
+  --jet: #383838;
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: hsl(240, 2%, 13%);
   --eerie-black-2: hsl(240, 2%, 12%);
@@ -636,6 +636,7 @@ main {
   background: var(--bg-gradient-onyx);
   border-radius: 14px;
   box-shadow: var(--shadow-1);
+  overflow: hidden;
 }
 
 .testimonials-item-title {
