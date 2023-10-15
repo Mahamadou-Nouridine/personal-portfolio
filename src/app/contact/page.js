@@ -10,14 +10,14 @@ const Contact = () => {
       <section className="mapbox" data-mapbox>
         <figure>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63432.57438824277!2d3.380540514233446!3d6.453569645603896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf4cc9b07cf55%3A0xc4ae10b395418b9b!2sLagos%20Island!5e0!3m2!1sen!2sng!4v1683226870013!5m2!1sen!2sng"
-            width="400"
-            height="300"
-            loading="lazy"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d242.7432521493664!2d2.27627186835109!3d13.232091633893722!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x11d0170febd4fb01%3A0x82f4b27e584aec05!2sCodeloccol!5e0!3m2!1sen!2sne!4v1697405892944!5m2!1sen!2sne"
+            width="600"
+            height="450"
+            style={{ border: 0 }}
+            allowfullscreen=""
+            loading="eager"
+            referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
-          {/* <!-- <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-        width="400" height="300" loading="lazy"></iframe> --> */}
         </figure>
       </section>
 
