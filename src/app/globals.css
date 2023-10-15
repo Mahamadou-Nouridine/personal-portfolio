@@ -166,6 +166,10 @@ body {
   background: var(--smoky-black);
 }
 
+.tags {
+  overflow-x: hidden;
+}
+
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
@@ -1820,9 +1824,22 @@ textarea.form-input::-webkit-resizer {
 
   .filter-list:focus,
   .filter-list:hover,
-  .filter-list:active {
+  .filter-list:active,
+  .tags:focus,
+  .tags:hover,
+  .tags:active {
     overflow-x: auto;
   }
+
+  /* .tags {
+    overflow-x: hidden;
+  }
+
+  .tags:focus,
+  .tags:hover,
+  .tags:active {
+    overflow-x: auto;
+  } */
 
   /**
    * SIDEBAR
@@ -2121,16 +2138,6 @@ textarea.form-input::-webkit-resizer {
 
   .info-content .title {
     margin: auto;
-  }
-
-  .tags {
-    overflow-x: hidden;
-  }
-
-  .tags:focus,
-  .tags:hover,
-  .tags:active {
-    overflow-x: auto;
   }
 
   .tag {
