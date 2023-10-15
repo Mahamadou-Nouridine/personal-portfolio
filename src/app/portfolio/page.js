@@ -1,14 +1,22 @@
-'use client'
+"use client";
 import React, { useState } from "react";
-import PortfolioModal from "./components/PortfolioModal.jsx"
-import PortfolioItem from './components/PortfolioItem.jsx'
+import PortfolioModal from "./components/PortfolioModal.jsx";
+import PortfolioItem from "./components/PortfolioItem.jsx";
+import FilterList from "./components/FilterList.jsx";
 import projects from "@/data/projects.js";
 
 const Portfolio = () => {
-  const [show, setShow] = useState(false)
-  const handleClose = () => setShow(false)
-  const hadleShow = () => setShow(true)
-  const [selected, select] = useState(null)
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const hadleShow = () => setShow(true);
+  const [selected, select] = useState(null);
+  const [selectedTag, selectTag] = useState(null);
+  const tags = [...new Set(projects.map((project) => project.tags).flat(1))];
+  const shownProjects = !selectedTag
+    ? projects
+    : projects.filter((project) => {
+        return project.tags.includes(selectedTag);
+      });
 
   return (
     <article className="portfolio" data-page="portfolio">
@@ -17,25 +25,7 @@ const Portfolio = () => {
       </header>
 
       <section className="projects">
-        <ul className="filter-list">
-          <li className="filter-item">
-            <button className="active" data-filter-btn>
-              All
-            </button>
-          </li>
-
-          <li className="filter-item">
-            <button data-filter-btn>Building Drawing</button>
-          </li>
-
-          <li className="filter-item">
-            <button data-filter-btn>3D Modeling</button>
-          </li>
-
-          <li className="filter-item">
-            <button data-filter-btn>House Blueprint</button>
-          </li>
-        </ul>
+        <FilterList selected={selectedTag} selectTag={selectTag} tags={tags} />
 
         <div className="filter-select-box">
           <button className="filter-select" data-select>
@@ -68,10 +58,21 @@ const Portfolio = () => {
         </div>
 
         <ul className="project-list p-0">
-          {projects.map((project, index) => <PortfolioItem select={select} project={project} hadleShow={hadleShow} key={index} />)}
+          {shownProjects.map((project, index) => (
+            <PortfolioItem
+              select={select}
+              project={project}
+              hadleShow={hadleShow}
+              key={index}
+            />
+          ))}
         </ul>
       </section>
-      <PortfolioModal project={selected} show={show} handleClose={handleClose} />
+      <PortfolioModal
+        project={selected}
+        show={show}
+        handleClose={handleClose}
+      />
     </article>
   );
 };

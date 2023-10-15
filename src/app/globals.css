@@ -1814,6 +1814,16 @@ textarea.form-input::-webkit-resizer {
     width: 100%;
   }
 
+  .filter-list {
+    overflow-x: hidden;
+  }
+
+  .filter-list:focus,
+  .filter-list:hover,
+  .filter-list:active {
+    overflow-x: auto;
+  }
+
   /**
    * SIDEBAR
    */
@@ -1877,6 +1887,7 @@ textarea.form-input::-webkit-resizer {
     color: var(--light-gray);
     font-size: var(--fs-5);
     transition: var(--transition-1);
+    width: max-content;
   }
 
   .filter-item button:hover {
@@ -2110,6 +2121,21 @@ textarea.form-input::-webkit-resizer {
 
   .info-content .title {
     margin: auto;
+  }
+
+  .tags {
+    overflow-x: hidden;
+  }
+
+  .tags:focus,
+  .tags:hover,
+  .tags:active {
+    overflow-x: auto;
+  }
+
+  .tag {
+    width: fit-content;
+    padding: 5px 10px;
   }
 
   .info_more-btn {

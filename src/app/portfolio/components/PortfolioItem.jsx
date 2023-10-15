@@ -32,21 +32,17 @@ const PortfolioItem = ({ hadleShow, project, select }) => {
           style={{
             maxWidth: 250,
             width: "100%",
-            overflowX: "auto",
             scrollBehavior: "smooth",
-            overscrollBehaviorInline: 'contain',
+            overscrollBehaviorInline: "contain",
             scrollSnapType: "inline mandatory",
           }}
-          className="info-content has-scrollbar pb-1"
+          className="info-content tags has-scrollbar pb-1 d-flex"
         >
-          <p style={{scrollSnapAlign: 'center'}} className="title ms-0 d-inline me-1">React</p>
-          <p style={{scrollSnapAlign: 'center'}} className="title ms-0 d-inline me-1">React</p>
-          <p style={{scrollSnapAlign: 'center'}} className="title ms-0 d-inline me-1">React</p>
-          <p style={{scrollSnapAlign: 'center'}} className="title ms-0 d-inline me-1">React</p>
-          <p style={{scrollSnapAlign: 'center'}} className="title ms-0 d-inline me-1">React</p>
-          <p style={{scrollSnapAlign: 'center'}} className="title ms-0 d-inline me-1">React</p>
-          <p style={{scrollSnapAlign: 'center'}} className="title ms-0 d-inline me-1">React</p>
-          <p style={{scrollSnapAlign: 'center'}} className="title ms-0 d-inline me-1">React</p>
+          {project.tags.map((tag, index) => (
+            <span key={index} className="filter-item">
+              <button className="title ms-0 me-1 tag">{tag}</button>
+            </span>
+          ))}
         </div>
       </div>
     </li>
