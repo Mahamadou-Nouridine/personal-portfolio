@@ -170,6 +170,12 @@ body {
   overflow-x: hidden;
 }
 
+.tags:focus,
+.tags:hover,
+.tags:active {
+  overflow-x: auto;
+}
+
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
@@ -1824,10 +1830,7 @@ textarea.form-input::-webkit-resizer {
 
   .filter-list:focus,
   .filter-list:hover,
-  .filter-list:active,
-  .tags:focus,
-  .tags:hover,
-  .tags:active {
+  .filter-list:active {
     overflow-x: auto;
   }
 
