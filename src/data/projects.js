@@ -28,6 +28,7 @@ const projects = [
       "AWS",
       "Professional Experience",
       "MERN",
+      "Authorization"
     ],
     displayImage:
       "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697110908/my%20portfolio/0_lewn0g.png",
@@ -70,6 +71,7 @@ const projects = [
       "Collabration",
       "Professional Experience",
       "MERN",
+      "Authorization"
     ],
     displayImage:
       "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697111967/my%20portfolio/1687703782432_qvovu6.jpg",
@@ -110,6 +112,7 @@ const projects = [
       "Pair Programming",
       "Training",
       "Rails + React",
+      "Authorization"
     ],
     displayImage:
       "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697144136/my%20portfolio/Screenshot_2023-10-04_152601_mw1hlw.png",
@@ -150,6 +153,7 @@ const projects = [
       "Web",
       "Training",
       "MERN",
+      "Authorization"
     ],
     displayImage:
       "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697144139/my%20portfolio/Capture_d_%C3%A9cran_2023-10-12_194843_ixdamn.png",
@@ -228,7 +232,8 @@ const projects = [
       "Database",
       "Web",
       "Training",
-      "MERN"
+      "MERN",
+      "Authorization"
     ],
     displayImage:
       "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697144131/my%20portfolio/Capture_d_%C3%A9cran_2023-10-12_160848_w7ldom.png",

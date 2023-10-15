@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import PortfolioModal from "./components/PortfolioModal.jsx";
 import PortfolioItem from "./components/PortfolioItem.jsx";
 import FilterList from "./components/FilterList.jsx";
+import MobileFilter from "./components/MobileFilter.jsx";
 import projects from "@/data/projects.js";
 
 const Portfolio = () => {
@@ -33,35 +34,7 @@ const Portfolio = () => {
       <section className="projects">
         <FilterList selected={selectedTag} selectTag={selectTag} tags={tags} />
 
-        <div className="filter-select-box">
-          <button className="filter-select" data-select>
-            <div className="select-value" data-selecct-value>
-              Select category
-            </div>
-
-            <div className="select-icon">
-              <ion-icon name="chevron-down"></ion-icon>
-            </div>
-          </button>
-
-          <ul className="select-list">
-            <li className="select-item">
-              <button data-select-item>All</button>
-            </li>
-
-            <li className="select-item">
-              <button data-select-item>Building Drawing</button>
-            </li>
-
-            <li className="select-item">
-              <button data-select-item>3D Modeling</button>
-            </li>
-
-            <li className="select-item">
-              <button data-select-item>House Blueprint</button>
-            </li>
-          </ul>
-        </div>
+        <MobileFilter selected={selectedTag} selectTag={selectTag} tags={tags} />
 
         <ul className="project-list p-0">
           {shownProjects.map((project, index) => (
