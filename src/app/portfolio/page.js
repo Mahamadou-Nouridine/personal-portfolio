@@ -1,57 +1,17 @@
-"use client";
-import React, { useState } from "react";
-import PortfolioModal from "./components/PortfolioModal.jsx";
-import PortfolioItem from "./components/PortfolioItem.jsx";
-import FilterList from "./components/FilterList.jsx";
-import MobileFilter from "./components/MobileFilter.jsx";
-import projects from "@/data/projects.js";
+import React from "react";
+import PortfolioSection from "./components/PortfolioSection";
+
+export const metadata = {
+  title: "Nouridine | Portfolio",
+};
 
 const Portfolio = () => {
-  const [show, setShow] = useState(false);
-  const handleClose = () => {
-    document.body.style.overflow = "unset";
-    setShow(false);
-  };
-  const hadleShow = () => {
-    document.body.style.overflow = "hidden";
-    setShow(true);
-  };
-  const [selected, select] = useState(null);
-  const [selectedTag, selectTag] = useState(null);
-  const tags = [...new Set(projects.map((project) => project.tags).flat(1))];
-  const shownProjects = !selectedTag
-    ? projects
-    : projects.filter((project) => {
-        return project.tags.includes(selectedTag);
-      });
-
   return (
     <article className="portfolio" data-page="portfolio">
       <header>
         <h2 className="h2 article-title">Portfolio</h2>
       </header>
-
-      <section className="projects">
-        <FilterList selected={selectedTag} selectTag={selectTag} tags={tags} />
-
-        <MobileFilter selected={selectedTag} selectTag={selectTag} tags={tags} />
-
-        <ul className="project-list p-0">
-          {shownProjects.map((project, index) => (
-            <PortfolioItem
-              select={select}
-              project={project}
-              hadleShow={hadleShow}
-              key={index}
-            />
-          ))}
-        </ul>
-      </section>
-      <PortfolioModal
-        project={selected}
-        show={show}
-        handleClose={handleClose}
-      />
+      <PortfolioSection />
     </article>
   );
 };

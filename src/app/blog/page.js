@@ -1,5 +1,9 @@
 import React from "react";
 
+export const metadata = {
+  title: "Nouridine | Blog",
+};
+
 const blog = () => {
   return (
     <>

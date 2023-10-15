@@ -1,5 +1,9 @@
 import React from "react";
 
+export const metadata = {
+  title: "Nouridine | Contact",
+};
+
 const Contact = () => {
   return (
     <article className="contact" data-page="contact">

@@ -2,7 +2,10 @@ import React from "react";
 import EducationSection from "./components/EducationSection";
 import ExpericeSection from "./components/ExperienceSection";
 import SkillsSection from "./components/SkillsSection";
-// import EducationSection from "../components/resume/EducationSection";
+
+export const metadata = {
+  title: "Nouridine | Resume",
+};
 
 const resume = () => {
   return (
