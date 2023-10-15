@@ -4,7 +4,6 @@ import React from "react";
 import { Image } from "react-bootstrap";
 
 const Testimonial = ({ handleShow, testimonial }) => {
-
   return (
     <li className="testimonials-item" onClick={() => handleShow(testimonial)}>
       <div className="content-card" data-testimonials-item>
@@ -23,10 +22,12 @@ const Testimonial = ({ handleShow, testimonial }) => {
           {testimonial.author}
         </h4>
 
+        <div className="info-content">
+          <p className="title m-0 bg-primary"> From {testimonial.source[0].toUpperCase() + testimonial.source.slice(1)}</p>
+        </div>
+
         <div className="testimonials-text" data-testimonials-text>
-          <p>
-            {testimonial.text}
-          </p>
+          <p>{testimonial.text}</p>
         </div>
       </div>
     </li>

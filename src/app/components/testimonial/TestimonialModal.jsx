@@ -1,6 +1,7 @@
 import React from "react";
-import { Image } from "react-bootstrap";
+import { Button, Image } from "react-bootstrap";
 import { urlGenerator } from "../../../data/testimonials";
+import { BiLinkExternal } from "react-icons/bi";
 
 const TestimonialModal = ({ show, handleClose, selected }) => {
   return selected ? (
@@ -38,6 +39,14 @@ const TestimonialModal = ({ show, handleClose, selected }) => {
           </h4>
 
           <time dateTime="2021-06-14">{selected.date}</time>
+          <div className="info-content">
+            <Button href={selected.link} target="_blank" className="title m-0 mb-2 bg-primary">
+              {" "}
+              View on{" "}
+              {selected.source[0].toUpperCase() + selected.source.slice(1)}
+              <BiLinkExternal size={15} className="ms-2" />
+            </Button>
+          </div>
 
           <div data-modal-text>
             <p>{selected.text}</p>

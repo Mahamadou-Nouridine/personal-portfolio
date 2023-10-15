@@ -24,7 +24,7 @@ const TestimonialSection = () => {
   --> */}
 
       <section className="testimonials">
-        <h3 className="h3 testimonials-title">Testimonials/Recommandations</h3>
+        <h3 className="h3 testimonials-title">Testimonials/Recommendations</h3>
 
         <ul className="testimonials-list has-scrollbar">
           {testimonials.map((testimonial, index) => (
