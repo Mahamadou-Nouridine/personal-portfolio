@@ -15,6 +15,7 @@ const projects = [
       message: "Require student credentials",
     },
     tags: [
+      "Full-stack",
       "Javacripts",
       "Next.js",
       "Full-stack",
@@ -57,6 +58,7 @@ const projects = [
       message: "",
     },
     tags: [
+      "Full-stack",
       "Javacripts",
       "React",
       "Full-stack",
@@ -94,6 +96,7 @@ const projects = [
       message: "",
     },
     tags: [
+      "Full-stack",
       "Javacripts",
       "React",
       "Bootstrap",
@@ -134,6 +137,7 @@ const projects = [
       message: "Not hosted",
     },
     tags: [
+      "Full-stack",
       "Javacripts",
       "React",
       "Bootstrap",
@@ -176,6 +180,7 @@ const projects = [
       message: "Not hosted",
     },
     tags: [
+      "Front-end",
       "Javacripts",
       "React",
       "Materialize",
@@ -210,6 +215,7 @@ const projects = [
       message: "Not hosted",
     },
     tags: [
+      "Full-stack",
       "Javacripts",
       "React",
       "Materialize",
