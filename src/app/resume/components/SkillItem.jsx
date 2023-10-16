@@ -4,7 +4,7 @@ const SkillItem = ({ skill }) => {
   return (
     <li className="skills-item">
       <div className="title-wrapper">
-        <h5 className="h5">{skill.name}</h5>
+        <h5 className="h5 mb-0">{skill.name}</h5>
         <data value={skill.percentage}>{skill.percentage}%</data>
       </div>
 
