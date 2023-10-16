@@ -41,8 +41,7 @@ const DevelopmentNotice = () => {
         <div className="modal-content">
           <div data-modal-text>
             <p>
-              This Website is under construction, some data/information may not
-              be true. Consider living me an email via my email id{" "}
+              This Website is under construction, some features may not work properly. Consider living me an email{" "}
               <a
                 className="d-inline"
                 href="mailto:mahamadounouridinem@gmail.com"
