@@ -1,10 +1,20 @@
 "use client";
-import React from "react";
-import { Button } from "react-bootstrap";
+import React, { useState } from "react";
+import { Badge, Button } from "react-bootstrap";
 import ImageCaroussel from "./ImageCaroussel";
 import { BiCodeAlt, BiLinkExternal } from "react-icons/bi";
 
 const PortfolioModal = ({ show, handleClose, project }) => {
+  const [messageShow, showMessage] = useState(false)
+  const [message, setMessage] = useState("")
+  const openMessage = (message) => {
+    setMessage(message)
+    showMessage(true)
+  }
+  const closeMessage = () => {
+    setMessage("")
+    showMessage(false)
+  }
   return project ? (
     <div
       className={`modal-container ${show ? "active" : ""}`}
@@ -25,13 +35,14 @@ const PortfolioModal = ({ show, handleClose, project }) => {
           <figure className="portfolio-image-box" style={{ width: "100%" }}>
             <ImageCaroussel images={project.images} />
           </figure>
+          <div className="my-2" style={{ height: 30 }}>
+            {messageShow && <Badge style={{ left: 250 }} className="" bg="info" text="dark">
+              {message}
+            </Badge>}
+          </div>
           <div className="action-buttons">
-            <span
-              className="d-block"
-              tabIndex="0"
-              data-toggle="tooltip"
-              title={project.demo.message}
-            >
+            <span onMouseEnter={() => openMessage(project.demo.message)} onMouseLeave={closeMessage}>
+
               <Button disabled={!project.demo.public} variant="neutral">
                 <a
                   style={{ color: "unset" }}
@@ -44,12 +55,7 @@ const PortfolioModal = ({ show, handleClose, project }) => {
                 <BiLinkExternal style={{ fontSize: 20 }} className="icon" />
               </Button>
             </span>
-            <span
-              className="d-block"
-              tabIndex="0"
-              data-toggle="tooltip"
-              title={project.sourceCode.message}
-            >
+            <span onMouseEnter={() => openMessage(project.sourceCode.message)} onMouseLeave={closeMessage}>
               <Button disabled={!project.sourceCode.public} variant="neutral">
                 <a
                   style={{ color: "unset" }}
