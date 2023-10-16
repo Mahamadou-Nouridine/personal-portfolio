@@ -1,57 +1,28 @@
-"use client";
-
 import React from "react";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import LinkTo from "./LinkTo"
 
 const Navbar = () => {
-  const pathname = usePathname();
-
-  const colorizeActiveLink = (path) =>
-    pathname === path ? "navbar-link active" : "navbar-link";
   return (
     <nav className="navbar">
       <ul className="navbar-list">
         <li className="navbar-item">
-          <Link href="/" className={colorizeActiveLink("/")} data-nav-link>
-            About
-          </Link>
+          <LinkTo route="/" name="About" />
         </li>
 
         <li className="navbar-item">
-          <Link
-            href="/resume"
-            className={colorizeActiveLink("/resume")}
-            data-nav-link
-          >
-            Resume
-          </Link>
+          <LinkTo route="/resume" name="Resume" />
         </li>
 
         <li className="navbar-item">
-          <Link
-            href="/portfolio"
-            className={colorizeActiveLink("/portfolio")}
-            data-nav-link
-          >
-            Portfolio
-          </Link>
+          <LinkTo route="/portfolio" name="Portfolio" />
         </li>
 
         <li className="navbar-item">
-          <Link href="/blog" className={colorizeActiveLink("/blog")} data-nav-link>
-            Blog
-          </Link>
+          <LinkTo route="/blog" name="Blog" />
         </li>
 
         <li className="navbar-item">
-          <Link
-            href="/contact"
-            className={colorizeActiveLink("/contact")}
-            data-nav-link
-          >
-            Contact
-          </Link>
+          <LinkTo route="/contact" name="Contact" />
         </li>
       </ul>
     </nav>

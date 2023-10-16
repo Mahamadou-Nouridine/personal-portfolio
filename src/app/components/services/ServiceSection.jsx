@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import services from "../../../data/services";
 import Service from "./Service";
