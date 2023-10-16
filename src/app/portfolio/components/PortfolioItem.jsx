@@ -27,7 +27,7 @@ const PortfolioItem = ({ hadleShow, project, select }) => {
         <h3 className="project-title">{project.name}</h3>
 
         {/* <p className="project-category">Building Drawing</p> */}
-        <p className="contact-title">Tech stack</p>
+        <p className="contact-title">Tags</p>
         <div
           style={{
             maxWidth: 250,

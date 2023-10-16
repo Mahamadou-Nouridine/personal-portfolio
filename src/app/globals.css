@@ -167,14 +167,17 @@ body {
 }
 
 .tags {
-  overflow-x: hidden;
+  overflow-x: auto;
+}
+.tags::-webkit-scrollbar {
+  display: none;
 }
 
-.tags:focus,
+/* .tags:focus,
 .tags:hover,
 .tags:active {
   overflow-x: auto;
-}
+} */
 
 /*-----------------------------------*\
   #REUSED STYLE
@@ -1833,16 +1836,6 @@ textarea.form-input::-webkit-resizer {
   .filter-list:active {
     overflow-x: auto;
   }
-
-  /* .tags {
-    overflow-x: hidden;
-  }
-
-  .tags:focus,
-  .tags:hover,
-  .tags:active {
-    overflow-x: auto;
-  } */
 
   /**
    * SIDEBAR
