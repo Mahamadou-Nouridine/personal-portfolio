@@ -2,6 +2,7 @@ import React from "react";
 import EducationSection from "./components/EducationSection";
 import ExpericeSection from "./components/ExperienceSection";
 import SkillsSection from "./components/SkillsSection";
+import CertificationsSection from "./components/CertificationsSection";
 
 export const metadata = {
   title: "Nouridine | Resume",
@@ -20,6 +21,8 @@ const resume = () => {
       < ExpericeSection />
 
       <SkillsSection />
+
+      <CertificationsSection />
     </article>
   );
 };
