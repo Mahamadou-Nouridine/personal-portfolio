@@ -15,9 +15,9 @@ const CertificationsSection = () => {
                     <h4 className="h4 text-center" data-testimonials-title>
                         {certification.name}
                     </h4>
-                    <div className="certification-description text-center" data-testimonials-text>
+                    {/* <div className="certification-description text-center" data-testimonials-text>
                         <p>{certification.description}</p>
-                    </div>
+                    </div> */}
                 </li>))}
             </ul>
         </section>
