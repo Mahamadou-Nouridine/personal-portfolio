@@ -10,7 +10,7 @@ const EducationSection = () => {
           <ion-icon name="book-outline"></ion-icon>
         </div>
 
-        <h3 className="h3">Education</h3>
+        <h3 className="h3">Educations</h3>
       </div>
 
       <ol className="timeline-list p-0">

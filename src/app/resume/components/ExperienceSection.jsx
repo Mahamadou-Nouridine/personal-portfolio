@@ -7,10 +7,10 @@ const ExperienceSection = () => {
     <section className="timeline">
       <div className="title-wrapper">
         <div className="icon-box">
-          <ion-icon name="book-outline"></ion-icon>
+        <ion-icon name="briefcase-outline"></ion-icon>
         </div>
 
-        <h3 className="h3">Experience</h3>
+        <h3 className="h3">Experiences</h3>
       </div>
 
       <ol className="timeline-list p-0">

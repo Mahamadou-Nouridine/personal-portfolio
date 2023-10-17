@@ -9,7 +9,7 @@ const LinkTo = ({ route, name }) => {
   const colorizeActiveLink = (path) =>
     pathname === path ? "navbar-link active" : "navbar-link";
   return (
-    <Link href={route} className={colorizeActiveLink(route)} data-nav-link>
+    <Link href={route} className={`${colorizeActiveLink(route)} ${name == "Portfolio"?"notranslate":""}`} data-nav-link>
       {name}
     </Link>
   );

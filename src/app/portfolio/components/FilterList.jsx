@@ -16,14 +16,14 @@ const FilterList = ({tags, selected, selectTag}) => {
       }}
     >
       <li className="filter-item">
-        <button onClick={() => selectTag(null)}  className={`w-auto ${!selected? "active": ""}`} data-filter-btn>
+        <button onClick={() => selectTag(null)}  className={`w-auto notranslate ${!selected? "active": ""}`} data-filter-btn>
           All
         </button>
       </li>
 
       {tags.map((tag, index) => (
         <li className="filter-item" key={index}>
-          <button onClick={() => selectTag(tag)} className={`${selected?.toLowerCase() == tag.toLowerCase()? "active": ""}`} data-filter-btn>{tag}</button>
+          <button onClick={() => selectTag(tag)} className={`notranslate ${selected?.toLowerCase() == tag.toLowerCase()? "active": ""}`} data-filter-btn>{tag}</button>
         </li>
       ))}
     </ul>

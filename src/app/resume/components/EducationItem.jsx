@@ -3,7 +3,7 @@ import React from "react";
 const EducationItem = ({ education }) => {
   return (
     <li className="timeline-item">
-      <h4 className="h4 timeline-item-title">{education.name}</h4>
+      <h4 className="h4 timeline-item-title notranslate">{education.name}</h4>
 
       <span>
         {education.from} — {education.to}

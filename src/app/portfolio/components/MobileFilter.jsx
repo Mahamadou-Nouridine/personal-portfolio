@@ -15,7 +15,7 @@ const MobileFilter = ({ tags, selected, selectTag }) => {
         className={`filter-select ${show ? "active" : ""}`}
         data-select
       >
-        <div className="select-value" data-selecct-value>
+        <div className="select-value notranslate" data-selecct-value>
           {!selected ? "Select Tag" : selected}
         </div>
 
@@ -43,23 +43,12 @@ const MobileFilter = ({ tags, selected, selectTag }) => {
               }
               onClick={() => handleClose(tag)}
               data-select-item
+              className="notranslate"
             >
               {tag}
             </button>
           </li>
         ))}
-
-        {/* <li className="select-item">
-          <button data-select-item>Building Drawing</button>
-        </li>
-
-        <li className="select-item">
-          <button data-select-item>3D Modeling</button>
-        </li>
-
-        <li className="select-item">
-          <button data-select-item>House Blueprint</button>
-        </li> */}
       </ul>
     </div>
   );

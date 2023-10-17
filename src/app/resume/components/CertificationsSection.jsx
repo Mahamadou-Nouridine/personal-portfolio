@@ -12,7 +12,7 @@ const CertificationsSection = () => {
                     <a href={certification.link} className='text-center'>
                         <Image src={certification.image} alt={certification.name} />
                     </a>
-                    <h4 className="h4 text-center" data-testimonials-title>
+                    <h4 className="h4 text-center notranslate" data-testimonials-title>
                         {certification.name}
                     </h4>
                     {/* <div className="certification-description text-center" data-testimonials-text>
