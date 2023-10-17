@@ -1837,7 +1837,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .has-scrollbar::-webkit-scrollbar-button {
-    width: 100%;
+    /* width: 100%; */
   }
 
   .filter-list {
