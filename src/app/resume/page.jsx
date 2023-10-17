@@ -3,6 +3,7 @@ import EducationSection from "./components/EducationSection";
 import ExpericeSection from "./components/ExperienceSection";
 import SkillsSection from "./components/SkillsSection";
 import CertificationsSection from "./components/CertificationsSection";
+import SpokenLanguagesSection from "./components/SpokenLanguagesSection";
 
 export const metadata = {
   title: "Nouridine | Resume",
@@ -18,11 +19,13 @@ const resume = () => {
 
       <EducationSection />
 
-      < ExpericeSection />
+      <ExpericeSection />
 
       <SkillsSection />
 
       <CertificationsSection />
+
+      <SpokenLanguagesSection />
     </article>
   );
 };
