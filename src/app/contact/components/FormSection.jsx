@@ -30,16 +30,11 @@ const FormSection = () => {
       });
 
       console.log(data);
+      changeData(initial)
       return data
-      // toast.success(
-      //   "The message is sent successfully, please check your email address."
-      // );
     } catch (error) {
       console.log(error);
       throw new Error("An error occured while sending the message, please review the information you are providing and try again.")
-      // toast.error(
-      //   "An error occured while sending the message, please review the information you are providing and try again."
-      // );
     }
   };
   return (

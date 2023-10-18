@@ -13,7 +13,7 @@ export default function Home() {
 
       <section className="about-text">
         <p>
-          I am a Fullstack web developer with strong knowledge of many different
+          I am a Full-stack web developer with strong knowledge of many different
           front-end and back-end technologies, responsive frameworks, databases,
           and best code practices. My objective is simply to be the best web
           developer that I can be and to contribute to the technology industry
