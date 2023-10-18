@@ -1,0 +1,73 @@
+.switch-container {
+  position: relative;
+  border-radius: 3.125em;
+  box-shadow: 0 0.125em 0.25em rgba(#000, 0.2);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.switch-input {
+  -webkit-appearance: none;
+  appearance: none;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.switch-button {
+  display: inline-flex;
+  padding: 0 0.375em;
+  border-radius: inherit;
+  border: 0.0625em solid #54565a;
+  background-color: hsl(0, 76%, 6%);
+  /* box-shadow: inset 1px 1px 5px #ffffff8e,
+  inset -1px -1px 5px #ffffff8e; */
+  transition-property: border-color, background-color;
+  transition-duration: 0.2s;
+}
+
+.switch-button-inside {
+  display: inline-flex;
+  column-gap: 1em;
+  position: relative;
+  border-radius: inherit;
+  padding: 0.15em;
+  transform: translateX(-0.375em);
+  width: 50px;
+  background-image: linear-gradient(90deg, #c5c9d3 48%, #d5d7dd 52%);
+  box-shadow: inset 0.0625em 0 0.0625em rgba(#fff, 0.4),
+    inset -0.0625em 0 0.0625em rgba(#fff, 0.4);
+  transition-property: transform;
+  transition-duration: 0.2s;
+
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    border-radius: inherit;
+    /* background-image: linear-gradient(90deg, #926afe 48%, #885bff 52%); */
+    box-shadow: inset 0.0625em 0 0.0625em rgba(#fff, 0.2),
+      inset -0.0625em 0 0.0625em rgba(#fff, 0.2);
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+  }
+
+  .switch-input:checked + .switch-button > & {
+    transform: translateX(0.375em);
+
+    &::after {
+      opacity: 1;
+    }
+  }
+
+  /* .checked-img {
+    margin: 50px;
+        background-color: red;
+    } */
+}
+
