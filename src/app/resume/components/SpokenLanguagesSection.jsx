@@ -5,7 +5,7 @@ import languages from "../../../data/languages";
 const SpokenLanguagesSection = () => {
   return (
     <section className="skill">
-      <h3 className="h3 skills-title">Spoken Languages</h3>
+      {/* <h3 className="h3 skills-title">Spoken Languages</h3> */}
 
       <ul className="skills-list content-card">
         <span className="mb-5">
