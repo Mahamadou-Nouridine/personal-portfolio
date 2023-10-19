@@ -1,0 +1,60 @@
+.accordion {
+  --bs-accordion-btn-color: var(--orange-yellow-crayola);
+  --bs-accordion-btn-bg:  hsl(0, 0%, 25%);
+  --bs-accordion-btn-focus-box-shadow: var(--shadow-3)
+  /* --bs-accordion-active-color:var(--orange-yellow-crayola);
+  --bs-accordion-active-bg:  var(--bg-gradient-yellow-1); */
+  /* position: relative;
+  width: 100%;
+  gap: 10px;
+  padding: 13px 20px;
+  border-radius: 14px;
+  font-size: var(--fs-6);
+  text-transform: capitalize;
+  box-shadow: var(--shadow-3);
+  z-index: 1;
+  transition: var(--transition-1); */
+}
+/* .accordion::before {
+  --bs-accordion-btn-color: var(--orange-yellow-crayola);
+  --bs-accordion-btn-bg: var(--bg-gradient-jet);
+} */
+
+/* .accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+} */
+.accordion-button:not(.collapsed) {
+    position: relative;
+    width: 100%;
+    background: var(--border-gradient-onyx);
+    color: var(--orange-yellow-crayola);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 20px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    font-size: 20px;
+    text-transform: capitalize;
+    box-shadow: var(--shadow-3);
+    z-index: 1;
+    transition: var(--transition-1);
+}
+
+.accordion-button.collapsed {
+    position: relative;
+    width: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    box-shadow: var(--shadow-3);
+    z-index: 1;
+    transition: var(--transition-1);
+}

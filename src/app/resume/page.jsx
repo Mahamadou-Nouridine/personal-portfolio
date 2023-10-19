@@ -4,6 +4,7 @@ import ExpericeSection from "./components/ExperienceSection";
 import SkillsSection from "./components/SkillsSection";
 import CertificationsSection from "./components/CertificationsSection";
 import SpokenLanguagesSection from "./components/SpokenLanguagesSection";
+import AccordionSection from "./components/AccordionSection";
 
 export const metadata = {
   title: "Nouridine | Resume",
@@ -21,11 +22,13 @@ const resume = () => {
 
       <ExpericeSection />
 
-      <SkillsSection />
+      <AccordionSection />
+
+      {/* <SkillsSection /> */}
 
       <CertificationsSection />
 
-      <SpokenLanguagesSection />
+      {/* <SpokenLanguagesSection /> */}
     </article>
   );
 };
