@@ -17,7 +17,7 @@ const skills = [
   },
   {
     title: "Tools & Platforms",
-    type: "framework",
+    type: "tool",
   },
 ];
 
