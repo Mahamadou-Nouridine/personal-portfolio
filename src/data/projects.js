@@ -15,6 +15,7 @@ const projects = [
       message: "Require student credentials",
     },
     tags: [
+      "Private",
       "Full-stack",
       "Javacripts",
       "Next.js",
@@ -28,7 +29,7 @@ const projects = [
       "AWS",
       "Professional Experience",
       "MERN",
-      "Authorization"
+      "Authorization",
     ],
     displayImage:
       "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697110908/my%20portfolio/0_lewn0g.png",
@@ -59,10 +60,10 @@ const projects = [
       message: "",
     },
     tags: [
+      "Private",
       "Full-stack",
       "Javacripts",
       "React",
-      "Full-stack",
       "External API",
       "Express",
       "MongoDB",
@@ -71,7 +72,7 @@ const projects = [
       "Collabration",
       "Professional Experience",
       "MERN",
-      "Authorization"
+      "Authorization",
     ],
     displayImage:
       "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697111967/my%20portfolio/1687703782432_qvovu6.jpg",
@@ -79,6 +80,46 @@ const projects = [
       "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697111967/my%20portfolio/1687703782432_qvovu6.jpg",
       "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697111978/my%20portfolio/1687703747585_dqfrr4.jpg",
       "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697111973/my%20portfolio/1687703766602_fcezpd.jpg",
+    ],
+  },
+  {
+    name: "Sahelian Dev Website",
+    date: "Sep 2022",
+    description:
+      "Sahelian Dev Website: Empowering Sahelian Startups with Online VisibilityAs a freelance team, we took on the mission of enhancing the online presence and accessibility of Sahelian startups through the creation of the Sahelian Dev Website. This dynamic platform serves as a gateway for users to effortlessly connect with Sahelian Dev's services and engage with them online. The integration of a mailer system streamlines communication, allowing users to easily reach out to Sahelian Dev for inquiries, collaboration opportunities, or support. Behind the scenes, our website boasts a powerful backend that facilitates a feature-rich blog, enabling Sahelian Dev to share valuable insights, updates, and resources with the community.",
+    sourceCode: {
+      public: false,
+      link: "",
+      message: "The code source is private",
+    },
+    demo: {
+      public: true,
+      link: "https://sahelian-dev.onrender.com",
+      message: "",
+    },
+    tags: [
+      "Private",
+      "Full-stack",
+      "Javacripts",
+      "Express",
+      "MongoDB",
+      "Database",
+      "React",
+      "Web",
+      "Collabration",
+      "Professional Experience",
+      "Bootstrap",
+      "MERN",
+      "Authorization",
+    ],
+    displayImage:
+      "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697723589/my%20portfolio/Capture_d_%C3%A9cran_2023-10-19_132441_hw2q8s.png",
+    images: [
+      "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697723589/my%20portfolio/Capture_d_%C3%A9cran_2023-10-19_132441_hw2q8s.png",
+      "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697723585/my%20portfolio/Capture_d_%C3%A9cran_2023-10-19_132423_geob7i.png",
+      "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697723585/my%20portfolio/Capture_d_%C3%A9cran_2023-10-19_132355_ie7quh.png",
+      "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697723592/my%20portfolio/Capture_d_%C3%A9cran_2023-10-19_132033_mylbs7.png",
+      "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697723585/my%20portfolio/Capture_d_%C3%A9cran_2023-10-19_132256_nephog.png",
     ],
   },
 
@@ -112,7 +153,7 @@ const projects = [
       "Pair Programming",
       "Training",
       "Rails + React",
-      "Authorization"
+      "Authorization",
     ],
     displayImage:
       "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697144136/my%20portfolio/Screenshot_2023-10-04_152601_mw1hlw.png",
@@ -153,7 +194,7 @@ const projects = [
       "Web",
       "Training",
       "MERN",
-      "Authorization"
+      "Authorization",
     ],
     displayImage:
       "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697144139/my%20portfolio/Capture_d_%C3%A9cran_2023-10-12_194843_ixdamn.png",
@@ -233,7 +274,7 @@ const projects = [
       "Web",
       "Training",
       "MERN",
-      "Authorization"
+      "Authorization",
     ],
     displayImage:
       "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697144131/my%20portfolio/Capture_d_%C3%A9cran_2023-10-12_160848_w7ldom.png",
@@ -270,7 +311,7 @@ const projects = [
       "Desktop",
       "Bootstrap",
       "Authorization",
-      "Training"
+      "Training",
     ],
     displayImage:
       "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228647/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_211900_oeh1ti.png",

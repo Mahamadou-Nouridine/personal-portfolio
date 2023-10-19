@@ -22,6 +22,14 @@ const resume = () => {
       <SkillsSection />
 
       <CertificationsSection />
+      <div className="w-100 mt-5">
+        <a target="_blank" href="https://docs.google.com/document/d/19pH6CyMqmcBV4hDpf_U8NPw2-vR_ZkFSXwu3dD6pcSA/edit?usp=sharing">
+          <button className="form-btn m-auto" type="submit" data-form-btn>
+            <ion-icon name="paper-plane"></ion-icon>
+            <span>Download my CV</span>
+          </button>
+        </a>
+      </div>
     </article>
   );
 };

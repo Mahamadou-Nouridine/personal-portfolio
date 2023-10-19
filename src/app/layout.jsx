@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={inter.className}>
       <ToastContainer />
-        <DevelopmentNotice />
+        {/* <DevelopmentNotice /> */}
         <main>
           <Sidebar />
           <div className="main-content">
