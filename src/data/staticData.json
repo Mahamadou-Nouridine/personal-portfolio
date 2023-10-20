@@ -1,0 +1,81 @@
+{
+    "en": {
+    "sidebar":{
+        "function":"Full-stack developer",
+        "phone":"Phone",
+        "birthday":"birthday",
+        "location":"Location",
+        "showContacts": "Show Contacts"
+    },
+    "about": {
+      "title": "About Me",
+      "aboutSection": "I'm Mahamadou Nouridine, a full-stack software engineer specializing in MERN stack, NEXT js, NEST js, Redux, and Rails to create solutions for businesses and individuals. My background in solving complex mathematics problems during high-level studies aids me in tackling computer algorithms and challenges. I'm passionate about problem-solving, driven by curiosity, and continuously improving my coding skills to develop innovative solutions.",
+
+      "serviceSection": "What I Do",
+
+      "testimonialSection": "Testimonials/Recommendations"
+    },
+
+    "resume": {
+      "title": "Resume",
+      "educationSection": "Educations",
+      "experienceSection": "Experiences",
+      "technologySection": "Technologies I use",
+      "frameworkSection": "Frameworks/Librairies I use",
+      "toolSection": "Tools & Platforms",
+      "languageSection": "Spoken Languages",
+      "certification": "Certifications",
+      "cvDownload": "Download My Cv"
+    },
+    "portfolio": {
+      "title": "Portfolio"
+    },
+    "contact": {
+      "title": "Contact",
+      "contactFrom": "Contact Form",
+      "fullName": "Full name",
+      "email": "Email address",
+      "message": "Your Message",
+      "send": "Send Message"
+    }
+  },
+  "fr": {
+    "sidebar":{
+        "function":"Développeur Full-stack",
+        "phone":"Téléphone",
+        "birthday":"Aniversaire",
+        "location":"Emplacement",
+        "showContacts": "Voir Infos"
+    },
+    "about": {
+        "title": "A propos de moi",
+        "aboutSection": "Je m'appelle Mahamadou Nouridine, un ingénieur logiciel full-stack spécialisé dans la stack MERN, NEXT js, NEST js, Redux et Rails pour créer des solutions pour les entreprises et les particuliers. Mon expérience dans la résolution de problèmes mathématiques complexes au cours d'études supérieures m'aide à aborder les algorithmes et les défis informatiques. Je suis passionné par la résolution de problèmes, animé par la curiosité et j'améliore continuellement mes compétences pour développer des solutions innovantes.",
+
+        "serviceSection": "Mes Services",
+
+        "testimonialSection": "Temoignages/Recommendations"
+      },
+
+      "resume": {
+        "title": "Mon Cv",
+        "technologySection": "Technologies que j'utilise",
+        "frameworkSection": "Framework et Librairies",
+        "toolSection": "Outils et Plateforme",
+        "languageSection": "Langues que je parle",
+        "certification": "Mes Certifications/Diplomes",
+        "cvDownload": "Telecharger mon Cv"
+      },
+      "portfolio": {
+        "title": "Mes Réalisation"
+      },
+      "contact": {
+        "title": "Contact",
+        "contactFrom": "Formulaire de contact",
+        "fullName": "Nom complet",
+        "email": "Addresse email",
+        "message": "Votre message",
+        "send": "Evoyer"
+      }
+  }
+}
+

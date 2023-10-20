@@ -1,6 +1,6 @@
 import React from "react";
-// import Nothing from "./SendButton.jsx";
 import FormSection from "./components/FormSection";
+import PageTitle from "../components/PageTitle";
 
 export const metadata = {
   title: "Nouridine | Contact",
@@ -10,9 +10,7 @@ const Contact = () => {
   return (
     <article className="contact" data-page="contact">
 
-      <header>
-        <h2 className="h2 article-title">Contact</h2>
-      </header>
+      <PageTitle section='contact' />
 
       <section className="mapbox" data-mapbox>
         <figure>

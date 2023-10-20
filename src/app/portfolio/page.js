@@ -1,5 +1,6 @@
 import React from "react";
 import PortfolioSection from "./components/PortfolioSection";
+import PageTitle from "../components/PageTitle";
 
 export const metadata = {
   title: "Nouridine | Portfolio",
@@ -8,9 +9,7 @@ export const metadata = {
 const Portfolio = () => {
   return (
     <article className="portfolio" data-page="portfolio">
-      <header>
-        <h2 className="h2 article-title">Portfolio</h2>
-      </header>
+      <PageTitle section="portfolio" />
       <PortfolioSection />
     </article>
   );

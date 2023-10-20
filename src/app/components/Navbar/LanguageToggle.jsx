@@ -1,21 +1,43 @@
+"use client";
+
 import { Image } from "react-bootstrap";
 import "./style/toggle.css";
 
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { changeLanguage } from "../../globalRedux/features/language";
 
 const LanguageToggle = () => {
+  const lang = useSelector((state) => state.language);
+  const dispatch = useDispatch();
   return (
     <>
       <div className="switch-container">
-        <input className="switch-input" type="checkbox" />
+        <input
+          onClick={() => dispatch(changeLanguage())}
+          checked={lang == "fr"}
+          className="switch-input"
+          type="checkbox"
+        />
         <div className="switch-button">
           <div className="switch-button-inside">
-            <Image width={20} height={20} src="./assets/images/usa-flag.png" alt="tt" />
-            <Image style={{
-                marginLeft: -10
-            }} classNameName="checked-img" width={20} height={20} src="./assets/images/france-flag.png" alt="tt" />
+            <Image
+              width={20}
+              height={20}
+              src="./assets/images/usa-flag.png"
+              alt="tt"
+            />
+            <Image
+              style={{
+                marginLeft: -10,
+              }}
+              classNameName="checked-img"
+              width={20}
+              height={20}
+              src="./assets/images/france-flag.png"
+              alt="tt"
+            />
             {/* <span>EN</span> */}
-
           </div>
         </div>
       </div>

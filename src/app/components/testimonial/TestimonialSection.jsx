@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import Testimonial from "./Testimonial";
 import TestimonialModal from "./TestimonialModal";
 import testimonials from "@/data/testimonials.js";
+import staticData from "@/data/staticData.json";
+import { useSelector } from "react-redux";
 
 const TestimonialSection = () => {
   const [show, setShow] = useState(false);
@@ -17,10 +19,15 @@ const TestimonialSection = () => {
     document.body.style.overflow = "hidden";
     setShow(true);
   };
+  const lang = useSelector((state) => state.language);
   return (
     <>
+      {/* <!--
+    - testimonials
+  --> */}
+
       <section className="testimonials">
-        <h3 className="h3 testimonials-title">Testimonials/Recommendations</h3>
+        <h3 className="h3 testimonials-title">{staticData[lang].about.testimonialSection}</h3>
 
         <ul className="testimonials-list has-scrollbar">
           {testimonials.map((testimonial, index) => (

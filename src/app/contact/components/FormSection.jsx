@@ -2,7 +2,9 @@
 
 import axios from "axios";
 import React, { useState } from "react";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
+import staticData from "@/data/staticData.json";
+import { useSelector } from "react-redux";
 
 const FormSection = () => {
   const initial = {
@@ -11,6 +13,7 @@ const FormSection = () => {
     message: "",
   };
   const [formData, changeData] = useState(initial);
+  const lang = useSelector((state) => state.language);
 
   const changeTrack = (field, value) => {
     changeData({ ...formData, [field]: value });
@@ -39,7 +42,7 @@ const FormSection = () => {
   };
   return (
     <section className="contact-form">
-      <h3 className="h3 form-title">Contact Form</h3>
+      <h3 className="h3 form-title">{staticData[lang].contact.contactFrom}</h3>
 
       <form
         onSubmit={(e) => {
@@ -70,7 +73,7 @@ const FormSection = () => {
             type="text"
             name="fullname"
             className="form-input"
-            placeholder="Full name"
+            placeholder={staticData[lang].contact.fullName}
             required
             data-form-input
           />
@@ -81,7 +84,7 @@ const FormSection = () => {
             type="email"
             name="email"
             className="form-input"
-            placeholder="Email address"
+            placeholder={staticData[lang].contact.email}
             required
             data-form-input
           />
@@ -92,13 +95,13 @@ const FormSection = () => {
           onChange={(e) => changeTrack("message", e.target.value)}
           name="message"
           className="form-input"
-          placeholder="Your Message"
+          placeholder={staticData[lang].contact.message}
           required
           data-form-input
         ></textarea>
         <button className="form-btn" type="submit" data-form-btn>
           <ion-icon name="paper-plane"></ion-icon>
-          <span>Send Message</span>
+          <span>{staticData[lang].contact.send}</span>
         </button>
       </form>
     </section>

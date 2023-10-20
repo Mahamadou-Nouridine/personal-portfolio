@@ -2,8 +2,11 @@
 
 import React, { useState } from "react";
 import { Image } from "react-bootstrap";
+import staticData from "@/data/staticData.json";
+import { useSelector } from "react-redux";
 
 const Sidebar = () => {
+  const lang = useSelector((state) => state.language);
   const [open, setOpen] = useState(false)
   return (
     <aside className={`sidebar ${open ?"active":""}`} data-sidebar>
@@ -21,11 +24,11 @@ const Sidebar = () => {
             Mahamadou Nouridine
           </h1>
 
-          <p className="title">Full-stack developer</p>
+          <p className="title">{staticData[lang].sidebar.function}</p>
         </div>
 
         <button onClick={() => setOpen(!open)} className="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+          <span>{staticData[lang].sidebar.showContacts}</span>
           <ion-icon name="chevron-down"></ion-icon>
         </button>
       </div>
@@ -54,7 +57,7 @@ const Sidebar = () => {
             </div>
 
             <div className="contact-info">
-              <p className="contact-title">Phone</p>
+              <p className="contact-title">{staticData[lang].sidebar.phone}</p>
 
               <a href="tel:+22788103073" className="contact-link">
                 +(227) 88103073
@@ -68,7 +71,7 @@ const Sidebar = () => {
             </div>
 
             <div className="contact-info">
-              <p className="contact-title">Birthday</p>
+              <p className="contact-title">{staticData[lang].sidebar.birthday}</p>
 
               <time dateTime="1982-06-23">December 28</time>
             </div>
@@ -80,7 +83,7 @@ const Sidebar = () => {
             </div>
 
             <div className="contact-info">
-              <p className="contact-title">Location</p>
+              <p className="contact-title">{staticData[lang].sidebar.location}</p>
 
               <address>Niamey, Niger</address>
             </div>
