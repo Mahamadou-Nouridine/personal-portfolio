@@ -1,6 +1,5 @@
 import { Image } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
-// import ExampleCarouselImage from "components/ExampleCarouselImage";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 function ImageCaroussel({ images }) {
@@ -41,7 +40,7 @@ function ImageCaroussel({ images }) {
           <figure className="caroussel-img">
             <Image
               src={image}
-              alt="metaspark"
+              alt="image-caroussel-item"
               loading="lazy"
               style={{ width: "100%" }}
             />

@@ -1,9 +1,6 @@
-import Image from "next/image";
 import TestimonialSection from "./components/testimonial/TestimonialSection";
 import ServiceSection from "./components/services/ServiceSection";
-import ClientSection from "./components/clients/ClientSection";
 import Link from "next/link";
-// import styles from "./page.module.css";
 
 export default function Home() {
   return (

@@ -1,4 +1,3 @@
-// import Image from "next/image";
 import { urlGenerator } from "@/data/testimonials";
 import React from "react";
 import { Image } from "react-bootstrap";

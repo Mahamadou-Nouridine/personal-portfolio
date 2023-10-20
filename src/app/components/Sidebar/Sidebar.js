@@ -11,13 +11,13 @@ const Sidebar = () => {
         <figure className="avatar-box">
           <Image
             src="./assets/images/my-avatar.png"
-            alt="Richard hanrick"
+            alt="Nouridine"
             width="80"
           />
         </figure>
 
         <div className="info-content">
-          <h1 className="name" title="Richard hanrick">
+          <h1 className="name" title="Nouridine">
             Mahamadou Nouridine
           </h1>
 

@@ -21,7 +21,7 @@ const PortfolioItem = ({ hadleShow, project, select }) => {
             <ion-icon name="eye-outline"></ion-icon>
           </div>
 
-          <Image src={project.displayImage} alt="finance" loading="eager" />
+          <Image src={project.displayImage} alt={project.name} loading="eager" />
         </figure>
 
         <h3 className="project-title notranslate ms-0">{project.name}</h3>

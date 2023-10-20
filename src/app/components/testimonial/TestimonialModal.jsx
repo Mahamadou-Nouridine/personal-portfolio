@@ -16,7 +16,7 @@ const TestimonialModal = ({ show, handleClose, selected }) => {
           <figure className="modal-avatar-box">
             <Image
               src={urlGenerator(selected.author)}
-              alt="Daniel lewis"
+              alt={selected.author}
               width="80"
               data-modal-img
             />

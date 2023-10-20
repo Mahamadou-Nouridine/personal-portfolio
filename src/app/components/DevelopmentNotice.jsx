@@ -31,7 +31,7 @@ const DevelopmentNotice = () => {
           <figure className="modal-avatar-box">
             <Image
               src="./assets/images/svg-icons/alert.svg"
-              alt="Daniel lewis"
+              alt="Development notice"
               width="80"
               data-modal-img
             />
