@@ -1,36 +1,181 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a name="readme-top"></a>
 
-## Getting Started
+<div align="center">
+  <h1><b>Personal Portfolio</b></h1>
 
-First, run the development server:
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Personal Portfolio ](#-personal-portfolio-)
+  - [🛠 Built With ](#-built-with-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Personal Portfolio <a name="about-project"></a>
+
+![Portfolio-image](./public/assets/images/p-img.png)
+
+**Personal Portfolio:** Is a website for showcasing my skills, accomplishments and all the information a recruiter, collaborator need about me.
+
+## 🛠 Built With <a name="built-with"></a>
+
+  <ul>
+    <li>Next.js</li>
+    <li>Next Api</li>
+    <li>Nodemailer</li>
+  </ul>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- [x] **Mobile Responsive**
+- [x] **Mobile bottom sticky Navbar**
+- [x] **Portfolio Details Pop-up**
+- [x] **Validated Contact Form**
+- [x] **Contact Form Submission**
+- [x] **Recommandations and Testimonials**
+- [x] **My Resume**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Project Demo](https://www.nouridine.me/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+```
+   ssh code:
+   git@github.com:Mahamadou-Nouridine/personal-portfolio.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Setup
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Clone this repository to your desired folder:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+  cd desired-folder
+  git clone git@github.com:Mahamadou-Nouridine/personal-portfolio.git .
+  npm i
+  npm run dev
+```
 
-## Learn More
+### Deployment
 
-To learn more about Next.js, take a look at the following resources:
+Since this website is created using Next.js, you need a hosting provider that support webservices like Render, Vercel, Heroku... The mailing service use Nodemailer, so you should provide the following environment variables in the `.env.local`:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+MAILER_PASS= password
+MAIL_SENDER= sender email address
+MAIL_SERVICE= the service used (gmail, outlook, hotmail...)
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+git add --all or git add .
 
-## Deploy on Vercel
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+git commit -m "your commit message"
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+
+```
+git push origin {i.e, your repo name}
+
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Mahamadou Nouridine**
+
+- Website: [Nouridine](https://nouridine.me)
+- GitHub: [mahamadou-nouridine](https://github.com/mahamadou-nouridine)
+- Linkedin: [mahamadou-nouridine](https://www.linkedin.com/in/mahamadou-nouridine)
+- Twitter: [Nouridine_Dino](https://twitter.com/Nouridine_Dino)
+
+👤 **Abdoul-baqi Al-Hassan**
+
+- GitHub: [codemyhobby100](https://github.com/codemyhobby100)
+- Linkedin: [abdul-baqi-al-hassan-8905731a5](https://linkedin.com/in/abdul-baqi-al-hassan-8905731a5)
+- Youtube: [codemyhobby](https://www.youtube.com/c/codemyhobby)
+- Instagram: [its_baqi1](https://instagram.com/its_baqi1)
+- Codepen: [codemyhobby100](https://codepen.io/codemyhobby100)
+- TikTok: [its_baqi](https://www.tiktok.com/@its_baqi?lang=en)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Multilanguage support**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Mahamadou-Nouridine/personal-portfolio/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+Please support this project and be a part of something meaningful and impactful. Your contribution can make a significant difference and help us achieve our goals faster.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+First of all,  I want to express my heartfelt gratitude to [Abdoul-baqi Al-Hassan](https://github.com/codemyhobby100), for the base design, and initial code. Then to all the individuals whose creativity and dedication inspired the codebase. Your tireless efforts have left an indelible mark on this project and your contributions will be remembered for years to come. Thank you for being an integral part of our success.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
