@@ -5,7 +5,7 @@ const Service = ({ service }) => {
   return (
     <li className="service-item">
       <div className="service-icon-box">
-        <Image src={service.icon} alt="design icon" width={70} height={70} />
+        <Image src={service.icon} alt={service.title} width={70} height={70} />
       </div>
 
       <div className="service-content-box">

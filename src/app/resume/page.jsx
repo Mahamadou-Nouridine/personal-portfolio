@@ -3,7 +3,6 @@ import EducationSection from "./components/EducationSection";
 import ExpericeSection from "./components/ExperienceSection";
 import SkillsSection from "./components/SkillsSection";
 import CertificationsSection from "./components/CertificationsSection";
-import SpokenLanguagesSection from "./components/SpokenLanguagesSection";
 
 export const metadata = {
   title: "Nouridine | Resume",
@@ -11,7 +10,6 @@ export const metadata = {
 
 const resume = () => {
   return (
-    // <div style={{color: "white"}}>This is the resume</div>
     <article className="resume" data-page="resume">
       <header>
         <h2 className="h2 article-title">Resume</h2>
@@ -24,8 +22,14 @@ const resume = () => {
       <SkillsSection />
 
       <CertificationsSection />
-
-      <SpokenLanguagesSection />
+      <div className="w-100 mt-5">
+        <a target="_blank" href="https://docs.google.com/document/d/19pH6CyMqmcBV4hDpf_U8NPw2-vR_ZkFSXwu3dD6pcSA/edit?usp=sharing">
+          <button className="form-btn m-auto" type="submit" data-form-btn>
+            <ion-icon name="paper-plane"></ion-icon>
+            <span>Download my CV</span>
+          </button>
+        </a>
+      </div>
     </article>
   );
 };
