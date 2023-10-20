@@ -26,7 +26,6 @@ const PortfolioItem = ({ hadleShow, project, select }) => {
 
         <h3 className="project-title notranslate ms-0">{project.name}</h3>
 
-        {/* <p className="project-category">Building Drawing</p> */}
         <p className="contact-title">Tags</p>
         <div
           style={{

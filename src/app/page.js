@@ -32,8 +32,6 @@ export default function Home() {
       <ServiceSection />
 
       <TestimonialSection />
-
-      {/* <ClientSection /> */}
     </article>
   );
 }
