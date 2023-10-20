@@ -168,7 +168,7 @@ Please support this project and be a part of something meaningful and impactful.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-First of all,  I want to express my heartfelt gratitude to [Abdoul-baqi Al-Hassan](https://github.com/codemyhobby100), for the base design, and initial code. Then to all the individuals whose creativity and dedication inspired the codebase. Your tireless efforts have left an indelible mark on this project and your contributions will be remembered for years to come. Thank you for being an integral part of our success.
+First of all,  I want to express my heartfelt gratitude to [Abdoul-baqi Al-Hassan](https://github.com/codemyhobby100), for the base design, initial code, and inspiration. Then to all the individuals whose creativity and dedication inspired the codebase. Your tireless efforts have left an indelible mark on this project and your contributions will be remembered for years to come. Thank you for being an integral part of our success.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
