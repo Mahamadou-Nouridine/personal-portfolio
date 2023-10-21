@@ -37,7 +37,7 @@ const PortfolioModal = ({ show, handleClose, project }) => {
           </figure>
           <div
             style={{
-              // maxWidth: 250,
+              maxWidth: 300,
               width: "100%",
               scrollBehavior: "smooth",
               overscrollBehaviorInline: "contain",

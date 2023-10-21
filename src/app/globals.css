@@ -438,6 +438,30 @@ main {
   gap: 16px;
 }
 
+.contact-item:hover .icon-box {
+  animation-name: icon-move;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes icon-move {
+  0% {
+    transform: rotate(25deg);
+  }
+  25% {
+    transform: rotate(-25deg);
+  }
+  50% {
+    transform: rotate(25deg);
+  }
+  75% {
+    transform: rotate(-25deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 .contact-info {
   max-width: calc(100% - 46px);
   width: calc(100% - 46px);
@@ -475,6 +499,8 @@ main {
 
 .social-item .social-link:hover {
   color: var(--light-gray);
+  transform: scale(1.2);
+  transition: all ease-in-out 0.2s;
 }
 
 /*-----------------------------------*\
@@ -563,6 +589,7 @@ main {
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   z-index: 1;
+  transition: all ease-in-out 0.1s;
 }
 
 .service-item::before {
@@ -572,6 +599,11 @@ main {
   background: var(--bg-gradient-jet);
   border-radius: inherit;
   z-index: -1;
+}
+
+.service-item:hover {
+  transition: all ease-in-out 0.1s;
+  transform: scale(1.1);
 }
 
 .service-icon-box {
@@ -654,7 +686,6 @@ main {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-
 
 .certification-description {
   color: var(--light-gray);
@@ -1990,11 +2021,10 @@ textarea.form-input::-webkit-resizer {
    */
 
   .navbar {
-    position: absolute;
-    bottom: auto;
+    position: sticky;
+    margin-bottom: -65px;
     top: 0;
-    left: auto;
-    right: 0;
+    margin-left: calc(100% - 510px);
     width: max-content;
     border-radius: 0 20px;
     padding: 0 20px;
