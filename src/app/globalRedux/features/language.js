@@ -1,16 +1,12 @@
 "use client"
 import { createSlice } from "@reduxjs/toolkit";
 
-const lang = localStorage.getItem("lang");
-
 const langSlice = createSlice({
   name: "language",
-  initialState: lang,
+  initialState: "en",
   reducers: {
     changeLanguage: (state, { payload }) => {
-      const langToggle = state == "en" ? "fr" : "en"
-      localStorage.setItem("lang", langToggle);
-      return langToggle;
+      return payload;
     },
   },
 });

@@ -14,7 +14,10 @@ const LanguageToggle = () => {
     <>
       <div className="switch-container">
         <input
-          onClick={() => dispatch(changeLanguage())}
+          onChange={(e) => {
+            localStorage.setItem("lang", e.target.checked ? "fr" : "en");
+            dispatch(changeLanguage(e.target.checked ? "fr" : "en"));
+          }}
           checked={lang == "fr"}
           className="switch-input"
           type="checkbox"
@@ -31,7 +34,7 @@ const LanguageToggle = () => {
               style={{
                 marginLeft: -10,
               }}
-              classNameName="checked-img"
+              className="checked-img"
               width={20}
               height={20}
               src="./assets/images/france-flag.png"
