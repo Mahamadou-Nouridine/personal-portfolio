@@ -1,11 +1,12 @@
 import React from "react";
 import LinkTo from "./LinkTo"
+import styles from './styles/navbar.module.css'
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <ul className="navbar-list">
-        <li className="navbar-item">
+    <nav className={styles.navbar}>
+      <ul className={styles["navbar-list"]}>
+        <li className={styles["navbar-item"]}>
           <LinkTo route="/" name="About" />
         </li>
 
