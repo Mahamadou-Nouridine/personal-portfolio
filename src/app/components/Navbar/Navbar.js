@@ -1,30 +1,20 @@
 import React from "react";
-import LinkTo from "./LinkTo"
-import styles from './styles/navbar.module.css'
+import LinkTo from "./LinkTo";
+import styles from "./styles/navbar.module.css";
 
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <ul className={styles["navbar-list"]}>
-        <li className={styles["navbar-item"]}>
-          <LinkTo route="/" name="About" />
-        </li>
+        <LinkTo route="/" name="About" />
 
-        <li className="navbar-item">
-          <LinkTo route="/resume" name="Resume" />
-        </li>
+        <LinkTo route="/resume" name="Resume" />
 
-        <li className="navbar-item">
-          <LinkTo route="/portfolio" name="Portfolio" />
-        </li>
+        <LinkTo route="/portfolio" name="Portfolio" />
 
-        <li className="navbar-item">
-          <LinkTo route="/blog" name="Blog" />
-        </li>
+        <LinkTo route="/blog" name="Blog" />
 
-        <li className="navbar-item">
-          <LinkTo route="/contact" name="Contact" />
-        </li>
+        <LinkTo route="/contact" name="Contact" />
       </ul>
     </nav>
   );

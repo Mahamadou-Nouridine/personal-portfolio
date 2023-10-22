@@ -36,7 +36,7 @@
   color: var(--light-gray-70);
 }
 
-.navbar-link.active {
+.active {
   color: var(--orange-yellow-crayola);
 }
 
@@ -69,10 +69,6 @@
 }
 
 @media (min-width: 1024px) {
-      /**
-   * NAVBAR
-   */
-
   .navbar {
     position: sticky;
     margin-bottom: -65px;
