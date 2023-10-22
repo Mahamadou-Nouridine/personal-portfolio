@@ -31,8 +31,8 @@
   transition: color var(--transition-1);
 }
 
-.navbar-link:hover,
-.navbar-link:focus {
+.navbar-link:hover
+ {
   color: var(--light-gray-70);
 }
 
@@ -73,7 +73,7 @@
     position: sticky;
     margin-bottom: -65px;
     top: 0;
-    margin-left: calc(100% - 510px);
+    margin-left: calc(100% - 520px);
     width: max-content;
     border-radius: 0 20px;
     padding: 0 20px;
