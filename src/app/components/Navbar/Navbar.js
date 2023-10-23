@@ -1,30 +1,20 @@
 import React from "react";
-import LinkTo from "./LinkTo"
+import LinkTo from "./LinkTo";
 import LanguageToggle from "./LanguageToggle";
+import styles from "./styles/navbar.module.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <ul className="navbar-list">
-        <li className="navbar-item">
-          <LinkTo route="/" name="About" />
-        </li>
+    <nav className={styles.navbar}>
+      <ul className={styles["navbar-list"]}>
+        <LinkTo route="/" name="About" />
 
-        <li className="navbar-item">
-          <LinkTo route="/resume" name="Resume" />
-        </li>
+        <LinkTo route="/resume" name="Resume" />
 
-        <li className="navbar-item">
-          <LinkTo route="/portfolio" name="Portfolio" />
-        </li>
+        <LinkTo route="/portfolio" name="Portfolio" />
 
-        {/* <li className="navbar-item">
-          <LinkTo route="/blog" name="Blog" />
-        </li> */}
+        <LinkTo route="/contact" name="Contact" />
 
-        <li className="navbar-item">
-          <LinkTo route="/contact" name="Contact" />
-        </li>
         <li className="navbar-item">
           <LanguageToggle />
         </li>

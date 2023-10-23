@@ -28,7 +28,7 @@ const LanguageToggle = () => {
               width={20}
               height={20}
               src="./assets/images/usa-flag.png"
-              alt="tt"
+              alt="Us flag"
             />
             <Image
               style={{
@@ -38,9 +38,8 @@ const LanguageToggle = () => {
               width={20}
               height={20}
               src="./assets/images/france-flag.png"
-              alt="tt"
+              alt="France flag"
             />
-            {/* <span>EN</span> */}
           </div>
         </div>
       </div>

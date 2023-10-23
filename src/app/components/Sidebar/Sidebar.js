@@ -9,7 +9,7 @@ const Sidebar = () => {
   const lang = useSelector((state) => state.language);
   const [open, setOpen] = useState(false)
   return (
-    <aside className={`sidebar ${open ?"active":""}`} data-sidebar>
+    <aside className={`sidebar ${open ? "active" : ""}`} data-sidebar>
       <div className="sidebar-info">
         <figure className="avatar-box">
           <Image
@@ -45,8 +45,11 @@ const Sidebar = () => {
             <div className="contact-info">
               <p className="contact-title">Email</p>
 
-              <a href="mailto:mahamadounouridinem@gmail.com" className="contact-link">
-              mahamadounouridinem@gmail.com
+              <a
+                href="mailto:mahamadounouridinem@gmail.com"
+                className="contact-link"
+              >
+                mahamadounouridinem@gmail.com
               </a>
             </div>
           </li>
@@ -94,24 +97,40 @@ const Sidebar = () => {
 
         <ul className="social-list p-0">
           <li className="social-item">
-            <a href="https://github.com/Mahamadou-Nouridine" target="_blank" className="social-link">
-            <ion-icon name="logo-github"></ion-icon>
+            <a
+              href="https://github.com/Mahamadou-Nouridine"
+              target="_blank"
+              className="social-link"
+            >
+              <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
           <li className="social-item">
-            <a href="https://www.linkedin.com/in/mahamadou-nouridine" target="_blank" className="social-link">
+            <a
+              href="https://www.linkedin.com/in/mahamadou-nouridine"
+              target="_blank"
+              className="social-link"
+            >
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
 
           <li className="social-item">
-            <a href="https://twitter.com/Nouridine_Dino" target="_blank" className="social-link">
+            <a
+              href="https://twitter.com/Nouridine_Dino"
+              target="_blank"
+              className="social-link"
+            >
               <ion-icon name="logo-twitter"></ion-icon>
             </a>
           </li>
 
           <li className="social-item">
-            <a href="https://wellfound.com/u/mahamadou-nouridine" target="_blank" className="social-link">
+            <a
+              href="https://wellfound.com/u/mahamadou-nouridine"
+              target="_blank"
+              className="social-link"
+            >
               <i className="fa-brands fa-angellist"></i>
             </a>
           </li>

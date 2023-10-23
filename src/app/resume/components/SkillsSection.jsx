@@ -4,7 +4,6 @@ import React from "react";
 import { Accordion } from "react-bootstrap";
 import SpokenLanguagesSection from "./SpokenLanguagesSection";
 import SkillSection from "./SkillSection";
-import "../styles/accordion.css";
 import staticData from "@/data/staticData.json";
 import { useSelector } from "react-redux";
 
