@@ -9,7 +9,7 @@ const AboutMeSection = () => {
   return (
     <section className="about-text">
       <p>
-        {staticData[lang].aboutMe}
+        {staticData[lang].about.aboutSection}
         <span className="d-block">
           {lang == "en" ? (
             <>
@@ -30,7 +30,7 @@ const AboutMeSection = () => {
             <>
               Veuillez m&apos;envoyer un message depui ma{" "}
               <Link className="d-inline" href="/contact">
-              page de contact
+                page de contact
               </Link>{" "}
               ou m&apos;envoyer un email à l&apos;addresse{" "}
               <a
