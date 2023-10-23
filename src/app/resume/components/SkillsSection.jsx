@@ -32,7 +32,7 @@ const SkillsSection = () => {
           style={{ backgroundColor: "transparent", border: "none" }}
           eventKey={`${index}`}
         >
-          <Accordion.Header bsPrefix="text-white" className="string">
+          <Accordion.Header bsPrefix="text-light" className="string">
             {title}
           </Accordion.Header>
           <Accordion.Body bsPrefix="p-0">

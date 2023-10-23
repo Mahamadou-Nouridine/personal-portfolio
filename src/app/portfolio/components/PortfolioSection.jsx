@@ -42,6 +42,7 @@ const PortfolioSection = () => {
               select={select}
               project={project}
               hadleShow={hadleShow}
+              selectedTag={selectedTag}
               key={index}
             />
           ))}

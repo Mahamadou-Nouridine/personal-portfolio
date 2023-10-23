@@ -166,8 +166,19 @@ body {
   background: var(--smoky-black);
 }
 
+/*Portfolio projects tags*/
+.tags::-webkit-scrollbar {
+  display: none;
+}
+
 .tags {
-  overflow-x: hidden;
+  overflow-x: auto;
+}
+
+.tags:focus::-webkit-scrollbar,
+.tags:hover::-webkit-scrollbar,
+.tags:active::-webkit-scrollbar {
+  display: unset;
 }
 
 .tags:focus,
@@ -175,48 +186,50 @@ body {
 .tags:active {
   overflow-x: auto;
 }
+/*Portfolio projects tags*/
 
+/*Bootstrap accordion*/
 .accordion {
-  --bs-accordion-btn-color: var(--orange-yellow-crayola);
-  --bs-accordion-btn-bg:  hsl(0, 0%, 25%);
-  --bs-accordion-btn-focus-box-shadow: var(--shadow-3)
+  --bs-accordion-btn-color: white;
+  --bs-accordion-btn-bg: hsl(0, 0%, 25%);
+  --bs-accordion-btn-focus-box-shadow: var(--shadow-3);
 }
 
 .accordion-button:not(.collapsed) {
-    position: relative;
-    width: 100%;
-    background: var(--border-gradient-onyx);
-    color: var(--orange-yellow-crayola);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 13px 20px;
-    border-bottom-left-radius: 14px;
-    border-bottom-right-radius: 14px;
-    font-size: 20px;
-    text-transform: capitalize;
-    box-shadow: var(--shadow-3);
-    z-index: 1;
-    transition: var(--transition-1);
+  position: relative;
+  width: 100%;
+  background: var(--border-gradient-onyx);
+  color: var(--orange-yellow-crayola);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 20px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  font-size: 20px;
+  text-transform: capitalize;
+  box-shadow: var(--shadow-3);
+  z-index: 1;
+  transition: var(--transition-1);
 }
 
 .accordion-button.collapsed {
-    position: relative;
-    width: 100%;
-    margin-bottom: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 13px 20px;
-    font-size: 20px;
-    text-transform: capitalize;
-    box-shadow: var(--shadow-3);
-    z-index: 1;
-    transition: var(--transition-1);
+  position: relative;
+  width: 100%;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 20px;
+  font-size: 20px;
+  text-transform: capitalize;
+  box-shadow: var(--shadow-3);
+  z-index: 1;
+  transition: var(--transition-1);
 }
-
+/*Bootstrap accordion*/
 
 /*-----------------------------------*\
   #REUSED STYLE
@@ -544,8 +557,6 @@ main {
   transform: scale(1.2);
   transition: all ease-in-out 0.2s;
 }
-
-
 
 /*-----------------------------------*\
   #ABOUT
@@ -1638,7 +1649,6 @@ textarea.form-input::-webkit-resizer {
     width: calc(100% - 64px);
   }
 
-
   /**
    * #ABOUT
    */
@@ -1874,8 +1884,6 @@ textarea.form-input::-webkit-resizer {
     gap: 30px 15px;
   }
 
-
-
   /**
    * ABOUT
    */
@@ -1996,8 +2004,6 @@ textarea.form-input::-webkit-resizer {
     width: max-content;
     margin: auto;
   }
-
-
 
   /**
    * ABOUT
