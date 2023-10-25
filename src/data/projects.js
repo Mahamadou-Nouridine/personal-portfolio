@@ -179,9 +179,9 @@ const projects = [
       message: "",
     },
     demo: {
-      public: false,
-      link: "",
-      message: "Not hosted",
+      public: true,
+      link: "https://shopping-app-client.onrender.com",
+      message: "",
     },
     tags: [
       "Full-stack",
@@ -224,9 +224,9 @@ const projects = [
       message: "",
     },
     demo: {
-      public: false,
-      link: "",
-      message: "Not hosted",
+      public: true,
+      link: "https://mytube-app.onrender.com",
+      message: "",
     },
     tags: [
       "Front-end",
@@ -259,9 +259,9 @@ const projects = [
       message: "",
     },
     demo: {
-      public: false,
-      link: "",
-      message: "Not hosted",
+      public: true,
+      link: "https://maison-de-location-client.onrender.com",
+      message: "",
     },
     tags: [
       "Full-stack",
@@ -293,45 +293,45 @@ const projects = [
     ],
   },
 
-  {
-    name: "Hadj App",
-    date: "Nov 2022",
-    description:
-      "Hadj App is desktop cross platform application created using Reactjs and Electron.js. It is an apllication used by hajj agencies to manage their pilgrims and also used by Airlines companies to manage Hajj agencies.",
-    sourceCode: {
-      public: true,
-      link: "https://github.com/Mahamadou-Nouridine/Hadj_App.git",
-      message: "",
-    },
-    demo: {
-      public: false,
-      link: "",
-      message: "It's a desktop application",
-    },
-    tags: [
-      "Front-end",
-      "Javascript",
-      "React",
-      "Authentication",
-      "External API",
-      "Desktop",
-      "Bootstrap",
-      "Authorization",
-      "Training",
-    ],
-    displayImage:
-      "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228647/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_211900_oeh1ti.png",
-    images: [
-      "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228647/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_211900_oeh1ti.png",
-      "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228647/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_211729_yych9y.png",
-      "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228646/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_211757_dqo2ea.png",
-      "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228647/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_211820_nbspho.png",
-      "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228645/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_212220_j1rjop.png",
-      "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228646/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_212247_wyzczv.png",
-      "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228649/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_212301_lt0m4q.png",
-      "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228645/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_212323_bdwjj8.png",
-    ],
-  },
+  // {
+  //   name: "Hadj App",
+  //   date: "Nov 2022",
+  //   description:
+  //     "Hadj App is desktop cross platform application created using Reactjs and Electron.js. It is an apllication used by hajj agencies to manage their pilgrims and also used by Airlines companies to manage Hajj agencies.",
+  //   sourceCode: {
+  //     public: true,
+  //     link: "https://github.com/Mahamadou-Nouridine/Hadj_App.git",
+  //     message: "",
+  //   },
+  //   demo: {
+  //     public: false,
+  //     link: "",
+  //     message: "It's a desktop application",
+  //   },
+  //   tags: [
+  //     "Front-end",
+  //     "Javascript",
+  //     "React",
+  //     "Authentication",
+  //     "External API",
+  //     "Desktop",
+  //     "Bootstrap",
+  //     "Authorization",
+  //     "Training",
+  //   ],
+  //   displayImage:
+  //     "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228647/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_211900_oeh1ti.png",
+  //   images: [
+  //     "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228647/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_211900_oeh1ti.png",
+  //     "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228647/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_211729_yych9y.png",
+  //     "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228646/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_211757_dqo2ea.png",
+  //     "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228647/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_211820_nbspho.png",
+  //     "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228645/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_212220_j1rjop.png",
+  //     "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228646/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_212247_wyzczv.png",
+  //     "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228649/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_212301_lt0m4q.png",
+  //     "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228645/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_212323_bdwjj8.png",
+  //   ],
+  // },
 
   {
     name: "Budget App",
