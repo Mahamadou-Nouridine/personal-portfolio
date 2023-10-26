@@ -23,13 +23,6 @@ const PortfolioModal = ({ show, handleClose, project }) => {
       <div className={`overlay ${show ? "active" : ""}`} data-overlay></div>
 
       <section className="portfolio-modal">
-        <button
-          onClick={handleClose}
-          className="modal-close-btn"
-          data-modal-close-btn
-        >
-          <ion-icon name="close-outline"></ion-icon>
-        </button>
 
         <div className="portfolio-modal-img-wrapper" style={{ width: "100%" }}>
           <figure className="portfolio-image-box" style={{ width: "100%" }}>
@@ -104,6 +97,22 @@ const PortfolioModal = ({ show, handleClose, project }) => {
           <div data-modal-text>
             <p>{project.description}</p>
           </div>
+
+          <Button
+            onClick={handleClose}
+            style={{
+              width: 70,
+              right: 10,
+              bottom: 5,
+              backgroundColor: "grey",
+              alignSelf: "end",
+            }}
+            className="text-white"
+            variant=""
+            data-modal-close-btn
+          >
+            Close
+          </Button>
         </div>
       </section>
     </div>
