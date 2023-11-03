@@ -84,19 +84,19 @@ Clone this repository to your desired folder:
 
 ```
   cd desired-folder
-  git clone git@github.com:Mahamadou-Nouridine/personal-portfolio.git .
+  git clone git@github.com:Mahamadou-Nouridine/personal-portfolio.git
   npm i
   npm run dev
 ```
 
 ### Deployment
 
-Since this website is created using Next.js, you need a hosting provider that support webservices like Render, Vercel, Heroku... The mailing service use Nodemailer, so you should provide the following environment variables in the `.env.local`:
+Since this website is created using Next.js, you need a hosting provider that supports web services like Render, Vercel, Heroku... The mailing service uses Nodemailer, so you should provide the following environment variables in the `.env.local`:
 
 ```
 MAILER_PASS= password
 MAIL_SENDER= sender email address
-MAIL_SERVICE= the service used (gmail, outlook, hotmail...)
+MAIL_SERVICE= the service used (Gmail, Outlook, Hotmail...)
 ```
 
 ```
