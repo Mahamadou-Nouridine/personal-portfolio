@@ -33,7 +33,7 @@ const Navbar: React.FC<props> = ({ local }) => {
 
         <LinkTo local={local} route={"/" + local + "/contact"} name="Contact" />
         <li className={styles["navbar-item"]}>
-          <LanguageDropdown />
+          <LanguageDropdown local={local} />
         </li>
 
       </ul>

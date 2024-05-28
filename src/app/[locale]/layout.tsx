@@ -2,14 +2,14 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Navbar from "./components/Navbar/Navbar";
-// import "bootstrap/dist/css/bootstrap.min.css";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import "bootstrap/scss/bootstrap.scss";
 import "flag-icons/css/flag-icons.min.css";
-// import "/node_modules/flag-icons/css/flag-icons.min.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+
+import {LanguageNotice} from "./components/DevelopmentNotice"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -46,7 +46,9 @@ export default async function RootLayout({
         />
       </head>
       <body className={inter.className}>
+           <LanguageNotice />
         <NextIntlClientProvider messages={messages}>
+          {/* <DevelopmentNotice /> */}
           <ToastContainer />
           <main>
             <Sidebar />

@@ -5,7 +5,24 @@ import Image from "next/image";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import Link from "next/link";
 
-const LanguageDropdown = () => {
+interface props {
+  local: string;
+}
+
+const locals = [
+  {
+    name: "EN-English",
+    local: "en",
+    flag: "us",
+  },
+  {
+    name: "FR-Français",
+    local: "fr",
+    flag: "fr",
+  },
+];
+
+const LanguageDropdown: React.FC<props> = ({ local: lang }) => {
   const [open, setOpen] = useState(false);
   const path = usePathname().slice(3);
 
@@ -21,7 +38,9 @@ const LanguageDropdown = () => {
         type="submit"
         data-form-btn
       >
-        <span className="fi fi-us"></span>{" "}
+        <span
+          className={`fi fi-${locals.find((l) => l.local == lang)?.flag}`}
+        ></span>{" "}
         <Image
           alt="chevron"
           width={13}
@@ -34,7 +53,25 @@ const LanguageDropdown = () => {
         className={`${styles["dropdown-content"]}`}
         style={{ display: open ? "block" : "none" }}
       >
-        <Link
+        {locals.map((local, key) =>
+          local.local == lang ? (
+            <Link
+              key={key}
+              className={`${styles["selected"]}`}
+              style={{ color: "black" }}
+              href={generateNewLink(local.local)}
+            >
+              <span className={`fi fi-${local.flag}`}></span>
+              <span>{local.name}</span>
+            </Link>
+          ) : (
+            <Link key={key} href={generateNewLink(local.local)}>
+              <span className={`fi fi-${local.flag}`}></span>
+              <span>{local.name}</span>
+            </Link>
+          )
+        )}
+        {/* <Link
           className={`${styles["selected"]}`}
           style={{ color: "black" }}
           href={generateNewLink("en")}
@@ -45,7 +82,7 @@ const LanguageDropdown = () => {
         <Link href={generateNewLink("fr")}>
           <span className="fi fi-fr"></span>
           <span>(Bientôt!)</span>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

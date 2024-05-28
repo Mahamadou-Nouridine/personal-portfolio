@@ -5,7 +5,7 @@ import { Image } from "react-bootstrap";
 const DevelopmentNotice = () => {
   const [show, setShow] = useState(false);
   useEffect(() => {
-    document.body.style.overflow = "hidden";
+    // document.body.style.overflow = "hidden";
     setShow(true);
   }, []);
   return (
@@ -15,7 +15,7 @@ const DevelopmentNotice = () => {
     >
       <div className={`overlay ${show ? "active" : ""}`} data-overlay></div>
 
-      <section className="testimonials-modal">
+      <section className="testimonials-modal top">
         <button
           onClick={() => {
             setShow(false);
@@ -41,7 +41,8 @@ const DevelopmentNotice = () => {
         <div className="modal-content">
           <div data-modal-text>
             <p>
-              This Website is under construction, some features may not work properly. Consider living me an email{" "}
+              This Website is under construction, some features may not work
+              properly. Consider living me an email{" "}
               <a
                 className="d-inline"
                 href="mailto:mahamadounouridinem@gmail.com"
@@ -58,3 +59,23 @@ const DevelopmentNotice = () => {
 };
 
 export default DevelopmentNotice;
+
+export const LanguageNotice = () => {
+  return (
+    <div
+      style={{
+        backgroundColor: "#2E5960",
+        color: "white",
+        position: "sticky",
+        zIndex: 100,
+        top: 0,
+        fontSize: 13,
+        padding: 5,
+      }}
+    >
+      <span>
+        Langue Française en cours d&apos;ajout, merci pour votre patience.
+      </span>
+    </div>
+  );
+};
