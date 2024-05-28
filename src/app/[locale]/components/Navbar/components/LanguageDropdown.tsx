@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../styles/languagedropdown.module.css";
 import Image from "next/image";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
@@ -11,12 +11,12 @@ interface props {
 
 const locals = [
   {
-    name: "EN-English",
+    name: "EN",
     local: "en",
     flag: "us",
   },
   {
-    name: "FR-Français",
+    name: "FR",
     local: "fr",
     flag: "fr",
   },
@@ -29,6 +29,8 @@ const LanguageDropdown: React.FC<props> = ({ local: lang }) => {
   const generateNewLink = (local: string) => {
     return `/${local}${path}`;
   };
+
+  useEffect(() => {}, [])
 
   return (
     <div className={styles["dropdown"]}>
