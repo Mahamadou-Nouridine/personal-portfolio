@@ -2,9 +2,17 @@
 import React, { useState } from "react";
 import styles from "../styles/languagedropdown.module.css";
 import Image from "next/image";
+import { useRouter, usePathname, useSearchParams } from "next/navigation";
+import Link from "next/link";
 
 const LanguageDropdown = () => {
   const [open, setOpen] = useState(false);
+  const path = usePathname().slice(3);
+
+  const generateNewLink = (local: string) => {
+    return `/${local}${path}`;
+  };
+
   return (
     <div className={styles["dropdown"]}>
       <button
@@ -26,18 +34,18 @@ const LanguageDropdown = () => {
         className={`${styles["dropdown-content"]}`}
         style={{ display: open ? "block" : "none" }}
       >
-        <a
+        <Link
           className={`${styles["selected"]}`}
           style={{ color: "black" }}
-          href="#"
+          href={generateNewLink("en")}
         >
           <span className="fi fi-us"></span>
           <span>EN-English</span>
-        </a>
-        <a href="#">
+        </Link>
+        <Link href={generateNewLink("fr")}>
           <span className="fi fi-fr"></span>
           <span>(Bientôt!)</span>
-        </a>
+        </Link>
       </div>
     </div>
   );

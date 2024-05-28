@@ -1,12 +1,14 @@
 import TestimonialSection from "./components/testimonial/TestimonialSection";
 import ServiceSection from "./components/services/ServiceSection";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 export default function Home() {
+  const t  = useTranslations('navbar')
   return (
     <article className="about  active" data-page="about">
       <header>
-        <h2 className="h2 article-title">About me</h2>
+        <h2 className="h2 article-title">{t('about')}</h2>
       </header>
 
       <section className="about-text">

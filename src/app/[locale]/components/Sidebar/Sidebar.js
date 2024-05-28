@@ -1,10 +1,12 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import React, { useState } from "react";
 import { Image } from "react-bootstrap";
 
 const Sidebar = () => {
   const [open, setOpen] = useState(false);
+  const t = useTranslations('sidebar')
   return (
     <aside className={`sidebar ${open ? "active" : ""}`} data-sidebar>
       <div className="sidebar-info">
@@ -21,7 +23,7 @@ const Sidebar = () => {
             Mahamadou Nouridine
           </h1>
 
-          <p className="title">Full-stack developer</p>
+          <p className="title">{t('role')}</p>
         </div>
 
         <button
@@ -61,7 +63,7 @@ const Sidebar = () => {
             </div>
 
             <div className="contact-info">
-              <p className="contact-title">Phone</p>
+              <p className="contact-title">{t('phone')}</p>
 
               <a href="tel:+22788103073" className="contact-link">
                 +(227) 88103073
@@ -75,7 +77,7 @@ const Sidebar = () => {
             </div>
 
             <div className="contact-info">
-              <p className="contact-title">Birthday</p>
+              <p className="contact-title">{t('birthday')}</p>
 
               <time dateTime="1982-06-23">December 28</time>
             </div>
@@ -87,7 +89,7 @@ const Sidebar = () => {
             </div>
 
             <div className="contact-info">
-              <p className="contact-title">Location</p>
+              <p className="contact-title">{t('location')}</p>
 
               <address>Niamey, Niger</address>
             </div>

@@ -2,22 +2,32 @@ import React from "react";
 import LinkTo from "./LinkTo";
 import styles from "./styles/navbar.module.css";
 import LanguageDropdown from "./components/LanguageDropdown";
-import {useTranslations} from 'next-intl';
+import { useTranslations, NextIntlClientProvider } from "next-intl";
+import Link from "next/link";
 
 interface props {
   local: string;
 }
 
 const Navbar: React.FC<props> = ({ local }) => {
+  const t = useTranslations("navbar");
 
   return (
     <nav className={styles.navbar}>
       <ul className={styles["navbar-list"]}>
-        <LinkTo local={local} route={"/" + local + "/"} name="About" />
+        <LinkTo local={local} route={"/" + local + "/"} name={t("about")} />
 
-        <LinkTo local={local} route={"/" + local + "/resume"} name="Resume" />
+        <LinkTo
+          local={local}
+          route={"/" + local + "/resume"}
+          name={t("resume")}
+        />
 
-        <LinkTo local={local} route={"/" + local + "/portfolio"} name="Portfolio" />
+        <LinkTo
+          local={local}
+          route={"/" + local + "/portfolio"}
+          name={t("portfolio")}
+        />
 
         <LinkTo local={local} route={"/" + local + "/blog"} name="Blog" />
 
@@ -25,6 +35,7 @@ const Navbar: React.FC<props> = ({ local }) => {
         <li className={styles["navbar-item"]}>
           <LanguageDropdown />
         </li>
+
       </ul>
     </nav>
   );

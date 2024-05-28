@@ -1,5 +1,18 @@
 {
-    "Index": {
-      "title": "Hello world!"
-    }
+  "Index": {
+    "title": "Hello world!"
+  },
+
+  "sidebar": {
+    "role": "Full-stack developer",
+    "phone": "PHONE",
+    "birthday": "BIRTHDAY",
+    "location": "LOCATION"
+  },
+
+  "navbar": {
+    "about": "About",
+    "resume": "Resume",
+    "portfolio": "Portfolio"
   }
+}
