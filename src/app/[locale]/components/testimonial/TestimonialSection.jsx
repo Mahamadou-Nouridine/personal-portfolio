@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Testimonial from "./Testimonial";
 import TestimonialModal from "./TestimonialModal";
 import testimonials from "../../data/testimonials";
+import { useTranslations } from "next-intl";
 
 const TestimonialSection = () => {
   const [show, setShow] = useState(false);
@@ -17,10 +18,13 @@ const TestimonialSection = () => {
     document.body.style.overflow = "hidden";
     setShow(true);
   };
+
+  const tAbout  = useTranslations('about-page')
+
   return (
     <>
       <section className="testimonials">
-        <h3 className="h3 testimonials-title">Testimonials/Recommendations</h3>
+        <h3 className="h3 testimonials-title">{tAbout("testimonial-section-tile")}</h3>
 
         <ul className="testimonials-list has-scrollbar">
           {testimonials.map((testimonial, index) => (

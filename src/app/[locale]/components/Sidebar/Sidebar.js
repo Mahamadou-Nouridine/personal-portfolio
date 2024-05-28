@@ -31,7 +31,7 @@ const Sidebar = () => {
           className="info_more-btn"
           data-sidebar-btn
         >
-          <span>Show Contacts</span>
+          <span>{t('show-contact')}</span>
           <ion-icon name="chevron-down"></ion-icon>
         </button>
       </div>

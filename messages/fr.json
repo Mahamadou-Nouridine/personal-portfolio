@@ -7,12 +7,46 @@
     "role": "Développeur Full-stack",
     "phone": "TELEPHONE",
     "birthday": "ANIVERSAIRE",
-    "location": "LIEU"
+    "location": "EMPLACEMENT",
+    "show-contact": "Afficher Contacts"
   },
 
   "navbar": {
     "about": "Qui Suis-je",
     "resume": "CV",
     "portfolio": "Portfolio"
+  },
+
+  "about-page": {
+    "about": "Je m'appelle Mahamadou Nouridine, développeur full-stack spécialisé dans la stack MERN, NEXT js, NEST js, Rails et plus pour créer des solutions pour des entreprises et particuliers. Mes expériences de travail et d'étude m'ont permis d'être capable d'aborder des problématiques liées au développement informatique. Je suis passionné par la résolution de problèmes, animé par la curiosité et j'améliore continuellement mes compétences en codage pour développer des solutions innovantes.",
+    "consider": "Vous Pouver à m'envoyer un message depuis ma",
+    "contact-page": "page de contact",
+    "or-email": "ou m'envoyer un e-mail à l'adresse",
+    "for-more": "pour une discussion plus approfondie sur votre bésoin",
+    "service-section-title": "Mes Services",
+    "testimonial-section-tile": "Témoignages/Recommendations"
+  },
+
+  "services-data": {
+    "backend-service": {
+      "icon": "/assets/images/svg-icons/backend.svg",
+      "title": "Développement Backend",
+      "description": "Mise en œuvre d'architectures d'application simples et complexes avec des technologies et des frameworks modernes."
+    },
+    "frontend-service": {
+      "icon": "/assets/images/svg-icons/frontend.svg",
+      "title": "Développement Front-End",
+      "description": "Développement de haute qualité d'interfaces utilisateur au niveau professionnel avec des technologies et des frameworks modernes."
+    },
+    "mobile-service": {
+      "icon": "/assets/images/svg-icons/mobile.svg",
+      "title": "Applications mobiles",
+      "description": "Développement professionnel d'applications pour iOS et Android."
+    },
+    "deployment-service": {
+      "icon": "/assets/images/svg-icons/deployment.svg",
+      "title": "Déploiement",
+      "description": "Je mets vos solutions à la disposition de vos utilisateurs finaux."
+    }
   }
 }

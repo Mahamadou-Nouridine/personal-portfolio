@@ -4,32 +4,27 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 
 export default function Home() {
-  const t  = useTranslations('navbar')
+  const tNav  = useTranslations('navbar')
+  const tAbout  = useTranslations('about-page')
   return (
     <article className="about  active" data-page="about">
       <header>
-        <h2 className="h2 article-title">{t('about')}</h2>
+        <h2 className="h2 article-title">{tNav('about')}</h2>
       </header>
 
       <section className="about-text">
         <p>
-          I&apos;m Mahamadou Nouridine, a full-stack software developer specialized
-          in MERN stack, NEXT js, NEST js, Redux, Rails and more to create solutions
-          for businesses and individuals. My background in solving complex
-          mathematics problems during high-level studies aids me in tackling
-          computer algorithms and challenges. I&apos;m passionate about
-          problem-solving, driven by curiosity, and continuously improving my
-          coding skills to develop innovative solutions.
+          {tAbout("about")}
           <span className="d-block">
-            Consider sending me a message from my{" "}
+            {tAbout("consider")}{" "}
             <Link className="d-inline" href="/contact">
-              contact page
+              {tAbout("contact-page")}
             </Link>{" "}
-            or email me to{" "}
+            {tAbout("or-email")}{" "}
             <a className="d-inline" href="mailto:mahamadounouridinem@gmail.com">
               mahamadounouridinem@gmail.com
             </a>{" "}
-            for further discussion.
+            {tAbout("for-more")}
           </span>
         </p>
       </section>
