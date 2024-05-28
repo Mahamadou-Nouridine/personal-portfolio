@@ -69,8 +69,9 @@ export const LanguageNotice = () => {
         position: "sticky",
         zIndex: 100,
         top: 0,
-        fontSize: 13,
+        fontSize: 12,
         padding: 5,
+        textAlign: "center"
       }}
     >
       <span>
