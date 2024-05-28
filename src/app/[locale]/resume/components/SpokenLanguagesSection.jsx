@@ -1,6 +1,6 @@
 import React from "react";
 import SpokenLanguageItem from "./SpokenLangageItem";
-import languages from "../../../data/languages";
+import languages from "../../data/languages";
 
 const SpokenLanguagesSection = () => {
   return (

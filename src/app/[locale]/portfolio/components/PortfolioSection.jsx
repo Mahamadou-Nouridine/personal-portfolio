@@ -4,7 +4,7 @@ import FilterList from "./FilterList";
 import MobileFilter from "./MobileFilter";
 import PortfolioModal from "./PortfolioModal";
 import PortfolioItem from "./PortfolioItem";
-import projects from "@/data/projects.js";
+import projects from "../../data/projects";
 
 const PortfolioSection = () => {
   const [show, setShow] = useState(false);

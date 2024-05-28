@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Image } from "react-bootstrap";
-import { urlGenerator } from "../../../data/testimonials";
+import { urlGenerator } from "../../data/testimonials";
 import { BiLinkExternal } from "react-icons/bi";
 
 const TestimonialModal = ({ show, handleClose, selected }) => {

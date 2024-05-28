@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Testimonial from "./Testimonial";
 import TestimonialModal from "./TestimonialModal";
-import testimonials from "@/data/testimonials.js";
+import testimonials from "../../data/testimonials";
 
 const TestimonialSection = () => {
   const [show, setShow] = useState(false);

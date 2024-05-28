@@ -1,4 +1,4 @@
-import { urlGenerator } from "@/data/testimonials";
+import { urlGenerator } from "../../data/testimonials";
 import React from "react";
 import { Image } from "react-bootstrap";
 

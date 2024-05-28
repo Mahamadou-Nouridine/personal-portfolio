@@ -1,4 +1,4 @@
-import certifications from "@/data/certifications";
+import certifications from "../../data/certifications";
 import React from "react";
 import { Image } from "react-bootstrap";
 

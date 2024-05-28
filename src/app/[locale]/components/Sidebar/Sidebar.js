@@ -10,7 +10,7 @@ const Sidebar = () => {
       <div className="sidebar-info">
         <figure className="avatar-box">
           <Image
-            src="./assets/images/my-avatar.png"
+            src="/assets/images/my-avatar.png"
             alt="Nouridine"
             width="80"
           />

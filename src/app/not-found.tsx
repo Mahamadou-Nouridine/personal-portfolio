@@ -1,9 +1,9 @@
-import { Image } from "react-bootstrap"
+import React from 'react'
 
-const Notfound = () => {
+const NotFound = () => {
   return (
-    <Image className="w-100" src="./assets/images/404.png" alt="not foud" />
+    <div>NotFound</div>
   )
 }
 
-export default Notfound
+export default NotFound

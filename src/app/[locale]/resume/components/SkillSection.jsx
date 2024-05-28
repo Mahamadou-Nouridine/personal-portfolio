@@ -1,5 +1,5 @@
 import React from "react";
-import skills from "../../../data/skills";
+import skills from "../../data/skills";
 import SkillItem from "./SkillItem";
 
 const SkillSection = ({ type }) => {

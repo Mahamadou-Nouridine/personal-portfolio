@@ -4,8 +4,9 @@ import React from "react";
 import { usePathname } from "next/navigation";
 import styles from "./styles/navbar.module.css";
 
-const LinkTo = ({ route, name }) => {
+const LinkTo = ({ route, name, local }) => {
   const pathname = usePathname();
+  // console.log({route, name});
 
   const colorizeActiveLink = (path) =>
     pathname === path
@@ -14,6 +15,7 @@ const LinkTo = ({ route, name }) => {
   return (
     <li className={styles["navbar-item"]}>
       <Link
+        locale={local}
         href={route}
         className={`${colorizeActiveLink(route)} ${
           name == "Portfolio" ? "notranslate" : ""
