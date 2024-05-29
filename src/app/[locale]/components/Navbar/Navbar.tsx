@@ -15,7 +15,7 @@ const Navbar: React.FC<props> = ({ local }) => {
   return (
     <nav className={styles.navbar}>
       <ul className={styles["navbar-list"]}>
-        <LinkTo local={local} route={"/" + local + "/"} name={t("about")} />
+        <LinkTo local={local} route={"/" + local} name={t("about")} />
 
         <LinkTo
           local={local}

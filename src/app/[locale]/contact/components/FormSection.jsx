@@ -29,11 +29,9 @@ const FormSection = () => {
         },
       });
 
-      console.log(data);
       changeData(initial)
       return data
     } catch (error) {
-      console.log(error);
       throw new Error("An error occured while sending the message, please review the information you are providing and try again.")
     }
   };

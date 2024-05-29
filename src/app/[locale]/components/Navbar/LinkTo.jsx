@@ -6,7 +6,7 @@ import styles from "./styles/navbar.module.css";
 
 const LinkTo = ({ route, name, local }) => {
   const pathname = usePathname();
-  // console.log({route, name});
+  // console.log({route, pathname});
 
   const colorizeActiveLink = (path) =>
     pathname === path
