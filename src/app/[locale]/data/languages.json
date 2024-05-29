@@ -1,0 +1,46 @@
+{
+  "en": [
+    {
+      "lang": "French",
+      "percentage": 90,
+      "type": "foreign"
+    },
+    {
+      "lang": "English",
+      "percentage": 70,
+      "type": "foreign"
+    },
+    {
+      "lang": "Haoussa",
+      "percentage": 95,
+      "type": "local"
+    },
+    {
+      "lang": "Zarma",
+      "percentage": 80,
+      "type": "local"
+    }
+  ],
+  "fr": [
+    {
+      "lang": "Français",
+      "percentage": 90,
+      "type": "foreign"
+    },
+    {
+      "lang": "Anglais",
+      "percentage": 70,
+      "type": "foreign"
+    },
+    {
+      "lang": "Haoussa",
+      "percentage": 95,
+      "type": "local"
+    },
+    {
+      "lang": "Zarma",
+      "percentage": 80,
+      "type": "local"
+    }
+  ]
+}

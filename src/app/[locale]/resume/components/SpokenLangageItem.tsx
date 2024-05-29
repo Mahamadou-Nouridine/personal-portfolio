@@ -1,6 +1,10 @@
-import React from 'react'
+import React from "react";
 
-const SpokenLangageItem = ({lang}) => {
+interface props {
+  lang: Language;
+}
+
+const SpokenLangageItem: React.FC<props> = ({ lang }) => {
   return (
     <li className="skills-item">
       <div className="title-wrapper">
@@ -15,7 +19,7 @@ const SpokenLangageItem = ({lang}) => {
         ></div>
       </div>
     </li>
-  )
-}
+  );
+};
 
-export default SpokenLangageItem
+export default SpokenLangageItem;

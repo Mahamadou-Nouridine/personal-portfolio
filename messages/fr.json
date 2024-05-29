@@ -27,26 +27,13 @@
     "testimonial-section-tile": "Témoignages/Recommendations"
   },
 
-  "services-data": {
-    "backend-service": {
-      "icon": "/assets/images/svg-icons/backend.svg",
-      "title": "Développement Backend",
-      "description": "Mise en œuvre d'architectures d'application simples et complexes avec des technologies et des frameworks modernes."
-    },
-    "frontend-service": {
-      "icon": "/assets/images/svg-icons/frontend.svg",
-      "title": "Développement Front-End",
-      "description": "Développement de haute qualité d'interfaces utilisateur au niveau professionnel avec des technologies et des frameworks modernes."
-    },
-    "mobile-service": {
-      "icon": "/assets/images/svg-icons/mobile.svg",
-      "title": "Applications mobiles",
-      "description": "Développement professionnel d'applications pour iOS et Android."
-    },
-    "deployment-service": {
-      "icon": "/assets/images/svg-icons/deployment.svg",
-      "title": "Déploiement",
-      "description": "Je mets vos solutions à la disposition de vos utilisateurs finaux."
-    }
+  "resume-page": {
+    "used-technology": "Technologies Que J'utilise",
+    "used-frameworks": "Frameworks Que J'utilise",
+    "tools": "Outils & Plateformes",
+    "spoken": "Langues De Communication",
+    "foreign": "Etrangères",
+    "local": "Locales",
+    "download-cv": "Télécharger Mon CV"
   }
 }
