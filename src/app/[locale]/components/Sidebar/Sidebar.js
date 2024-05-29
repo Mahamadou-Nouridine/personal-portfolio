@@ -1,11 +1,20 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Image } from "react-bootstrap";
 
 const Sidebar = () => {
   const [open, setOpen] = useState(true);
+  const changeOpen = (status) => {
+    localStorage.setItem("show-contact-status", JSON.stringify(status));
+    setOpen(status);
+  };
+
+  useEffect(() => {
+    const storedStatus = localStorage.getItem("show-contact-status") || "true";
+    changeOpen(JSON.parse(storedStatus));
+  }, []);
   const t = useTranslations("sidebar");
   return (
     <aside className={`sidebar ${open ? "active" : ""}`} data-sidebar>
@@ -27,11 +36,15 @@ const Sidebar = () => {
         </div>
 
         <button
-          onClick={() => setOpen(!open)}
+          onClick={() => changeOpen(!open)}
           className="info_more-btn"
           data-sidebar-btn
         >
-          <span>{t("show-contact")}</span>
+          {open ? (
+            <span>{t("hide-contact")}</span>
+          ) : (
+            <span>{t("show-contact")}</span>
+          )}
           {open ? (
             <ion-icon name="chevron-up"></ion-icon>
           ) : (

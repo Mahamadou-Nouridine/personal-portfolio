@@ -8,7 +8,8 @@
     "phone": "TELEPHONE",
     "birthday": "ANIVERSAIRE",
     "location": "EMPLACEMENT",
-    "show-contact": "Afficher Contacts"
+    "show-contact": "Afficher Contacts",
+    "hide-contact": "Cacher Contacts"
   },
 
   "navbar": {

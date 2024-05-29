@@ -8,7 +8,8 @@
     "phone": "PHONE",
     "birthday": "BIRTHDAY",
     "location": "LOCATION",
-    "show-contact": "Show Contacts"
+    "show-contact": "Show Contacts",
+    "hide-contact": "Hide Contacts"
   },
 
   "navbar": {
