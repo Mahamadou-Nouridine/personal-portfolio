@@ -1,8 +1,11 @@
 import React from "react";
-import experiences from "../../data/experiences";
+// import experiences from "../../data/experiences";
+import experiences from "../../data/experiences.json";
 import ExperienceItem from "./ExperienceItem";
+import { useLocale } from "next-intl";
 
 const ExperienceSection = () => {
+  const local = useLocale()
   return (
     <section className="timeline">
       <div className="title-wrapper">
@@ -14,7 +17,7 @@ const ExperienceSection = () => {
       </div>
 
       <ol className="timeline-list p-0">
-        {experiences.map((experience, index) => <ExperienceItem key={index} experience={experience} />)}
+        {experiences[local].map((experience, index) => <ExperienceItem key={index} experience={experience} />)}
       </ol>
     </section>
   );
