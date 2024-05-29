@@ -5,16 +5,22 @@ import React, { useEffect, useState } from "react";
 import { Image } from "react-bootstrap";
 
 const Sidebar = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   const changeOpen = (status) => {
     localStorage.setItem("show-contact-status", JSON.stringify(status));
     setOpen(status);
   };
 
   useEffect(() => {
-    const storedStatus = localStorage.getItem("show-contact-status") || "true";
-    changeOpen(JSON.parse(storedStatus));
+    let storedStatus;
+    if (window.innerWidth >= 1250) {
+      storedStatus = "false";
+    } else {
+      storedStatus = localStorage.getItem("show-contact-status") || "true";
+    }
+    setOpen(JSON.parse(storedStatus));
   }, []);
+
   const t = useTranslations("sidebar");
   return (
     <aside className={`sidebar ${open ? "active" : ""}`} data-sidebar>
