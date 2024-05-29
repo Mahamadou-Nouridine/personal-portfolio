@@ -5,8 +5,8 @@ import React, { useState } from "react";
 import { Image } from "react-bootstrap";
 
 const Sidebar = () => {
-  const [open, setOpen] = useState(false);
-  const t = useTranslations('sidebar')
+  const [open, setOpen] = useState(true);
+  const t = useTranslations("sidebar");
   return (
     <aside className={`sidebar ${open ? "active" : ""}`} data-sidebar>
       <div className="sidebar-info">
@@ -23,7 +23,7 @@ const Sidebar = () => {
             Mahamadou Nouridine
           </h1>
 
-          <p className="title">{t('role')}</p>
+          <p className="title">{t("role")}</p>
         </div>
 
         <button
@@ -31,8 +31,12 @@ const Sidebar = () => {
           className="info_more-btn"
           data-sidebar-btn
         >
-          <span>{t('show-contact')}</span>
-          <ion-icon name="chevron-down"></ion-icon>
+          <span>{t("show-contact")}</span>
+          {open ? (
+            <ion-icon name="chevron-up"></ion-icon>
+          ) : (
+            <ion-icon name="chevron-down"></ion-icon>
+          )}
         </button>
       </div>
 
@@ -63,7 +67,7 @@ const Sidebar = () => {
             </div>
 
             <div className="contact-info">
-              <p className="contact-title">{t('phone')}</p>
+              <p className="contact-title">{t("phone")}</p>
 
               <a href="tel:+22788103073" className="contact-link">
                 +(227) 88103073
@@ -77,7 +81,7 @@ const Sidebar = () => {
             </div>
 
             <div className="contact-info">
-              <p className="contact-title">{t('birthday')}</p>
+              <p className="contact-title">{t("birthday")}</p>
 
               <time dateTime="1982-06-23">December 28</time>
             </div>
@@ -89,7 +93,7 @@ const Sidebar = () => {
             </div>
 
             <div className="contact-info">
-              <p className="contact-title">{t('location')}</p>
+              <p className="contact-title">{t("location")}</p>
 
               <address>Niamey, Niger</address>
             </div>
