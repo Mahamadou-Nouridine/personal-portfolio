@@ -4,10 +4,13 @@ import FilterList from "./FilterList";
 import MobileFilter from "./MobileFilter";
 import PortfolioModal from "./PortfolioModal";
 import PortfolioItem from "./PortfolioItem";
-import projects from "../../data/projects";
-import { useTranslations } from "next-intl";
+import projectsData from "../../data/projects.json";
+// import projects from "../../data/projects";
+import { useLocale, useTranslations } from "next-intl";
 
 const PortfolioSection = () => {
+  const local = useLocale()
+  const projects  = projectsData[local]
   const [show, setShow] = useState(false);
   const handleClose = () => {
     document.body.style.overflow = "unset";

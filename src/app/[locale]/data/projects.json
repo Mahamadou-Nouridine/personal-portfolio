@@ -1,0 +1,383 @@
+{
+  "en": [
+    {
+      "name": "Intra Codeloccol",
+      "date": "Feb 2023",
+      "description": "A learning platform for junior web developpers. It's an all-in-one application in which students (developper) enroll to a module, make progress in the module and keep track of their learning journey",
+      "sourceCode": {
+        "public": false,
+        "link": "",
+        "message": "Belongs to a private school (private)"
+      },
+      "demo": {
+        "public": true,
+        "link": "https://main.d3n2iiglzbx8kh.amplifyapp.com/",
+        "message": "Require student credentials"
+      },
+      "tags": [
+        "Private",
+        "Full-stack",
+        "Javacripts",
+        "Next.js",
+        "Authentication",
+        "Full-stack",
+        "External API",
+        "Express",
+        "MongoDB",
+        "Database",
+        "Web",
+        "Collabration",
+        "AWS",
+        "Professional Experience",
+        "MERN",
+        "Authorization"
+      ],
+      "displayImage": "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697110908/my%20portfolio/0_lewn0g.png",
+      "images": [
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697110908/my%20portfolio/0_lewn0g.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697110919/my%20portfolio/0_hdnlcy.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697110906/my%20portfolio/0_bjoyth.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697110913/my%20portfolio/0_y2uvly.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697110899/my%20portfolio/0_jme7bw.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697110892/my%20portfolio/0_uf1yx1.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697110885/my%20portfolio/0_ditzvm.png"
+      ]
+    },
+
+    {
+      "name": "Codeloccol Website",
+      "date": "Sep 2022",
+      "description": "The Web portal of Codeloccol School, a MERN Full-stack development school in my country.",
+      "sourceCode": {
+        "public": false,
+        "link": "",
+        "message": "The code source is private"
+      },
+      "demo": {
+        "public": true,
+        "link": "https://www.codeloccol.org/",
+        "message": ""
+      },
+      "tags": [
+        "Private",
+        "Full-stack",
+        "Javacripts",
+        "React",
+        "External API",
+        "Express",
+        "Authentication",
+        "MongoDB",
+        "Database",
+        "Web",
+        "Collabration",
+        "Professional Experience",
+        "MERN",
+        "Authorization"
+      ],
+      "displayImage": "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697111967/my%20portfolio/1687703782432_qvovu6.jpg",
+      "images": [
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697111967/my%20portfolio/1687703782432_qvovu6.jpg",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697111978/my%20portfolio/1687703747585_dqfrr4.jpg",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697111973/my%20portfolio/1687703766602_fcezpd.jpg"
+      ]
+    },
+    {
+      "name": "Sahelian Dev Website",
+      "date": "Sep 2022",
+      "description": "Sahelian Dev Website: Empowering Sahelian Startups with Online VisibilityAs a freelance team, we took on the mission of enhancing the online presence and accessibility of Sahelian startups through the creation of the Sahelian Dev Website. This dynamic platform serves as a gateway for users to effortlessly connect with Sahelian Dev's services and engage with them online. The integration of a mailer system streamlines communication, allowing users to easily reach out to Sahelian Dev for inquiries, collaboration opportunities, or support. Behind the scenes, our website boasts a powerful backend that facilitates a feature-rich blog, enabling Sahelian Dev to share valuable insights, updates, and resources with the community.",
+      "sourceCode": {
+        "public": false,
+        "link": "",
+        "message": "The code source is private"
+      },
+      "demo": {
+        "public": true,
+        "link": "https://sahelian-dev.onrender.com",
+        "message": ""
+      },
+      "tags": [
+        "Private",
+        "Full-stack",
+        "Javacripts",
+        "Express",
+        "MongoDB",
+        "Database",
+        "React",
+        "Web",
+        "Collabration",
+        "Professional Experience",
+        "Bootstrap",
+        "MERN",
+        "Authorization"
+      ],
+      "displayImage": "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697723589/my%20portfolio/Capture_d_%C3%A9cran_2023-10-19_132441_hw2q8s.png",
+      "images": [
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697723589/my%20portfolio/Capture_d_%C3%A9cran_2023-10-19_132441_hw2q8s.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697723585/my%20portfolio/Capture_d_%C3%A9cran_2023-10-19_132423_geob7i.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697723585/my%20portfolio/Capture_d_%C3%A9cran_2023-10-19_132355_ie7quh.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697723592/my%20portfolio/Capture_d_%C3%A9cran_2023-10-19_132033_mylbs7.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697723585/my%20portfolio/Capture_d_%C3%A9cran_2023-10-19_132256_nephog.png"
+      ]
+    },
+
+    {
+      "name": "MyTube App",
+      "date": "Jul 2022",
+      "description": "MyTube App is a Youtube like application that uses the Youtube Api povided by google console.",
+      "sourceCode": {
+        "public": true,
+        "link": "https://github.com/Mahamadou-Nouridine/MyTube.git",
+        "message": ""
+      },
+      "demo": {
+        "public": true,
+        "link": "https://mytube-app.onrender.com",
+        "message": ""
+      },
+      "tags": [
+        "Front-end",
+        "Javacripts",
+        "React",
+        "Materialize",
+        "External API",
+        "GPC",
+        "Web",
+        "Training"
+      ],
+      "displayImage": "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697144144/my%20portfolio/Capture_d_%C3%A9cran_2023-10-12_213045_x0pyte.png",
+      "images": [
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697144144/my%20portfolio/Capture_d_%C3%A9cran_2023-10-12_213045_x0pyte.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697144116/my%20portfolio/Capture_d_%C3%A9cran_2023-10-12_212908_g6rw4k.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697144116/my%20portfolio/Capture_d_%C3%A9cran_2023-10-12_212940_wgbdca.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697144141/my%20portfolio/Capture_d_%C3%A9cran_2023-10-12_213126_xf8ngi.png"
+      ]
+    },
+
+    {
+      "name": "Hadj App",
+      "date": "Nov 2022",
+      "description": "Hadj App is desktop cross platform application created using Reactjs and Electron.js. It is an apllication used by hajj agencies to manage their pilgrims and also used by Airlines companies to manage Hajj agencies.",
+      "sourceCode": {
+        "public": true,
+        "link": "https://github.com/Mahamadou-Nouridine/Hadj_App.git",
+        "message": ""
+      },
+      "demo": {
+        "public": false,
+        "link": "",
+        "message": "It's a desktop application"
+      },
+      "tags": [
+        "Front-end",
+        "Javascript",
+        "React",
+        "Authentication",
+        "External API",
+        "Desktop",
+        "Bootstrap",
+        "Authorization",
+        "Training"
+      ],
+      "displayImage": "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228647/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_211900_oeh1ti.png",
+      "images": [
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228647/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_211900_oeh1ti.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228647/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_211729_yych9y.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228646/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_211757_dqo2ea.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228647/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_211820_nbspho.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228645/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_212220_j1rjop.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228646/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_212247_wyzczv.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228649/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_212301_lt0m4q.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228645/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_212323_bdwjj8.png"
+      ]
+    }
+  ],
+  "fr": [
+    {
+      "name": "Intra Codeloccol",
+      "date": "Fév 2023",
+      "description": "Une plateforme d'apprentissage pour les développeurs web juniors. C'est une application tout-en-un où les étudiants (développeurs) s'inscrivent à un module, progressent dans le module et suivent leur parcours d'apprentissage.",
+      "sourceCode": {
+        "public": false,
+        "link": "",
+        "message": "Appartient à une école privée (privé)"
+      },
+      "demo": {
+        "public": true,
+        "link": "https://main.d3n2iiglzbx8kh.amplifyapp.com/",
+        "message": "Nécessite des identifiants d'étudiant"
+      },
+      "tags": [
+        "Privé",
+        "Full-stack",
+        "JavaScript",
+        "Next.js",
+        "Authentification",
+        "Full-stack",
+        "API externe",
+        "Express",
+        "MongoDB",
+        "Base de données",
+        "Web",
+        "Collaboration",
+        "AWS",
+        "Expérience professionnelle",
+        "MERN",
+        "Autorisation"
+      ],
+      "displayImage": "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697110908/my%20portfolio/0_lewn0g.png",
+      "images": [
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697110908/my%20portfolio/0_lewn0g.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697110919/my%20portfolio/0_hdnlcy.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697110906/my%20portfolio/0_bjoyth.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697110913/my%20portfolio/0_y2uvly.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697110899/my%20portfolio/0_jme7bw.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697110892/my%20portfolio/0_uf1yx1.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697110885/my%20portfolio/0_ditzvm.png"
+      ]
+    },
+    {
+      "name": "Site Web de Codeloccol",
+      "date": "Sep 2022",
+      "description": "Le portail Web de l'école Codeloccol, une école de développement Full-stack MERN dans mon pays.",
+      "sourceCode": {
+        "public": false,
+        "link": "",
+        "message": "Le code source est privé"
+      },
+      "demo": {
+        "public": true,
+        "link": "https://www.codeloccol.org/",
+        "message": ""
+      },
+      "tags": [
+        "Privé",
+        "Full-stack",
+        "JavaScript",
+        "React",
+        "API externe",
+        "Express",
+        "Authentification",
+        "MongoDB",
+        "Base de données",
+        "Web",
+        "Collaboration",
+        "Expérience professionnelle",
+        "MERN",
+        "Autorisation"
+      ],
+      "displayImage": "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697111967/my%20portfolio/1687703782432_qvovu6.jpg",
+      "images": [
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697111967/my%20portfolio/1687703782432_qvovu6.jpg",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697111978/my%20portfolio/1687703747585_dqfrr4.jpg",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697111973/my%20portfolio/1687703766602_fcezpd.jpg"
+      ]
+    },
+    {
+      "name": "Site Web Sahelian Dev",
+      "date": "Sep 2022",
+      "description": "Site Web de Sahelian Dev : Autonomiser les startups sahéliennes avec une visibilité en ligne. En tant qu'équipe freelance, nous avons pris la mission d'améliorer la présence en ligne et l'accessibilité des startups sahéliennes grâce à la création du site Web Sahelian Dev. Cette plateforme dynamique sert de passerelle permettant aux utilisateurs de se connecter facilement aux services de Sahelian Dev et d'interagir avec eux en ligne. L'intégration d'un système de messagerie simplifie la communication, permettant aux utilisateurs de contacter facilement Sahelian Dev pour des questions, des opportunités de collaboration ou du support. En coulisses, notre site Web dispose d'un backend puissant qui facilite un blog riche en fonctionnalités, permettant à Sahelian Dev de partager des informations précieuses, des mises à jour et des ressources avec la communauté.",
+      "sourceCode": {
+        "public": false,
+        "link": "",
+        "message": "Le code source est privé"
+      },
+      "demo": {
+        "public": true,
+        "link": "https://sahelian-dev.onrender.com",
+        "message": ""
+      },
+      "tags": [
+        "Privé",
+        "Full-stack",
+        "JavaScript",
+        "Express",
+        "MongoDB",
+        "Base de données",
+        "React",
+        "Web",
+        "Collaboration",
+        "Expérience professionnelle",
+        "Bootstrap",
+        "MERN",
+        "Autorisation"
+      ],
+      "displayImage": "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697723589/my%20portfolio/Capture_d_%C3%A9cran_2023-10-19_132441_hw2q8s.png",
+      "images": [
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697723589/my%20portfolio/Capture_d_%C3%A9cran_2023-10-19_132441_hw2q8s.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697723585/my%20portfolio/Capture_d_%C3%A9cran_2023-10-19_132423_geob7i.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697723585/my%20portfolio/Capture_d_%C3%A9cran_2023-10-19_132355_ie7quh.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697723592/my%20portfolio/Capture_d_%C3%A9cran_2023-10-19_132033_mylbs7.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697723585/my%20portfolio/Capture_d_%C3%A9cran_2023-10-19_132256_nephog.png"
+      ]
+    },
+    {
+      "name": "MyTube App",
+      "date": "Juil 2022",
+      "description": "MyTube App est une application similaire à YouTube qui utilise l'API YouTube fournie par la console Google.",
+      "sourceCode": {
+        "public": true,
+        "link": "https://github.com/Mahamadou-Nouridine/MyTube.git",
+        "message": ""
+      },
+      "demo": {
+        "public": true,
+        "link": "https://mytube-app.onrender.com",
+        "message": ""
+      },
+      "tags": [
+        "Front-end",
+        "JavaScript",
+        "React",
+        "Materialize",
+        "API externe",
+        "GPC",
+        "Web",
+        "Formation"
+      ],
+      "displayImage": "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697144144/my%20portfolio/Capture_d_%C3%A9cran_2023-10-12_213045_x0pyte.png",
+      "images": [
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697144144/my%20portfolio/Capture_d_%C3%A9cran_2023-10-12_213045_x0pyte.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697144116/my%20portfolio/Capture_d_%C3%A9cran_2023-10-12_212908_g6rw4k.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697144116/my%20portfolio/Capture_d_%C3%A9cran_2023-10-12_212940_wgbdca.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697144141/my%20portfolio/Capture_d_%C3%A9cran_2023-10-12_213126_xf8ngi.png"
+      ]
+    },
+    {
+      "name": "Hadj App",
+      "date": "Nov 2022",
+      "description": "Hadj App est une application de bureau multiplateforme créée avec Reactjs et Electron.js. C'est une application utilisée par les agences de hajj pour gérer leurs pèlerins et aussi par les compagnies aériennes pour gérer les agences de hajj.",
+      "sourceCode": {
+        "public": true,
+        "link": "https://github.com/Mahamadou-Nouridine/Hadj_App.git",
+        "message": ""
+      },
+      "demo": {
+        "public": false,
+        "link": "",
+        "message": "C'est une application de bureau"
+      },
+      "tags": [
+        "Front-end",
+        "JavaScript",
+        "React",
+        "Authentification",
+        "API externe",
+        "Bureau",
+        "Bootstrap",
+        "Autorisation",
+        "Formation"
+      ],
+      "displayImage": "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228647/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_211900_oeh1ti.png",
+      "images": [
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228647/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_211900_oeh1ti.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228647/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_211729_yych9y.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228646/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_211757_dqo2ea.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228647/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_211820_nbspho.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228645/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_212220_j1rjop.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228646/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_212247_wyzczv.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228649/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_212301_lt0m4q.png",
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697228645/my%20portfolio/Capture_d_%C3%A9cran_2023-10-13_212323_bdwjj8.png"
+      ]
+    }
+  ]
+}
