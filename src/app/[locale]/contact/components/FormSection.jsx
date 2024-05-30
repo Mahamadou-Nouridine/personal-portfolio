@@ -1,10 +1,12 @@
 "use client";
 
 import axios from "axios";
+import { useTranslations } from "next-intl";
 import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 
 const FormSection = () => {
+  const t = useTranslations("contact-page")
   const initial = {
     fullName: "",
     email: "",
@@ -37,7 +39,7 @@ const FormSection = () => {
   };
   return (
     <section className="contact-form">
-      <h3 className="h3 form-title">Contact Form</h3>
+      <h3 className="h3 form-title">{t("form")}</h3>
 
       <form
         onSubmit={(e) => {
@@ -45,14 +47,14 @@ const FormSection = () => {
           toast.promise(submit(), {
             pending: {
               render() {
-                return "The message is being sent, wait a moment!";
+                return t('send-pending');
               },
             },
-            success: "The message is sent successfully, please check your email address.",
+            success: t('send-success'),
             error: {
               render({ data }) {
                 // When the promise reject, data will contains the error
-                return data.message;
+                return t('send-error');
               },
             },
           });
@@ -66,9 +68,9 @@ const FormSection = () => {
             value={formData.fullName}
             onChange={(e) => changeTrack("fullName", e.target.value)}
             type="text"
-            name="fullname"
+            name={t('full-name')}
             className="form-input"
-            placeholder="Full name"
+            placeholder={t('full-name')}
             required
             data-form-input
           />
@@ -79,7 +81,7 @@ const FormSection = () => {
             type="email"
             name="email"
             className="form-input"
-            placeholder="Email address"
+            placeholder={t("email")}
             required
             data-form-input
           />
@@ -90,13 +92,13 @@ const FormSection = () => {
           onChange={(e) => changeTrack("message", e.target.value)}
           name="message"
           className="form-input"
-          placeholder="Your Message"
+          placeholder={t('message')}
           required
           data-form-input
         ></textarea>
         <button className="form-btn" type="submit" data-form-btn>
           <ion-icon name="paper-plane"></ion-icon>
-          <span>Send Message</span>
+          <span>{t('send')}</span>
         </button>
       </form>
     </section>

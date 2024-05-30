@@ -46,5 +46,16 @@
 
   "blog-page": {
     "soon": "Coming soon!!"
+  },
+
+  "contact-page": {
+    "form": "Contact Form",
+    "full-name": "Full Name",
+    "email": "Email-Address",
+    "message": "Your Message",
+    "send": "Send Message",
+    "send-pending": "The message is being sent, wait a moment!",
+    "send-success": "The message is sent successfully, please check your email address.",
+    "send-error": "An Error Occured while sendind the Message. \nYou can send me an email via mahamadounouridinem@gmail.com"
   }
 }
