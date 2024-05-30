@@ -4,7 +4,7 @@
 
 .navbar {
   position: fixed;
-  top:24px;
+  top:0;
   left: 0;
   width: 100%;
   background: hsla(240, 1%, 17%, 0.75);

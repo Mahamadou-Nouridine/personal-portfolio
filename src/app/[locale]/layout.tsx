@@ -9,7 +9,7 @@ import "flag-icons/css/flag-icons.min.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 
-import {LanguageNotice} from "./components/DevelopmentNotice"
+import { LanguageNotice } from "./components/DevelopmentNotice";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -45,7 +45,7 @@ export default async function RootLayout({
         />
       </head>
       <body className={inter.className}>
-           <LanguageNotice />
+        {/* <LanguageNotice /> */}
         <NextIntlClientProvider messages={messages}>
           {/* <DevelopmentNotice /> */}
           <ToastContainer />
