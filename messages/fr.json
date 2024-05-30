@@ -36,5 +36,11 @@
     "foreign": "Etrangères",
     "local": "Locales",
     "download-cv": "Télécharger Mon CV"
+  },
+
+  "portfolio-page": {
+    "filter-tags": "FILTRER AVEC LES MOTS CLES",
+    "tags": "MOTS CLES",
+    "close-modal": "Fermer"
   }
 }

@@ -36,5 +36,11 @@
     "foreign": "Foreign",
     "local": "local",
     "download-cv": "Download My CV"
+  },
+
+  "portfolio-page": {
+    "filter-tags": "FILTER WITH TAGS",
+    "tags": "TAGS",
+    "close-modal": "Close"
   }
 }

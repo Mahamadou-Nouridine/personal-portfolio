@@ -5,6 +5,7 @@ import MobileFilter from "./MobileFilter";
 import PortfolioModal from "./PortfolioModal";
 import PortfolioItem from "./PortfolioItem";
 import projects from "../../data/projects";
+import { useTranslations } from "next-intl";
 
 const PortfolioSection = () => {
   const [show, setShow] = useState(false);
@@ -24,10 +25,11 @@ const PortfolioSection = () => {
     : projects.filter((project) => {
         return project.tags.includes(selectedTag);
       });
+      const t = useTranslations('portfolio-page')
   return (
     <>
       <section className="projects">
-        <p className="contact-title">Filter with tags</p>
+        <p className="contact-title">{t("filter-tags")}</p>
         <FilterList selected={selectedTag} selectTag={selectTag} tags={tags} />
 
         <MobileFilter

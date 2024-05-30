@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Badge, Button } from "react-bootstrap";
 import ImageCaroussel from "./ImageCaroussel";
 import { BiCodeAlt, BiLinkExternal } from "react-icons/bi";
+import { useTranslations } from "next-intl";
 
 const PortfolioModal = ({ show, handleClose, project }) => {
   const [messageShow, showMessage] = useState(false);
@@ -15,6 +16,7 @@ const PortfolioModal = ({ show, handleClose, project }) => {
     setMessage("");
     showMessage(false);
   };
+  const t = useTranslations("portfolio-page");
   return project ? (
     <div
       className={`modal-container ${show ? "active" : ""}`}
@@ -23,7 +25,6 @@ const PortfolioModal = ({ show, handleClose, project }) => {
       <div className={`overlay ${show ? "active" : ""}`} data-overlay></div>
 
       <section className="portfolio-modal">
-
         <div className="portfolio-modal-img-wrapper" style={{ width: "100%" }}>
           <figure className="portfolio-image-box" style={{ width: "100%" }}>
             <ImageCaroussel images={project.images} />
@@ -111,7 +112,7 @@ const PortfolioModal = ({ show, handleClose, project }) => {
             variant=""
             data-modal-close-btn
           >
-            Close
+          {t('close-modal')}
           </Button>
         </div>
       </section>
