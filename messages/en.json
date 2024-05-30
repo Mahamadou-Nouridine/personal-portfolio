@@ -42,5 +42,9 @@
     "filter-tags": "FILTER WITH TAGS",
     "tags": "TAGS",
     "close-modal": "Close"
+  },
+
+  "blog-page": {
+    "soon": "Coming soon!!"
   }
 }

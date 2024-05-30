@@ -1,10 +1,12 @@
+import { useTranslations } from "next-intl";
 import React from "react";
 
 export const metadata = {
   title: "Nouridine | Blog",
 };
 
-const blog = () => {
+const Page = () => {
+  const t = useTranslations("blog-page")
   return (
     <>
       <article className="blog" data-page="blog">
@@ -14,10 +16,10 @@ const blog = () => {
           </h2>
         </header>
 
-        <p className="text-white text-xl-center">Coming soon!</p>
+        <p className="text-white text-xl-center">{t('soon')}</p>
       </article>
     </>
   );
 };
 
-export default blog;
+export default Page;

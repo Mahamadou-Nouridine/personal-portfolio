@@ -42,5 +42,9 @@
     "filter-tags": "FILTRER AVEC LES MOTS CLES",
     "tags": "MOTS CLES",
     "close-modal": "Fermer"
+  },
+
+  "blog-page": {
+    "soon": "Arrive Bientôt!"
   }
 }
