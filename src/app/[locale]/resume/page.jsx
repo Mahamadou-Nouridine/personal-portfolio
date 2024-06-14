@@ -25,7 +25,7 @@ const Resume = () => {
 
       <CertificationsSection />
       <div className="w-100 mt-5">
-        <a target="_blank" href="https://docs.google.com/document/d/19pH6CyMqmcBV4hDpf_U8NPw2-vR_ZkFSXwu3dD6pcSA/edit?usp=sharing">
+        <a target="_blank" href="/assets/nouridine-cv.pdf">
           <button className="form-btn m-auto" type="submit" data-form-btn>
             <ion-icon name="paper-plane"></ion-icon>
             <span>{useTranslations("resume-page")('download-cv')}</span>
