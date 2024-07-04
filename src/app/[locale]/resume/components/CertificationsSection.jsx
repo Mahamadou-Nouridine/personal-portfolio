@@ -11,7 +11,7 @@ const CertificationsSection = () => {
         {certifications.map((certification, index) => (
           <li key={index} className="clients-item">
             <a href={certification.link} className="text-center">
-              <Image src={certification.image} alt={certification.name} />
+              <Image height={170} src={certification.image} alt={certification.name} />
             </a>
             <h4 className="h4 text-center notranslate" data-testimonials-title>
               {certification.name}

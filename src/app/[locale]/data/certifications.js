@@ -1,6 +1,14 @@
 const certifications = [
   {
-    name: "Full-stack",
+    name: "Software Engineer",
+    description:
+      "Spent 2600+ hours Learning MERN full-stack development using pair programming.",
+    link: "https://www.testdome.com/certificates/05bb28e8f978414e86d83790d36d65e0",
+    issuer: "TestDome",
+    image: "/assets/certifications/software-engeneering.png",
+  },
+  {
+    name: "Full-stack Developer",
     description:
       "Spent 2600+ hours Learning MERN full-stack development using pair programming.",
     link: "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697498320/my%20portfolio/ATTESTATION_DE_REUSSITE_Dino_hrzpkk.pdf",
@@ -8,7 +16,7 @@ const certifications = [
     image: "/assets/certifications/fullstack-codeloccol.png",
   },
   {
-    name: "Full-stack",
+    name: "Full-stack Developer",
     description:
       "Students earn this credential after working through 1500+ hours of remote pair programming, learning to code with teams from around the world.",
     link: "https://www.credential.net/5da5c1ce-254c-446c-b303-b9db42043118#gs.7177av",
