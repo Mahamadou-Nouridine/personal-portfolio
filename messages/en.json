@@ -57,5 +57,8 @@
     "send-pending": "The message is being sent, wait a moment!",
     "send-success": "The message is sent successfully, please check your email address.",
     "send-error": "An Error Occured while sendind the Message. \nYou can send me an email via mahamadounouridinem@gmail.com"
+  },
+  "resume": {
+    "name": "nouridine-cv.pdf"
   }
 }

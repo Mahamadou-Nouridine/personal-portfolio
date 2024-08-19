@@ -57,6 +57,10 @@
     "send-pending": "Le message est en cours d'envoi, veuillez patienter un moment !",
     "send-success": "Le message a été envoyé avec succès, veuillez vérifier votre adresse e-mail.",
     "send-error": "Une erreur s'est produite lors de l'envoi du message. \nVous pouvez m'envoyer un e-mail à mahamadounouridinem@gmail.com"
+  },
+
+  "resume": {
+    "name": "nouridine-cv-fr.pdf"
   }
 
 }
