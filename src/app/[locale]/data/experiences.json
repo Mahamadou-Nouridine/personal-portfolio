@@ -1,43 +1,63 @@
 {
   "en": [
     {
-      "name": "[Volunteer] Mentorship of junior developer (Microverse)",
-      "from": "Apr 2023",
-      "to": "Nov 2023",
-      "description": "Mentored two junior web developers every week, and provide technical support through code reviews; proposed improvements to code organization to improve code quality and overall performance, provided advice and tips on how to maintain motivation to maintain longevity in the program."
+        "name": "Full-stack Developer (Codeloccol)",
+        "from": "July 2022",
+        "to": "March 2023",
+        "description": "We successfully built and deployed three software systems for managing the school admission process, curriculum management, and a student activity monitoring bot on Discord."
     },
     {
-      "name": "Finalist of UNESCO-INDIA-AFRICA hackaton.",
-      "from": "Nov 2022",
-      "to": "Dec 2022",
-      "description": "I Participated to an inovation Hackaton name \"UNESCO INDIA AFRICA HACKATON (UIAH)\" that took place in India. My team and I built a AI based web plateform that predict the energy intensity of a given area on the map. \nWe used Google earth to gather data such as DNs of countries Night time light. I was The one who worked on the scripts written in python to automate data gathering for cities and worked as well on some parts of the application's front-end. \nIt was an exceptional experience for me because it was my first time to collaboate with people from different cultures and also I learned a lot technically."
+        "name": "Software Engineer (Freelance) (Kano VTC)",
+        "from": "October 2023",
+        "to": "May 2024",
+        "description": "We successfully built a VTC Taxi system for a client. The system includes two mobile applications and a web back-office, integrating several AWS services and Stripe for payment processing."
     },
     {
-      "name": "Full-stack Developer (Codeloccol)",
-      "from": "Jul 2022",
-      "to": "Mar 2023",
-      "description": "My coding partner and I built several platforms to support junior web developers.\n\nOne is the Intranet Codeloccol, an intranet learning platform that helps junior developers improve their skills. We used MongoDB, Express, Next.js, and Node.js for this project.\n\nAnother is the Piscine Codeloccol, an online platform for selecting junior web developers. It includes modules, progress tracking, and review feedback, built with the same tech stack.\n\nAdditionally, we created a Discord bot to monitor student activities and gather selection data."
+        "name": "MERN Full-stack Developer Student Mentor (Volunteer) (Codeloccol)",
+        "from": "January 2023",
+        "to": "Present",
+        "description": "Mentoring students in the MERN Full-stack development curriculum by providing guidance through the program and sharing experiences on common mistakes to avoid."
+    },
+    {
+        "name": "Mentorship of Junior Developer (Volunteer) (Microverse)",
+        "from": "April 2023",
+        "to": "March 2024",
+        "description": "Mentored two junior web developers weekly, provided technical support through code reviews, proposed improvements to code organization to enhance quality and performance, and offered advice on maintaining motivation throughout the program."
+    },
+    {
+        "name": "Finalist at UNESCO-India-Africa Hackathon",
+        "from": "November 2022",
+        "to": "December 2022",
+        "description": "Participated in the UNESCO India Africa Hackathon 2022, where we built an AI-powered web platform to predict the energy intensity of a given area using satellite imagery. I wrote Python scripts to automate data collection and contributed to the front-end development of the application. This experience was my first collaboration with people from diverse cultures, and it was both technically and personally enriching."
     }
-  ],
+]
+,
 
   "fr": [
     {
-      "name": "[Bénévole] Mentorat de développeur junior (Microverse)",
-      "from": "Avril 2023",
-      "to": "Nov 2023",
-      "description": "Encadré deux développeurs web juniors chaque semaine, fourni un support technique par le biais de revues de code; proposé des améliorations à l'organisation du code pour améliorer la qualité du code et la performance globale, fourni des conseils et des astuces sur la manière de maintenir la motivation pour maintenir la longévité dans le programme."
+        "name": "Développeur Full-stack (Codeloccol)",
+        "from": "Juillet 2022",
+        "to": "Mars 2023",
+        "description": "Nous avons construit et déployé avec succès 3 systèmes logiciels pour gérer le processus d'admission à l'école, la gestion des programmes et un bot de surveillance des activités des étudiants sur Discord."
     },
     {
-      "name": "Finaliste du hackathon UNESCO-INDE-AFRIQUE.",
-      "from": "Novembre 2022",
-      "to": "Décembre 2022",
-      "description": "J'ai participé à un hackathon d'innovation appelé \"UNESCO INDIA AFRICA HACKATHON (UIAH)\" qui a eu lieu en Inde. Mon équipe et moi avons construit une plateforme web basée sur l'IA qui prédit l'intensité énergétique d'une zone donnée sur la carte. \nNous avons utilisé Google Earth pour recueillir des données telles que les lumières nocturnes des pays. J'étais celui qui a travaillé sur les scripts écrits en Python pour automatiser la collecte de données pour les villes et j'ai également travaillé sur certaines parties du front-end de l'application. \nCe fut une expérience exceptionnelle pour moi car c'était la première fois que je collaborais avec des personnes de différentes cultures et j'ai également beaucoup appris techniquement."
+        "name": "Ingénieur logiciel (Freelance) (Kano VTC)",
+        "from": "Octobre 2023",
+        "to": "Mai 2024",
+        "description": "Nous avons construit avec succès un système de gestion de taxi VTC pour un client. Le système dispose de deux clients mobiles (applications) et d'un back-office Web, intégrant plusieurs services AWS et une intégration Stripe."
     },
     {
-      "name": "Développeur Full-stack (Codeloccol)",
-      "from": "Juillet 2022",
-      "to": "Mars 2023",
-      "description": "Mon partenaire de codage et moi avons construit plusieurs plateformes pour soutenir les développeurs web juniors.\n\nL'une d'elles est l'Intranet Codeloccol, une plateforme d'apprentissage intranet qui aide les développeurs juniors à améliorer leurs compétences. Nous avons utilisé MongoDB, Express, Next.js et Node.js pour ce projet.\n\nUne autre est la Piscine Codeloccol, une plateforme en ligne pour sélectionner des développeurs web juniors. Elle comprend des modules, le suivi des progrès et des retours d'évaluation, construite avec la même pile technologique.\n\nDe plus, nous avons créé un bot Discord pour surveiller les activités des étudiants et collecter des données de sélection."
+        "name": "[Bénévole] Mentorat de développeur junior (Microverse)",
+        "from": "Avril 2023",
+        "to": "Mars 2024",
+        "description": "J'ai encadré deux développeurs Web juniors chaque semaine, fourni un soutien technique par le biais de revues de code, proposé des améliorations à l'organisation du code pour améliorer la qualité et la performance globale, et donné des conseils pour maintenir la motivation tout au long du programme."
+    },
+    {
+        "name": "Finaliste du hackathon UNESCO-INDE-AFRIQUE",
+        "from": "Novembre 2022",
+        "to": "Décembre 2022",
+        "description": "J'ai participé au \"UNESCO INDIA AFRICA HACKATHON (UIAH)\" en Inde, où nous avons construit une plateforme web basée sur l'IA pour prédire l'intensité énergétique d'une zone. J'ai travaillé sur les scripts Python pour automatiser la collecte de données et contribué au front-end de l'application. C'était ma première expérience de collaboration interculturelle, enrichissante à la fois techniquement et personnellement."
     }
-  ]
+]
+
 }
