@@ -61,6 +61,10 @@
 
   "resume": {
     "name": "nouridine-cv-fr.pdf"
+  },
+
+  "cv-version": {
+    "text": "Change the languange to get it in english"
   }
 
 }

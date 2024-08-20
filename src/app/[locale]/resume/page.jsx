@@ -31,6 +31,9 @@ const Resume = () => {
             <span>{useTranslations("resume-page")('download-cv')}</span>
           </button>
         </a>
+        <p  className="text-center" style={{color: "rgba(255, 219, 112, 0.6)", fontSize: 13}}>
+          {useTranslations('cv-version')('text')}
+        </p>
       </div>
     </article>
   );

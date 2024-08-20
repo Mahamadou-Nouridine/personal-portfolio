@@ -60,5 +60,9 @@
   },
   "resume": {
     "name": "nouridine-cv.pdf"
+  },
+
+  "cv-version": {
+    "text": "Change la langue pour l'avoir en Français"
   }
 }
