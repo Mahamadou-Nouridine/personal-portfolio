@@ -17,9 +17,9 @@ const Resume = () => {
         <h2 className="h2 article-title">{t("resume")}</h2>
       </header>
 
-      <EducationSection />
-
       <ExpericeSection />
+
+      <EducationSection />
 
       <SkillsSection />
 
