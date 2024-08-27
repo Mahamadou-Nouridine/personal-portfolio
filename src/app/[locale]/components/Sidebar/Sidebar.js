@@ -38,6 +38,10 @@ const Sidebar = () => {
             Mahamadou Nouridine
           </h1>
 
+          <div className="status">
+            <span className="status-blink"></span>
+            <span>Open to Work</span>
+          </div>
           <p className="title">{t("role")}</p>
         </div>
 

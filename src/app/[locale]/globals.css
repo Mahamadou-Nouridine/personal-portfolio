@@ -52,6 +52,7 @@
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
+  --status-blue: rgb(18, 18, 255);
 
   /**
    * typography
@@ -416,6 +417,28 @@ main {
   width: max-content;
   padding: 3px 12px;
   border-radius: 8px;
+}
+
+.info-content .status {
+  border: var(--onyx) 1px solid;
+  color: var(--white-1);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+  width: max-content;
+  padding: 3px 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.info-content .status-blink {
+  background: green;
+  font-size: var(--fs-8);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
 }
 
 .info_more-btn {
@@ -1611,6 +1634,11 @@ textarea.form-input::-webkit-resizer {
     padding: 5px 18px;
   }
 
+  .info-content .status {
+    padding: 5px 18px;
+    margin-bottom: 5px;
+  }
+
   .info_more-btn {
     top: -30px;
     right: -30px;
@@ -2140,6 +2168,11 @@ textarea.form-input::-webkit-resizer {
 
   .info-content .title {
     margin: auto;
+  }
+
+  .info-content .status {
+    margin: auto;
+    margin-bottom: 5px;
   }
 
   .tag {
