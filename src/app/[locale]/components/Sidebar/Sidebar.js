@@ -40,7 +40,7 @@ const Sidebar = () => {
 
           <div className="status">
             <span className="status-blink"></span>
-            <span>Open to Work</span>
+            <span>{t("work-status")}</span>
           </div>
           <p className="title">{t("role")}</p>
         </div>

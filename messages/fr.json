@@ -9,7 +9,8 @@
     "birthday": "ANIVERSAIRE",
     "location": "EMPLACEMENT",
     "show-contact": "Afficher Contacts",
-    "hide-contact": "Cacher Contacts"
+    "hide-contact": "Cacher Contacts",
+    "work-status":  "Ouvert au travail"
   },
 
   "navbar": {

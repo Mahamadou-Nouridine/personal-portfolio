@@ -9,7 +9,8 @@
     "birthday": "BIRTHDAY",
     "location": "LOCATION",
     "show-contact": "Show Contacts",
-    "hide-contact": "Hide Contacts"
+    "hide-contact": "Hide Contacts",
+    "work-status":  "Open to work"
   },
 
   "navbar": {
