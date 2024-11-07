@@ -1,42 +1,42 @@
 {
   "en": [
     {
-      "name": "Microverse",
-      "from": "Mar 2023",
-      "to": "Mar 2024",
-      "description": "One year of learning, collaborating, and working on interesting projects.  At microverse, remote working and collaboration are the central activities, and that makes that at the end of the curriculum we are good at remote working and collaboration. On top of that is the software development skill that we develop after one year of practice."
+      "name": "MICROVERSE",
+      "from": "March 2023",
+      "to": "March 2024",
+      "description": "Remote Full Stack Web Development Program, Full Time. Spent 1300+ hours mastering algorithms, data structures, and full-stack development using Ruby, Rails, JavaScript, React, and Redux. Gained experience in remote pair-programming with GitHub, using industry-standard gitflow and daily standups to collaborate with international developers."
     },
     {
-      "name": "Codeloccol",
+      "name": "CODELOCCOL",
       "from": "Jan 2022",
       "to": "Jan 2023",
-      "description": "Spent 2600+ hours Learning MERN full-stack development using pair programming."
+      "description": "Full Stack Developer, Full Time. Mastered MERN full-stack development. Participated in an international hackathon, creating an AI-based web solution using satellite imagery."
     },
     {
-      "name": "Université Tunisienne International",
-      "from": "Feb 2019",
+      "name": "Université Tunisienne Internationale du Niger",
+      "from": "Jan 2020",
       "to": "Jan 2022",
-      "description": "Learned computer science, Math and physics."
+      "description": "MPSI Scientific Preparatory Class Certificate, Full Time. Studied mathematics, physics, and computer science."
     }
   ],
   "fr": [
     {
-      "name": "Microverse",
+      "name": "MICROVERSE",
       "from": "Mars 2023",
       "to": "Mars 2024",
-      "description": "Une année d'apprentissage, de collaboration et de travail sur des projets intéressants. Chez Microverse, le travail à distance et la collaboration sont les activités centrales, ce qui fait qu'à la fin du programme, nous sommes compétents en travail à distance et en collaboration. En plus de cela, nous développons des compétences en développement logiciel après une année de pratique."
+      "description": "Programme de développement Full Stack Web à distance, à temps plein. Plus de 1300 heures consacrées à la maîtrise des algorithmes, des structures de données et du développement full-stack en utilisant Ruby, Rails, JavaScript, React et Redux. Expérience en programmation pair-à-pair à distance avec GitHub, en utilisant le gitflow standard de l'industrie et des standups quotidiens pour collaborer avec des développeurs internationaux."
     },
     {
-      "name": "Codeloccol",
+      "name": "CODELOCCOL",
       "from": "Janvier 2022",
       "to": "Janvier 2023",
-      "description": "Plus de 2600 heures à apprendre le développement full-stack MERN en peer to peer programming (programmation peer to peer)."
+      "description": "Développeur Full Stack, à temps plein. Maîtrise du développement MERN full-stack. Participation à un hackathon international, création d'une solution web basée sur l'IA utilisant des images satellites."
     },
     {
-      "name": "Université Tunisienne Internationale",
-      "from": "Février 2019",
+      "name": "Université Tunisienne Internationale du Niger",
+      "from": "Janvier 2020",
       "to": "Janvier 2022",
-      "description": "J'ai Etudié l'informatique, les mathématiques et la physique."
+      "description": "Certificat de classe préparatoire scientifique MPSI, à temps plein. Études en mathématiques, physique et informatique."
     }
   ]
 }

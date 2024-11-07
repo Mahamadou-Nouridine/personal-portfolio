@@ -1,63 +1,66 @@
 {
-  "en": [
-    {
-        "name": "Full-stack Developer (Codeloccol)",
+    "en": [
+      {
+        "name": "Software Engineer (LIDAN, Niamey, Niger)",
+        "from": "October 2024",
+        "to": "Present",
+        "description": "Architected and designed a Criminal Record Issuing system, significantly reducing processing time. Developed features that enhanced system functionality, demonstrating advanced problem-solving skills."
+      },
+      {
+        "name": "Software Engineer, Mentor (Kano VTC, remote)",
+        "from": "February 2024",
+        "to": "May 2024",
+        "description": "Developed a VTC taxi management system with mobile clients and a web back-office. Integrated AWS services and Stripe for seamless payment processing."
+      },
+      {
+        "name": "Software Engineer (LEGALTECH-PRIORITIES, Niamey, Niger)",
+        "from": "December 2023",
+        "to": "February 2024",
+        "description": "Developed a Legaltech application to replace paper-based case management, improving efficiency for lawyers. Facilitated online weekly meetings with increased transparency and better collaboration."
+      },
+      {
+        "name": "Mentor (Volunteer) (MICROVERSE, Remote)",
+        "from": "April 2023",
+        "to": "December 2023",
+        "description": "Mentored 2 junior developers, providing code reviews and long-term motivation guidance. Proposed code organization improvements to boost quality and performance."
+      },
+      {
+        "name": "Full Stack Developer (CODELOCCOL, Niamey, Niger)",
         "from": "July 2022",
         "to": "March 2023",
-        "description": "We successfully built and deployed three software systems for managing the school admission process, curriculum management, and a student activity monitoring bot on Discord."
-    },
-    {
-        "name": "Software Engineer (Freelance) (Kano VTC)",
-        "from": "October 2023",
-        "to": "May 2024",
-        "description": "We successfully built a VTC Taxi system for a client. The system includes two mobile applications and a web back-office, integrating several AWS services and Stripe for payment processing."
-    },
-    {
-        "name": "MERN Full-stack Developer Student Mentor (Volunteer) (Codeloccol)",
-        "from": "January 2023",
-        "to": "Present",
-        "description": "Mentoring students in the MERN Full-stack development curriculum by providing guidance through the program and sharing experiences on common mistakes to avoid."
-    },
-    {
-        "name": "Mentorship of Junior Developer (Volunteer) (Microverse)",
-        "from": "April 2023",
-        "to": "March 2024",
-        "description": "Mentored two junior web developers weekly, provided technical support through code reviews, proposed improvements to code organization to enhance quality and performance, and offered advice on maintaining motivation throughout the program."
-    },
-    {
-        "name": "Finalist at UNESCO-India-Africa Hackathon",
-        "from": "November 2022",
-        "to": "December 2022",
-        "description": "Participated in the UNESCO India Africa Hackathon 2022, where we built an AI-powered web platform to predict the energy intensity of a given area using satellite imagery. I wrote Python scripts to automate data collection and contributed to the front-end development of the application. This experience was my first collaboration with people from diverse cultures, and it was both technically and personally enriching."
-    }
-]
-,
-
-  "fr": [
-    {
-        "name": "Développeur Full-stack (Codeloccol)",
+        "description": "Developed three software systems for school admissions, program management, and student activity monitoring on Discord. Mentored students in the MERN full-stack development program, providing guidance and sharing experiences."
+      }
+    ],
+    "fr": [
+      {
+        "name": "Ingénieur logiciel (LIDAN, Niamey, Niger)",
+        "from": "Octobre 2024",
+        "to": "Présent",
+        "description": "Conçu et architecturé un système d'émission de casiers judiciaires, réduisant considérablement le temps de traitement. Développé des fonctionnalités qui ont amélioré la fonctionnalité du système, démontrant des compétences avancées en résolution de problèmes."
+      },
+      {
+        "name": "Ingénieur logiciel, Mentor (Kano VTC, à distance)",
+        "from": "Février 2024",
+        "to": "Mai 2024",
+        "description": "Développé un système de gestion de taxi VTC avec des applications mobiles et un back-office Web. Intégré des services AWS et Stripe pour un traitement de paiement sans faille."
+      },
+      {
+        "name": "Ingénieur logiciel (LEGALTECH-PRIORITIES, Niamey, Niger)",
+        "from": "Décembre 2023",
+        "to": "Février 2024",
+        "description": "Développé une application Legaltech pour remplacer la gestion des dossiers sur papier, améliorant ainsi l'efficacité des avocats. Facilitée des réunions hebdomadaires en ligne avec une plus grande transparence et une meilleure collaboration."
+      },
+      {
+        "name": "Mentor (Bénévole) (MICROVERSE, à distance)",
+        "from": "Avril 2023",
+        "to": "Décembre 2023",
+        "description": "J'ai encadré 2 développeurs juniors, en fournissant des revues de code et des conseils pour maintenir la motivation à long terme. Proposé des améliorations de l'organisation du code pour améliorer la qualité et la performance."
+      },
+      {
+        "name": "Développeur Full Stack (CODELOCCOL, Niamey, Niger)",
         "from": "Juillet 2022",
         "to": "Mars 2023",
-        "description": "Nous avons construit et déployé avec succès 3 systèmes logiciels pour gérer le processus d'admission à l'école, la gestion des programmes et un bot de surveillance des activités des étudiants sur Discord."
-    },
-    {
-        "name": "Ingénieur logiciel (Freelance) (Kano VTC)",
-        "from": "Octobre 2023",
-        "to": "Mai 2024",
-        "description": "Nous avons construit avec succès un système de gestion de taxi VTC pour un client. Le système dispose de deux clients mobiles (applications) et d'un back-office Web, intégrant plusieurs services AWS et une intégration Stripe."
-    },
-    {
-        "name": "[Bénévole] Mentorat de développeur junior (Microverse)",
-        "from": "Avril 2023",
-        "to": "Mars 2024",
-        "description": "J'ai encadré deux développeurs Web juniors chaque semaine, fourni un soutien technique par le biais de revues de code, proposé des améliorations à l'organisation du code pour améliorer la qualité et la performance globale, et donné des conseils pour maintenir la motivation tout au long du programme."
-    },
-    {
-        "name": "Finaliste du hackathon UNESCO-INDE-AFRIQUE",
-        "from": "Novembre 2022",
-        "to": "Décembre 2022",
-        "description": "J'ai participé au \"UNESCO INDIA AFRICA HACKATHON (UIAH)\" en Inde, où nous avons construit une plateforme web basée sur l'IA pour prédire l'intensité énergétique d'une zone. J'ai travaillé sur les scripts Python pour automatiser la collecte de données et contribué au front-end de l'application. C'était ma première expérience de collaboration interculturelle, enrichissante à la fois techniquement et personnellement."
-    }
-]
-
-}
+        "description": "Développé trois systèmes logiciels pour l'admission scolaire, la gestion des programmes et la surveillance des activités des étudiants sur Discord. Mentorat d'étudiants dans le programme de développement MERN, en fournissant des orientations et en partageant des expériences."
+      }
+    ]
+  }
