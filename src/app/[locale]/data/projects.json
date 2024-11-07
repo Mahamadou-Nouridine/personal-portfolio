@@ -1,6 +1,43 @@
 {
   "en": [
     {
+      "name": "My Portfolio",
+      "date": "Sep 2023",
+      "description": "A website for showcasing my skills, accomplishments and all the information a recruiter, collaborator needs about me.",
+      "sourceCode": {
+        "public": true,
+        "link": "https://github.com/Mahamadou-Nouridine/personal-portfolio",
+        "message": "https://github.com/Mahamadou-Nouridine/personal-portfolio"
+      },
+      "demo": {
+        "public": true,
+        "link": "https://nouridine.vercel.app",
+        "message": "https://nouridine.vercel.app"
+      },
+      "tags": [
+        "Full-stack",
+        "Javacripts",
+        "Next.js",
+        "Full-stack",
+        "External API",
+        "Express",
+        "MongoDB",
+        "Database",
+        "Web",
+        "MERN"
+      ],
+      "displayImage": "/assets/images/projects/portfolio/portfolio1.png",
+      "images": [
+        "/assets/images/projects/portfolio/portfolio1.png",
+        "/assets/images/projects/portfolio/portfolio2.png",
+        "/assets/images/projects/portfolio/portfolio3.png",
+        "/assets/images/projects/portfolio/portfolio4.png",
+        "/assets/images/projects/portfolio/portfolio5.png",
+        "/assets/images/projects/portfolio/portfolio6.png"
+      ]
+    },
+
+    {
       "name": "Intra Codeloccol",
       "date": "Feb 2023",
       "description": "A learning platform for junior web developpers. It's an all-in-one application in which students (developper) enroll to a module, make progress in the module and keep track of their learning journey",
@@ -192,6 +229,43 @@
     }
   ],
   "fr": [
+    {
+      "name": "Mon Portfolio",
+      "date": "Sep 2023",
+      "description": "Un site web pour présenter mes compétences, réalisations et toutes les informations dont un recruteur ou un collaborateur a besoin à mon sujet.",
+      "sourceCode": {
+        "public": true,
+        "link": "https://github.com/Mahamadou-Nouridine/personal-portfolio",
+        "message": "https://github.com/Mahamadou-Nouridine/personal-portfolio"
+      },
+      "demo": {
+        "public": true,
+        "link": "https://nouridine.vercel.app",
+        "message": "https://nouridine.vercel.app"
+      },
+      "tags": [
+        "Full-stack",
+        "JavaScript",
+        "Next.js",
+        "Full-stack",
+        "API externe",
+        "Express",
+        "MongoDB",
+        "Base de données",
+        "Web",
+        "MERN"
+      ],
+      "displayImage": "/assets/images/projects/portfolio/portfolio1.png",
+      "images": [
+        "/assets/images/projects/portfolio/portfolio1.png",
+        "/assets/images/projects/portfolio/portfolio2.png",
+        "/assets/images/projects/portfolio/portfolio3.png",
+        "/assets/images/projects/portfolio/portfolio4.png",
+        "/assets/images/projects/portfolio/portfolio5.png",
+        "/assets/images/projects/portfolio/portfolio6.png"
+      ]
+    },
+
     {
       "name": "Intra Codeloccol",
       "date": "Fév 2023",
