@@ -19,6 +19,7 @@
     "flag-icons": "^7.2.2",
     "next": "13.5.2",
     "next-intl": "^3.14.1",
+    "nextjs-toploader": "^3.9.17",
     "nodejs-nodemailer-outlook": "^1.2.4",
     "nodemailer": "^6.9.6",
     "primereact": "^10.0.2",

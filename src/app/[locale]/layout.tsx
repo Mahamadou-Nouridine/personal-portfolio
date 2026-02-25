@@ -8,6 +8,7 @@ import "bootstrap/scss/bootstrap.scss";
 import "flag-icons/css/flag-icons.min.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+import NextTopLoader from 'nextjs-toploader';
 
 import { LanguageNotice } from "./components/DevelopmentNotice";
 
@@ -45,6 +46,7 @@ export default async function RootLayout({
         />
       </head>
       <body className={inter.className}>
+        <NextTopLoader color="#ffda6b" />
         {/* <LanguageNotice /> */}
         <NextIntlClientProvider messages={messages}>
           {/* <DevelopmentNotice /> */}
