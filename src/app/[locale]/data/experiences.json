@@ -1,66 +1,54 @@
 {
-    "en": [
-      {
-        "name": "Software Engineer (LIDAN, Niamey, Niger)",
-        "from": "October 2024",
-        "to": "Present",
-        "description": "Architected and designed a Criminal Record Issuing system, significantly reducing processing time. Developed features that enhanced system functionality, demonstrating advanced problem-solving skills."
-      },
-      {
-        "name": "Software Engineer, Mentor (Kano VTC, remote)",
-        "from": "February 2024",
-        "to": "May 2024",
-        "description": "Developed a VTC taxi management system with mobile clients and a web back-office. Integrated AWS services and Stripe for seamless payment processing."
-      },
-      {
-        "name": "Software Engineer (LEGALTECH-PRIORITIES, Niamey, Niger)",
-        "from": "December 2023",
-        "to": "February 2024",
-        "description": "Developed a Legaltech application to replace paper-based case management, improving efficiency for lawyers. Facilitated online weekly meetings with increased transparency and better collaboration."
-      },
-      {
-        "name": "Mentor (Volunteer) (MICROVERSE, Remote)",
-        "from": "April 2023",
-        "to": "December 2023",
-        "description": "Mentored 2 junior developers, providing code reviews and long-term motivation guidance. Proposed code organization improvements to boost quality and performance."
-      },
-      {
-        "name": "Full Stack Developer (CODELOCCOL, Niamey, Niger)",
-        "from": "July 2022",
-        "to": "March 2023",
-        "description": "Developed three software systems for school admissions, program management, and student activity monitoring on Discord. Mentored students in the MERN full-stack development program, providing guidance and sharing experiences."
-      }
-    ],
-    "fr": [
-      {
-        "name": "Ingénieur logiciel (LIDAN, Niamey, Niger)",
-        "from": "Octobre 2024",
-        "to": "Présent",
-        "description": "Conçu et architecturé un système d'émission de casiers judiciaires, réduisant considérablement le temps de traitement. Développé des fonctionnalités qui ont amélioré la fonctionnalité du système, démontrant des compétences avancées en résolution de problèmes."
-      },
-      {
-        "name": "Ingénieur logiciel, Mentor (Kano VTC, à distance)",
-        "from": "Février 2024",
-        "to": "Mai 2024",
-        "description": "Développé un système de gestion de taxi VTC avec des applications mobiles et un back-office Web. Intégré des services AWS et Stripe pour un traitement de paiement sans faille."
-      },
-      {
-        "name": "Ingénieur logiciel (LEGALTECH-PRIORITIES, Niamey, Niger)",
-        "from": "Décembre 2023",
-        "to": "Février 2024",
-        "description": "Développé une application Legaltech pour remplacer la gestion des dossiers sur papier, améliorant ainsi l'efficacité des avocats. Facilitée des réunions hebdomadaires en ligne avec une plus grande transparence et une meilleure collaboration."
-      },
-      {
-        "name": "Mentor (Bénévole) (MICROVERSE, à distance)",
-        "from": "Avril 2023",
-        "to": "Décembre 2023",
-        "description": "J'ai encadré 2 développeurs juniors, en fournissant des revues de code et des conseils pour maintenir la motivation à long terme. Proposé des améliorations de l'organisation du code pour améliorer la qualité et la performance."
-      },
-      {
-        "name": "Développeur Full Stack (CODELOCCOL, Niamey, Niger)",
-        "from": "Juillet 2022",
-        "to": "Mars 2023",
-        "description": "Développé trois systèmes logiciels pour l'admission scolaire, la gestion des programmes et la surveillance des activités des étudiants sur Discord. Mentorat d'étudiants dans le programme de développement MERN, en fournissant des orientations et en partageant des expériences."
-      }
-    ]
-  }
+  "en": [
+    {
+      "name": "Full Stack Software Engineer (Gabera, Niger/Switzerland/Liechtenstein)",
+      "from": "February 2025",
+      "to": "Present",
+      "description": "Design and develop enterprise reporting frameworks including frontend components (Blazor in MAUI) and backend C# class libraries with RESTful APIs. Integrated multiple database systems (SQL Server, PostgreSQL, MongoDB) enabling unified data access and automated reporting. Improved system performance and reliability while contributing to a low-code platform integration."
+    },
+    {
+      "name": "Full Stack Software Engineer (LEGALTECH PRIORITIES, Niamey, Niger)",
+      "from": "December 2023",
+      "to": "February 2024",
+      "description": "Developed a multi-tenant SaaS legal-tech platform using Next.js, NestJS, and MongoDB. Built secure RESTful APIs with authentication and authorization mechanisms ensuring tenant data isolation. Designed responsive user interfaces and implemented real-time case status updates to enhance collaboration between lawyers and clients."
+    },
+    {
+      "name": "Full Stack Developer (CodeLoccol, Niamey, Niger)",
+      "from": "July 2022",
+      "to": "March 2023",
+      "description": "Built a complete MERN stack learning platform serving 100+ users with project submissions, peer evaluations, and progress tracking. Developed and maintained RESTful APIs with validation and error handling. Created a Node.js Discord bot to automate student supervision and real-time activity monitoring."
+    },
+    {
+      "name": "Full Stack Developer & Data Engineer (UNESCO-India-Africa Hackathon 2022, India)",
+      "from": "November 2022",
+      "to": "December 2022",
+      "description": "Finalist representing Niger among 100 teams from 23 countries. Developed a Python-based energy consumption analysis solution using Google Earth Engine API. Built data extraction pipelines for satellite imagery processing and contributed to frontend and backend development of the presentation platform under a 36-hour time constraint."
+    }
+  ],
+  "fr": [
+    {
+      "name": "Ingénieur Full Stack (Gabera, Niger/Suisse/Liechtenstein)",
+      "from": "Février 2025",
+      "to": "Présent",
+      "description": "Conception et développement d’un framework de reporting d’entreprise incluant des composants frontend (Blazor en MAUI) et des bibliothèques backend en C# avec APIs REST. Intégration de bases de données multiples (SQL Server, PostgreSQL, MongoDB) permettant un accès unifié aux données et une distribution automatisée des rapports. Optimisation des performances et contribution à une plateforme low-code."
+    },
+    {
+      "name": "Ingénieur Full Stack (LEGALTECH PRIORITIES, Niamey, Niger)",
+      "from": "Décembre 2023",
+      "to": "Février 2024",
+      "description": "Développement d’une plateforme SaaS LegalTech multi-tenant avec Next.js, NestJS et MongoDB. Implémentation d’APIs REST sécurisées avec authentification et isolation des données entre clients. Conception d’interfaces responsives et mise en place de mises à jour en temps réel pour améliorer la collaboration entre avocats et clients."
+    },
+    {
+      "name": "Développeur Full Stack (CodeLoccol, Niamey, Niger)",
+      "from": "Juillet 2022",
+      "to": "Mars 2023",
+      "description": "Création d’une plateforme éducative complète en MERN stack utilisée par plus de 100 utilisateurs avec gestion de projets, évaluations entre pairs et suivi de progression. Développement d’APIs REST avec validation et gestion d’erreurs. Conception d’un bot Discord en Node.js pour automatiser le suivi des étudiants."
+    },
+    {
+      "name": "Développeur Full Stack & Data Engineer (UNESCO-India-Africa Hackathon 2022, Inde)",
+      "from": "Novembre 2022",
+      "to": "Décembre 2022",
+      "description": "Finaliste représentant le Niger parmi 100 équipes issues de 23 pays. Développement d’une solution Python d’analyse de consommation énergétique via Google Earth Engine API. Mise en place de pipelines de traitement d’images satellites et contribution au développement frontend et backend sous contrainte de 36 heures."
+    }
+  ]
+}
