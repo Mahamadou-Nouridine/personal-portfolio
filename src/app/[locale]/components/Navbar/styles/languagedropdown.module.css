@@ -68,3 +68,15 @@
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+.language_dropdown_btn {
+  padding: 8px 15px !important;
+  width: auto !important;
+  min-width: 80px;
+  height: auto;
+  font-size: 13px !important;
+  border-radius: 10px !important;
+}
+
+.language_dropdown_btn ion-icon {
+  font-size: 14px !important;
+}

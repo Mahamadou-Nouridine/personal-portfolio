@@ -76,7 +76,7 @@
     position: sticky;
     margin-bottom: -65px;
     top: 0;
-    margin-left: calc(100% - 637px);
+    margin-left: auto;
     width: max-content;
     border-radius: 0 20px;
     padding: 0 20px;

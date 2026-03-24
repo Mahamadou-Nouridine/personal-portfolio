@@ -41,7 +41,7 @@ const LanguageDropdown: React.FC<props> = ({ local: lang }) => {
     <div className={styles["dropdown"]}>
       <button
         onClick={() => setOpen(!open)}
-        className="form-btn m-auto"
+        className={`${styles.language_dropdown_btn} form-btn m-auto`}
         type="submit"
         data-form-btn
       >
