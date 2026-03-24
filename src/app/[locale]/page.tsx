@@ -21,8 +21,8 @@ export default function Home() {
               {tAbout("contact-page")}
             </Link>{" "}
             {tAbout("or-email")}{" "}
-            <a className="d-inline" href="mailto:mahamadounouridinem@gmail.com">
-              mahamadounouridinem@gmail.com
+            <a className="d-inline" href="mailto:contact@nouridine.com">
+              contact@nouridine.com
             </a>{" "}
             {tAbout("for-more")}
           </span>

@@ -42,6 +42,8 @@
   "portfolio-page": {
     "filter-tags": "FILTER WITH TAGS",
     "tags": "TAGS",
+    "demo": "Demo",
+    "source-code": "Source Code",
     "close-modal": "Close"
   },
 

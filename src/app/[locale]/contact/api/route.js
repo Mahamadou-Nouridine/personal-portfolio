@@ -22,7 +22,7 @@ export async function POST(req) {
   };
   const mailOptions2 = {
     from: MAIL_SENDER,
-    to: "mahamadounouridinem@gmail.com",
+    to: "contact@nouridine.com",
     subject: `${fullName} from my Portfolio`,
     text: `Email: ${email}
     Full Name: ${fullName},

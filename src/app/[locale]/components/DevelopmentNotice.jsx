@@ -45,9 +45,9 @@ const DevelopmentNotice = () => {
               properly. Consider living me an email{" "}
               <a
                 className="d-inline"
-                href="mailto:mahamadounouridinem@gmail.com"
+                href="mailto:contact@nouridine.com"
               >
-                mahamadounouridinem@gmail.com
+                contact@nouridine.com
               </a>
               .
             </p>

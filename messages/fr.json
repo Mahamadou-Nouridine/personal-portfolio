@@ -42,6 +42,8 @@
   "portfolio-page": {
     "filter-tags": "FILTRER AVEC LES MOTS CLES",
     "tags": "MOTS CLES",
+    "demo": "Démo",
+    "source-code": "Code Source",
     "close-modal": "Fermer"
   },
 

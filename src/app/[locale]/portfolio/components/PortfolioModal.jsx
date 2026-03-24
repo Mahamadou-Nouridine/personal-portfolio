@@ -56,33 +56,37 @@ const PortfolioModal = ({ show, handleClose, project }) => {
             <span
               onMouseEnter={() => openMessage(project.demo.message)}
               onMouseLeave={closeMessage}
+              className="w-100"
             >
-              <Button disabled={!project.demo.public} variant="neutral">
+              <Button disabled={!project.demo.public} variant="neutral" className="w-100">
                 <a
                   style={{ color: "unset" }}
-                  className="d-inline"
+                  className="d-flex align-items-center justify-content-center gap-2"
                   href={project.demo.link}
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  demo
+                  <span>{t('demo')}</span>
+                  <BiLinkExternal style={{ fontSize: 20 }} />
                 </a>
-                <BiLinkExternal style={{ fontSize: 20 }} className="icon" />
               </Button>
             </span>
             <span
               onMouseEnter={() => openMessage(project.sourceCode.message)}
               onMouseLeave={closeMessage}
+              className="w-100"
             >
-              <Button disabled={!project.sourceCode.public} variant="neutral">
+              <Button disabled={!project.sourceCode.public} variant="neutral" className="w-100">
                 <a
                   style={{ color: "unset" }}
-                  className="d-inline"
+                  className="d-flex align-items-center justify-content-center gap-2"
                   href={project.sourceCode.link}
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Source
+                  <span>{t('source-code')}</span>
+                  <BiCodeAlt style={{ fontSize: 20 }} />
                 </a>
-                <BiCodeAlt style={{ fontSize: 20 }} className="icon" />
               </Button>
             </span>
           </div>
@@ -93,26 +97,35 @@ const PortfolioModal = ({ show, handleClose, project }) => {
             {project.name}
           </h4>
 
-          <time dateTime="2021-06-14">{project.date}</time>
+          <time dateTime={project.date}>{project.date}</time>
 
-          <div data-modal-text>
+          <div className="tech-stack-container">
+            {project.tags.map((tag, index) => (
+              <span key={index} className="tech-tag">
+                {tag}
+              </span>
+            ))}
+          </div>
+
+          <div className="modal-description" data-modal-text>
             <p>{project.description}</p>
           </div>
 
           <Button
             onClick={handleClose}
             style={{
-              width: 70,
-              right: 10,
-              bottom: 5,
-              backgroundColor: "grey",
-              alignSelf: "end",
+              width: 100,
+              marginTop: '20px',
+              backgroundColor: "var(--onyx)",
+              border: "1px solid var(--jet)",
+              alignSelf: "flex-end",
             }}
             className="text-white"
-            variant=""
+            variant="secondary"
             data-modal-close-btn
+            aria-label={t('close-modal')}
           >
-          {t('close-modal')}
+            {t('close-modal')}
           </Button>
         </div>
       </section>

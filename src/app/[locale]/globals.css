@@ -399,6 +399,12 @@ main {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
   overflow: hidden;
+  width: max-content;
+}
+
+.avatar-box img {
+  width: 80px;
+  height: auto;
 }
 
 .info-content .name {
@@ -1445,6 +1451,80 @@ textarea.form-input::-webkit-resizer {
   background: var(--bg-gradient-jet);
 }
 
+/* Custom CV Button in Sidebar */
+.sidebar-cv-box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.cv-btn {
+  background: var(--border-gradient-onyx);
+  color: var(--orange-yellow-crayola);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: var(--fs-6);
+  text-transform: capitalize;
+  box-shadow: var(--shadow-2);
+  transition: var(--transition-1);
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.cv-btn::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
+  transition: var(--transition-1);
+}
+
+.cv-btn:hover,
+.cv-btn:focus {
+  background: var(--bg-gradient-yellow-1);
+}
+
+.cv-btn:hover::before,
+.cv-btn:focus::before {
+  background: var(--bg-gradient-yellow-2);
+}
+
+.cv-btn ion-icon {
+  font-size: 18px;
+}
+
+/* Tech Stack in Modal */
+.tech-stack-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 15px 0;
+}
+
+.tech-tag {
+  background: var(--onyx);
+  color: var(--orange-yellow-crayola);
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-size: var(--fs-8);
+  border: 1px solid var(--jet);
+  text-transform: capitalize;
+}
+
+.modal-description {
+  margin-top: 15px;
+  color: var(--light-gray);
+  line-height: 1.6;
+}
+
 /*Action buttons*/
 
 .action-buttons {
@@ -1879,9 +1959,7 @@ textarea.form-input::-webkit-resizer {
     width: 700px;
   }
 
-  .has-scrollbar::-webkit-scrollbar-button {
-    /* width: 100%; */
-  }
+
 
   .filter-list {
     overflow-x: hidden;
