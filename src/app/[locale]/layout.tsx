@@ -11,6 +11,7 @@ import { getMessages, getTranslations } from "next-intl/server";
 import NextTopLoader from 'nextjs-toploader';
 import Script from "next/script";
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next"
 
 import PageWrapper from "./components/PageWrapper";
 
@@ -146,6 +147,7 @@ export default async function RootLayout({
           src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
           strategy="lazyOnload"
         />
+        <Analytics />
       </body>
     </html>
   );
