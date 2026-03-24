@@ -1,45 +1,46 @@
 {
+  "metadata": {
+    "title": "Mahamadou Nouridine | Développeur Logiciel",
+    "description": "Je m'appelle Mahamadou Nouridine, développeur full-stack spécialisé dans la stack MERN, Next.js, NestJS, Rails et plus pour créer des solutions pour des entreprises et particuliers."
+  },
   "Index": {
     "title": "Hello world!"
   },
-
   "sidebar": {
     "role": "Développeur Full-stack",
     "email": "E-MAIL",
     "phone": "TELEPHONE",
-    "birthday": "ANIVERSAIRE",
+    "birthday": "ANNIVERSAIRE",
     "location": "EMPLACEMENT",
-    "show-contact": "Afficher Contacts",
-    "hide-contact": "Cacher Contacts",
-    "work-status":  "Ouvert au travail"
+    "show-contact": "Afficher les contacts",
+    "hide-contact": "Masquer les contacts",
+    "work-status": "Ouvert au travail"
   },
-
   "navbar": {
     "about": "Qui Suis-je",
     "resume": "CV",
-    "portfolio": "Portfolio"
+    "portfolio": "Réalisations",
+    "blog": "Blog",
+    "contact": "Contact"
   },
-
   "about-page": {
     "about": "Je m'appelle Mahamadou Nouridine, développeur full-stack spécialisé dans la stack MERN, NEXT js, NEST js, Rails et plus pour créer des solutions pour des entreprises et particuliers. Mes expériences de travail et d'étude m'ont permis d'être capable d'aborder des problématiques liées au développement informatique. Je suis passionné par la résolution de problèmes, animé par la curiosité et j'améliore continuellement mes compétences en codage pour développer des solutions innovantes.",
-    "consider": "Vous Pouver à m'envoyer un message depuis ma",
+    "consider": "Vous pouvez m'envoyer un message depuis ma",
     "contact-page": "page de contact",
     "or-email": "ou m'envoyer un e-mail à l'adresse",
-    "for-more": "pour une discussion plus approfondie sur votre bésoin",
+    "for-more": "pour une discussion plus approfondie sur votre besoin",
     "service-section-title": "Mes Services",
     "testimonial-section-tile": "Témoignages/Recommendations"
   },
-
   "resume-page": {
     "used-technology": "Technologies Que J'utilise",
     "used-frameworks": "Frameworks Que J'utilise",
     "tools": "Outils & Plateformes",
     "spoken": "Langues De Communication",
-    "foreign": "Etrangères",
+    "foreign": "Étrangères",
     "local": "Locales",
     "download-cv": "Télécharger Mon CV"
   },
-
   "portfolio-page": {
     "filter-tags": "FILTRER AVEC LES MOTS CLES",
     "tags": "MOTS CLES",
@@ -47,11 +48,9 @@
     "source-code": "Code Source",
     "close-modal": "Fermer"
   },
-
   "blog-page": {
     "soon": "Arrive Bientôt!"
   },
-
   "contact-page": {
     "form": "Formulaire de Contact",
     "full-name": "Nom Complet",
@@ -60,15 +59,12 @@
     "send": "Envoyer le Message",
     "send-pending": "Le message est en cours d'envoi, veuillez patienter un moment !",
     "send-success": "Le message a été envoyé avec succès, veuillez vérifier votre adresse e-mail.",
-    "send-error": "Une erreur s'est produite lors de l'envoi du message. \nVous pouvez m'envoyer un e-mail à mahamadounouridinem@gmail.com"
+    "send-error": "Une erreur s'est produite lors de l'envoi du message. \nVous pouvez m'envoyer un e-mail à contact@nouridine.com"
   },
-
   "resume": {
     "name": "my-resume-fr.pdf"
   },
-
   "cv-version": {
-    "text": "Change the languange to get it in English"
+    "text": "Change the language to get it in English"
   }
-
 }

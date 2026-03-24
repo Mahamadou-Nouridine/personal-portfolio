@@ -11,7 +11,7 @@
       "type": "foreign"
     },
     {
-      "lang": "Haoussa",
+      "lang": "Hausa",
       "percentage": 95,
       "type": "local"
     },
@@ -39,6 +39,28 @@
     },
     {
       "lang": "Zarma",
+      "percentage": 80,
+      "type": "local"
+    }
+  ],
+  "ar": [
+    {
+      "lang": "الفرنسية",
+      "percentage": 90,
+      "type": "foreign"
+    },
+    {
+      "lang": "الإنجليزية",
+      "percentage": 70,
+      "type": "foreign"
+    },
+    {
+      "lang": "الهوسا",
+      "percentage": 95,
+      "type": "local"
+    },
+    {
+      "lang": "الزارما",
       "percentage": 80,
       "type": "local"
     }

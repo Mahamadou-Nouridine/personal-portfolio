@@ -7,7 +7,7 @@ import { ToastContainer } from "react-toastify";
 import "bootstrap/scss/bootstrap.scss";
 import "flag-icons/css/flag-icons.min.css";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
+import { getMessages, getTranslations } from "next-intl/server";
 import NextTopLoader from 'nextjs-toploader';
 import Script from "next/script";
 import type { Metadata } from "next";
@@ -18,67 +18,84 @@ import { LanguageNotice } from "./components/DevelopmentNotice";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: {
-    default: "Mahamadou Nouridine | Software Developer",
-    template: "%s | Mahamadou Nouridine",
-  },
-  description:
-    "My Name is Mahamadou Nouridine, I'm a junior software developer aiming to bring success in whatever I'm involved in. Specialized in full-stack development with Next.js and NestJS.",
-  keywords: [
-    "Mahamadou Nouridine",
-    "Nouridine",
-    "Software Developer",
-    "Software Engineer",
-    "Full-stack Developer",
-    "MERN Stack",
-    "React",
-    "Next.js",
-    "NestJS",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "Ruby on Rails",
-    "Rails",
-    "TypeScript",
-    "JavaScript",
-    "Web Development",
-    "Portfolio",
-    "Freelance Developer",
-    "Remote Software Engineer",
-    "Niamey",
-    "Niger",
-  ],
-  authors: [{ name: "Mahamadou Nouridine" }],
-  creator: "Mahamadou Nouridine",
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: "https://nouridine.com",
-    title: "Mahamadou Nouridine | Software Developer",
-    description: "Junior software developer aiming to bring success in whatever I'm involved in.",
-    siteName: "Nouridine Portfolio",
-    images: [
-      {
-        url: "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697407794/my%20portfolio/standed-fotor-bg-remover-20230926213924-fotor-20230926215051_a7tny9.png",
-        width: 1200,
-        height: 630,
-        alt: "Mahamadou Nouridine",
-      },
+export async function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}): Promise<Metadata> {
+  const t = await getTranslations({ locale, namespace: "metadata" });
+
+  return {
+    title: {
+      default: t("title"),
+      template: `%s | ${t("title")}`,
+    },
+    description: t("description"),
+    keywords: [
+      "Mahamadou Nouridine",
+      "Nouridine",
+      "Software Developer",
+      "Software Engineer",
+      "Full-stack Developer",
+      "MERN Stack",
+      "React",
+      "Next.js",
+      "NestJS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Ruby on Rails",
+      "Rails",
+      "TypeScript",
+      "JavaScript",
+      "Web Development",
+      "Portfolio",
+      "Freelance Developer",
+      "Remote Software Engineer",
+      "Niamey",
+      "Niger",
     ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Mahamadou Nouridine | Software Developer",
-    description: "Junior software developer aiming to bring success in whatever I'm involved in.",
-    creator: "@Nouridine_Dino",
-    images: ["https://res.cloudinary.com/ddayqmsfs/image/upload/v1697407794/my%20portfolio/standed-fotor-bg-remover-20230926213924-fotor-20230926215051_a7tny9.png"],
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-};
+    authors: [{ name: "Mahamadou Nouridine" }],
+    creator: "Mahamadou Nouridine",
+    openGraph: {
+      type: "website",
+      locale: locale === "ar" ? "ar_SA" : locale === "fr" ? "fr_FR" : "en_US",
+      url: "https://nouridine.com",
+      title: t("title"),
+      description: t("description"),
+      siteName: "Nouridine Portfolio",
+      images: [
+        {
+          url: "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697407794/my%20portfolio/standed-fotor-bg-remover-20230926213924-fotor-20230926215051_a7tny9.png",
+          width: 1200,
+          height: 630,
+          alt: "Mahamadou Nouridine",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("title"),
+      description: t("description"),
+      creator: "@Nouridine_Dino",
+      images: [
+        "https://res.cloudinary.com/ddayqmsfs/image/upload/v1697407794/my%20portfolio/standed-fotor-bg-remover-20230926213924-fotor-20230926215051_a7tny9.png",
+      ],
+    },
+    alternates: {
+      canonical: `https://nouridine.com/${locale}`,
+      languages: {
+        en: "/en",
+        fr: "/fr",
+        ar: "/ar",
+      },
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
+}
 
 export default async function RootLayout({
   children,
@@ -90,7 +107,7 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
       <head>
         <link
           rel="icon"

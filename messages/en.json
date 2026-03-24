@@ -1,8 +1,11 @@
 {
+  "metadata": {
+    "title": "Mahamadou Nouridine | Software Developer",
+    "description": "I'm Mahamadou Nouridine, a full-stack software developer specialized in MERN stack, Next.js, NestJS, Redux, Rails and more to create solutions for businesses and individuals."
+  },
   "Index": {
     "title": "Hello world!"
   },
-
   "sidebar": {
     "role": "Full-stack developer",
     "email": "EMAIL",
@@ -11,15 +14,15 @@
     "location": "LOCATION",
     "show-contact": "Show Contacts",
     "hide-contact": "Hide Contacts",
-    "work-status":  "Open to work"
+    "work-status": "Open to work"
   },
-
   "navbar": {
     "about": "About",
     "resume": "Resume",
-    "portfolio": "Portfolio"
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "contact": "Contact"
   },
-
   "about-page": {
     "about": "I'm Mahamadou Nouridine, a full-stack software developer specialized in MERN stack, NEXT js, NEST js, Redux, Rails and more to create solutions for businesses and individuals. My work and study experiences have allowed me to be able to address issues related to software development. I'm passionate about problem-solving, driven by curiosity, and continuously improving my coding skills to develop innovative solutions.",
     "consider": "You can send me a message from my",
@@ -29,17 +32,15 @@
     "service-section-title": "My Services",
     "testimonial-section-tile": "Testimonials/Recommendations"
   },
-
   "resume-page": {
     "used-technology": "Technologies I Use",
     "used-frameworks": "Frameworks I Use",
     "tools": "Tools & Platforms",
     "spoken": "Spoken Languages",
     "foreign": "Foreign",
-    "local": "local",
+    "local": "Local",
     "download-cv": "Download My CV"
   },
-
   "portfolio-page": {
     "filter-tags": "FILTER WITH TAGS",
     "tags": "TAGS",
@@ -47,26 +48,23 @@
     "source-code": "Source Code",
     "close-modal": "Close"
   },
-
   "blog-page": {
-    "soon": "Coming soon!!"
+    "soon": "Coming soon!"
   },
-
   "contact-page": {
     "form": "Contact Form",
     "full-name": "Full Name",
-    "email": "Email-Address",
+    "email": "Email Address",
     "message": "Your Message",
     "send": "Send Message",
     "send-pending": "The message is being sent, wait a moment!",
-    "send-success": "The message is sent successfully, please check your email address.",
-    "send-error": "An Error Occured while sendind the Message. \nYou can send me an email via mahamadounouridinem@gmail.com"
+    "send-success": "The message was sent successfully, please check your email.",
+    "send-error": "An error occurred while sending the message. \nYou can send me an email at contact@nouridine.com"
   },
   "resume": {
     "name": "my-resume-en.pdf"
   },
-
   "cv-version": {
-    "text": "Change la langue pour l'avoir en Français"
+    "text": "Change the language to get it in French"
   }
 }

@@ -20,6 +20,11 @@ const locals = [
     local: "fr",
     flag: "fr",
   },
+  {
+    name: "AR",
+    local: "ar",
+    flag: "sa",
+  },
 ];
 
 const LanguageDropdown: React.FC<props> = ({ local: lang }) => {

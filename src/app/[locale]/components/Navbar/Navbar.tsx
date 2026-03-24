@@ -29,9 +29,9 @@ const Navbar: React.FC<props> = ({ local }) => {
           name={t("portfolio")}
         />
 
-        <LinkTo local={local} route={"/" + local + "/blog"} name="Blog" />
+        <LinkTo local={local} route={"/" + local + "/blog"} name={t("blog")} />
 
-        <LinkTo local={local} route={"/" + local + "/contact"} name="Contact" />
+        <LinkTo local={local} route={"/" + local + "/contact"} name={t("contact")} />
         <li className={styles["navbar-item"]}>
           <LanguageDropdown local={local} />
         </li>

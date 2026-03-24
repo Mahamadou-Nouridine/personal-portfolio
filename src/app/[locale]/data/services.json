@@ -3,44 +3,66 @@
     {
       "icon": "/assets/images/svg-icons/backend.svg",
       "title": "Backend Development",
-      "description": "Implementation of simples and complexes application architectures with modern technologies and frameworks."
+      "description": "Architecting and implementing scalable application infrastructures using modern frameworks and industry best practices."
     },
     {
       "icon": "/assets/images/svg-icons/frontend.svg",
       "title": "Front-End Development",
-      "description": "High-quality development of user interfaces at the professional level with modern technologies and frameworks."
+      "description": "Crafting high-performance, professional user interfaces with a focus on modern technologies and seamless user experiences."
     },
     {
       "icon": "/assets/images/svg-icons/mobile.svg",
-      "title": "Mobile apps",
-      "description": "Professional development of applications for iOS and Android."
+      "title": "Mobile Development",
+      "description": "Expert development of cross-platform and native applications for iOS and Android environments."
     },
     {
       "icon": "/assets/images/svg-icons/deployment.svg",
-      "title": "Deployment",
-      "description": "I bring your solutions ready to be consumed by your end users."
+      "title": "Deployment & DevOps",
+      "description": "Streamlining the release process to ensure your solutions are production-ready and accessible to end-users."
     }
   ],
   "fr": [
     {
       "icon": "/assets/images/svg-icons/backend.svg",
       "title": "Développement Backend",
-      "description": "Mise en œuvre d'architectures d'application simples et complexes avec des technologies et des frameworks modernes."
+      "description": "Conception et mise en œuvre d'architectures d'application évolutives avec des technologies et frameworks modernes."
     },
     {
       "icon": "/assets/images/svg-icons/frontend.svg",
       "title": "Développement Front-End",
-      "description": "Développement de haute qualité d'interfaces utilisateur au niveau professionnel avec des technologies et des frameworks modernes."
+      "description": "Développement d'interfaces utilisateur de haute qualité et de niveau professionnel, axé sur la performance et l'expérience utilisateur."
     },
     {
       "icon": "/assets/images/svg-icons/mobile.svg",
-      "title": "Applications mobiles",
-      "description": "Développement professionnel d'applications pour iOS et Android."
+      "title": "Applications Mobiles",
+      "description": "Développement professionnel d'applications mobiles performantes pour iOS et Android."
     },
     {
       "icon": "/assets/images/svg-icons/deployment.svg",
-      "title": "Déploiement",
-      "description": "Je mets vos solutions à la disposition de vos utilisateurs finaux."
+      "title": "Déploiement & DevOps",
+      "description": "Mise en production de vos solutions pour garantir leur accessibilité et leur stabilité auprès des utilisateurs finaux."
+    }
+  ],
+  "ar": [
+    {
+      "icon": "/assets/images/svg-icons/backend.svg",
+      "title": "تطوير العمليات الخلفية (Backend)",
+      "description": "تصميم وتنفيذ بنيات برمجية قابلة للتوسع باستخدام أحدث الأطر والتقنيات العالمية."
+    },
+    {
+      "icon": "/assets/images/svg-icons/frontend.svg",
+      "title": "تطوير الواجهات الأمامية (Frontend)",
+      "description": "بناء واجهات مستخدم احترافية وعالية الأداء تركز على تجربة المستخدم والتقنيات الحديثة."
+    },
+    {
+      "icon": "/assets/images/svg-icons/mobile.svg",
+      "title": "تطبيقات الهاتف المحمول",
+      "description": "تطوير احترافي لتطبيقات الهواتف الذكية لأنظمة iOS و Android بكفاءة عالية."
+    },
+    {
+      "icon": "/assets/images/svg-icons/deployment.svg",
+      "title": "النشر والعمليات (DevOps)",
+      "description": "تجهيز ونشر حلولكم البرمجية لضمان وصولها للمستخدمين النهائيين بأمان واستقرار."
     }
   ]
 }

@@ -4,19 +4,19 @@
       "name": "MICROVERSE",
       "from": "March 2023",
       "to": "March 2024",
-      "description": "Remote Full Stack Web Development Program, Full Time. Spent 1300+ hours mastering algorithms, data structures, and full-stack development using Ruby, Rails, JavaScript, React, and Redux. Gained experience in remote pair-programming with GitHub, using industry-standard gitflow and daily standups to collaborate with international developers."
+      "description": "Remote Full Stack Web Development Program. Dedicated 1300+ hours to mastering algorithms, data structures, and full-stack development using Ruby on Rails, React, and Redux. Gained extensive experience in remote pair-programming and industry-standard Gitflow."
     },
     {
       "name": "CODELOCCOL",
       "from": "Jan 2022",
       "to": "Jan 2023",
-      "description": "Full Stack Developer, Full Time. Mastered MERN full-stack development. Participated in an international hackathon, creating an AI-based web solution using satellite imagery."
+      "description": "Full Stack Developer Intensive. Specialized in the MERN stack and collaborated in an international hackathon to develop an AI-driven web solution using satellite imagery."
     },
     {
       "name": "Université Tunisienne Internationale du Niger",
       "from": "Jan 2020",
       "to": "Jan 2022",
-      "description": "MPSI Scientific Preparatory Class Certificate, Full Time. Studied mathematics, physics, and computer science."
+      "description": "MPSI Scientific Preparatory Class Certificate. Rigorous study of advanced mathematics, physics, and computer science fundamentals."
     }
   ],
   "fr": [
@@ -24,19 +24,39 @@
       "name": "MICROVERSE",
       "from": "Mars 2023",
       "to": "Mars 2024",
-      "description": "Programme de développement Full Stack Web à distance, à temps plein. Plus de 1300 heures consacrées à la maîtrise des algorithmes, des structures de données et du développement full-stack en utilisant Ruby, Rails, JavaScript, React et Redux. Expérience en programmation pair-à-pair à distance avec GitHub, en utilisant le gitflow standard de l'industrie et des standups quotidiens pour collaborer avec des développeurs internationaux."
+      "description": "Programme intensif de développement Web Full Stack à distance. Plus de 1300 heures consacrées à la maîtrise des algorithmes, des structures de données et du développement avec Ruby on Rails et React. Expérience approfondie en programmation pair-à-pair et Gitflow."
     },
     {
       "name": "CODELOCCOL",
       "from": "Janvier 2022",
       "to": "Janvier 2023",
-      "description": "Développeur Full Stack, à temps plein. Maîtrise du développement MERN full-stack. Participation à un hackathon international, création d'une solution web basée sur l'IA utilisant des images satellites."
+      "description": "Formation intensive de développeur Full Stack. Spécialisation dans la stack MERN et participation à un hackathon international pour créer une solution IA basée sur l'imagerie satellite."
     },
     {
       "name": "Université Tunisienne Internationale du Niger",
       "from": "Janvier 2020",
       "to": "Janvier 2022",
-      "description": "Certificat de classe préparatoire scientifique MPSI, à temps plein. Études en mathématiques, physique et informatique."
+      "description": "Certificat de classe préparatoire scientifique (MPSI). Études approfondies en mathématiques, physique et informatique."
+    }
+  ],
+  "ar": [
+    {
+      "name": "MICROVERSE",
+      "from": "مارس 2023",
+      "to": "مارس 2024",
+      "description": "برنامج تطوير الويب المتكامل (Full Stack) عن بعد. قضيت أكثر من 1300 ساعة في إتقان الخوارزميات، وهياكل البيانات، والتطوير باستخدام Ruby on Rails و React. خبرة واسعة في البرمجة الزوجية عن بعد واتباع معايير Gitflow العالمية."
+    },
+    {
+      "name": "CODELOCCOL",
+      "from": "يناير 2022",
+      "to": "يناير 2023",
+      "description": "دورة مكثفة لمطوري الويب المتكاملين. تخصصت في تقنيات MERN وشاركت في هاكاثون دولي لتطوير حل برمجي يعتمد على الذكاء الاصطناعي وصور الأقمار الصناعية."
+    },
+    {
+      "name": "Université Tunisienne Internationale du Niger",
+      "from": "يناير 2020",
+      "to": "يناير 2022",
+      "description": "شهادة الأقسام التحضيرية العلمية (MPSI). دراسة مكثفة في الرياضيات المتقدمة، الفيزياء، وأساسيات علوم الحاسوب."
     }
   ]
 }

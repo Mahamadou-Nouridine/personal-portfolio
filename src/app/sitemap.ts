@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://nouridine.com";
-  const locales = ["en", "fr"];
+  const locales = ["en", "fr", "ar"];
   const paths = ["", "/resume", "/portfolio", "/contact", "/blog"];
 
   return paths.flatMap((path) =>

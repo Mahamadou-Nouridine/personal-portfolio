@@ -4,25 +4,19 @@
       "name": "Full Stack Software Engineer (Gabera, Niger/Switzerland/Liechtenstein)",
       "from": "February 2025",
       "to": "Present",
-      "description": "Design and develop enterprise reporting frameworks including frontend components (Blazor in MAUI) and backend C# class libraries with RESTful APIs. Integrated multiple database systems (SQL Server, PostgreSQL, MongoDB) enabling unified data access and automated reporting. Improved system performance and reliability while contributing to a low-code platform integration."
+      "description": "Designing enterprise reporting frameworks using Blazor (MAUI) for frontend and C# RESTful APIs for backend. Integrated SQL Server, PostgreSQL, and MongoDB for unified data access, improving system performance and contributing to low-code platform integration."
     },
     {
       "name": "Full Stack Software Engineer (LEGALTECH PRIORITIES, Niamey, Niger)",
       "from": "December 2023",
       "to": "February 2024",
-      "description": "Developed a multi-tenant SaaS legal-tech platform using Next.js, NestJS, and MongoDB. Built secure RESTful APIs with authentication and authorization mechanisms ensuring tenant data isolation. Designed responsive user interfaces and implemented real-time case status updates to enhance collaboration between lawyers and clients."
+      "description": "Developed a multi-tenant SaaS legal platform using Next.js and NestJS. Implemented secure RESTful APIs with strict data isolation and real-time updates to enhance lawyer-client collaboration."
     },
     {
       "name": "Full Stack Developer (CodeLoccol, Niamey, Niger)",
       "from": "July 2022",
       "to": "March 2023",
-      "description": "Built a complete MERN stack learning platform serving 100+ users with project submissions, peer evaluations, and progress tracking. Developed and maintained RESTful APIs with validation and error handling. Created a Node.js Discord bot to automate student supervision and real-time activity monitoring."
-    },
-    {
-      "name": "Full Stack Developer & Data Engineer (UNESCO-India-Africa Hackathon 2022, India)",
-      "from": "November 2022",
-      "to": "December 2022",
-      "description": "Finalist representing Niger among 100 teams from 23 countries. Developed a Python-based energy consumption analysis solution using Google Earth Engine API. Built data extraction pipelines for satellite imagery processing and contributed to frontend and backend development of the presentation platform under a 36-hour time constraint."
+      "description": "Built a MERN-stack learning platform for 100+ users. Developed automated student supervision tools using Node.js and Discord bots, alongside robust RESTful APIs with comprehensive error handling."
     }
   ],
   "fr": [
@@ -30,25 +24,39 @@
       "name": "Ingénieur Full Stack (Gabera, Niger/Suisse/Liechtenstein)",
       "from": "Février 2025",
       "to": "Présent",
-      "description": "Conception et développement d’un framework de reporting d’entreprise incluant des composants frontend (Blazor en MAUI) et des bibliothèques backend en C# avec APIs REST. Intégration de bases de données multiples (SQL Server, PostgreSQL, MongoDB) permettant un accès unifié aux données et une distribution automatisée des rapports. Optimisation des performances et contribution à une plateforme low-code."
+      "description": "Conception de frameworks de reporting d'entreprise utilisant Blazor (MAUI) pour le front-end et des API RESTful en C# pour le back-end. Intégration de bases de données multiples (SQL Server, PostgreSQL, MongoDB) pour un accès unifié aux données, optimisant les performances du système."
     },
     {
       "name": "Ingénieur Full Stack (LEGALTECH PRIORITIES, Niamey, Niger)",
       "from": "Décembre 2023",
       "to": "Février 2024",
-      "description": "Développement d’une plateforme SaaS LegalTech multi-tenant avec Next.js, NestJS et MongoDB. Implémentation d’APIs REST sécurisées avec authentification et isolation des données entre clients. Conception d’interfaces responsives et mise en place de mises à jour en temps réel pour améliorer la collaboration entre avocats et clients."
+      "description": "Développement d'une plateforme SaaS multi-locataires (multi-tenant) pour le secteur juridique avec Next.js et NestJS. Mise en place d'APIs REST sécurisées garantissant l'isolation des données et de mises à jour en temps réel."
     },
     {
       "name": "Développeur Full Stack (CodeLoccol, Niamey, Niger)",
       "from": "Juillet 2022",
       "to": "Mars 2023",
-      "description": "Création d’une plateforme éducative complète en MERN stack utilisée par plus de 100 utilisateurs avec gestion de projets, évaluations entre pairs et suivi de progression. Développement d’APIs REST avec validation et gestion d’erreurs. Conception d’un bot Discord en Node.js pour automatiser le suivi des étudiants."
+      "description": "Création d'une plateforme d'apprentissage MERN pour plus de 100 utilisateurs. Automatisation du suivi des étudiants via des bots Discord en Node.js, et développement d'APIs REST robustes."
+    }
+  ],
+  "ar": [
+    {
+      "name": "مهندس برمجيات متكامل (Gabera، النيجر/سويسرا/ليختنشتاين)",
+      "from": "فبراير 2025",
+      "to": "الحاضر",
+      "description": "تصميم أطر تقارير المؤسسات باستخدام Blazor (MAUI) للواجهة الأمامية وواجهات برمجة تطبيقات (RESTful APIs) بلغة C# للواجهة الخلفية. دمج قواعد بيانات متعددة (SQL Server، PostgreSQL، MongoDB) لتحقيق وصول موحد للبيانات وتحسين أداء النظام."
     },
     {
-      "name": "Développeur Full Stack & Data Engineer (UNESCO-India-Africa Hackathon 2022, Inde)",
-      "from": "Novembre 2022",
-      "to": "Décembre 2022",
-      "description": "Finaliste représentant le Niger parmi 100 équipes issues de 23 pays. Développement d’une solution Python d’analyse de consommation énergétique via Google Earth Engine API. Mise en place de pipelines de traitement d’images satellites et contribution au développement frontend et backend sous contrainte de 36 heures."
+      "name": "مهندس برمجيات متكامل (LEGALTECH PRIORITIES، نيامي، النيجر)",
+      "from": "ديسمبر 2023",
+      "to": "فبراير 2024",
+      "description": "تطوير منصة SaaS قانونية متعددة المستأجرين باستخدام Next.js و NestJS. تنفيذ واجهات برمجة تطبيقات آمنة مع ضمان عزل البيانات وتحديثات فورية لتعزيز التعاون بين المحامي والعميل."
+    },
+    {
+      "name": "مطور ويب متكامل (CodeLoccol، نيامي، النيجر)",
+      "from": "يوليو 2022",
+      "to": "مارس 2023",
+      "description": "بناء منصة تعليمية بتقنية MERN لأكثر من 100 مستخدم. تطوير أدوات أتمتة للإشراف على الطلاب باستخدام Node.js وبوتات ديسكورد، إلى جانب واجهات برمجة تطبيقات REST قوية."
     }
   ]
 }
