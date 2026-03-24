@@ -5,6 +5,7 @@
 
   "sidebar": {
     "role": "Full-stack developer",
+    "email": "EMAIL",
     "phone": "PHONE",
     "birthday": "BIRTHDAY",
     "location": "LOCATION",
