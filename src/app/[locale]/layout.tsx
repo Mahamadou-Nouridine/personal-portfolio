@@ -86,9 +86,10 @@ export async function generateMetadata({
     alternates: {
       canonical: `https://nouridine.com/${locale}`,
       languages: {
-        en: "/en",
-        fr: "/fr",
-        ar: "/ar",
+        en: "https://nouridine.com/en",
+        fr: "https://nouridine.com/fr",
+        ar: "https://nouridine.com/ar",
+        "x-default": "https://nouridine.com/en",
       },
     },
     robots: {
