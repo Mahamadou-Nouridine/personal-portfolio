@@ -12,8 +12,8 @@
     },
     {
       "icon": "git-branch-outline",
-      "title": "Configurable Platforms & Workflows",
-      "description": "Code-generation pipelines, BPMN business workflows and configurable reporting frameworks that run across PostgreSQL, MySQL, MongoDB and SQL Server."
+      "title": "Configurable Platforms & Code Generation",
+      "description": "Code-generation pipelines and configurable application frameworks that run across PostgreSQL, MySQL, MongoDB and SQL Server."
     },
     {
       "icon": "sparkles-outline",
@@ -44,8 +44,8 @@
     },
     {
       "icon": "git-branch-outline",
-      "title": "Plateformes Configurables & Workflows",
-      "description": "Chaînes de génération de code, workflows métier BPMN et frameworks de reporting configurables, exécutables sur PostgreSQL, MySQL, MongoDB et SQL Server."
+      "title": "Plateformes Configurables & Génération de Code",
+      "description": "Chaînes de génération de code et frameworks applicatifs configurables, exécutables sur PostgreSQL, MySQL, MongoDB et SQL Server."
     },
     {
       "icon": "sparkles-outline",
@@ -76,8 +76,8 @@
     },
     {
       "icon": "git-branch-outline",
-      "title": "منصات قابلة للتكوين وسير عمل الأعمال",
-      "description": "سلاسل توليد الكود، وسير عمل BPMN، وأطر تقارير قابلة للتكوين، تعمل على PostgreSQL و MySQL و MongoDB و SQL Server."
+      "title": "منصات قابلة للتكوين وتوليد الكود",
+      "description": "سلاسل توليد الكود وأطر تطبيقات قابلة للتكوين، تعمل على PostgreSQL و MySQL و MongoDB و SQL Server."
     },
     {
       "icon": "sparkles-outline",
