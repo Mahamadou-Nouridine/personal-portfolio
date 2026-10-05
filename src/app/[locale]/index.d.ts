@@ -15,4 +15,4 @@ interface Language{
   "level": string
 }
 
-type Locals = "en" | "fr"
+type Locals = "en" | "fr" | "ar"

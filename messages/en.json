@@ -44,7 +44,9 @@
       "practices": "Practices"
     },
     "spoken": "Spoken Languages",
-    "download-cv": "Download My CV"
+    "download-cv": "Download My CV",
+    "projects": "Projects",
+    "visit-platform": "Visit the platform"
   },
   "portfolio-page": {
     "filter-tags": "FILTER WITH TAGS",

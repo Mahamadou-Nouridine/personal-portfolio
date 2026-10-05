@@ -9,7 +9,13 @@ const Service:React.FC<props> = ({ service }) => {
   return (
     <li className="service-item">
       <div className="service-icon-box">
-        <Image src={service.icon} alt={service.title} width={70} height={70} />
+        <Image
+          src={service.icon}
+          alt={service.title}
+          width={86}
+          height={86}
+          priority
+        />
       </div>
 
       <div className="service-content-box">
