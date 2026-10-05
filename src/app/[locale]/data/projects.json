@@ -1,6 +1,52 @@
 {
   "en": [
     {
+      "name": "NourForm — Form Builder & Payments",
+      "date": "Sep 2026",
+      "description": "A SaaS platform that brings form building, registration and payment collection into a single tool. Institutions build branded forms with a drag-and-drop builder, collect fees through regional mobile money and card rails, then track responses, revenue and conversion from one dashboard — replacing the spreadsheets, paper registers and manual transfers they relied on before.",
+      "sourceCode": {
+        "public": false,
+        "link": "",
+        "message": "The source code is private"
+      },
+      "demo": {
+        "public": true,
+        "link": "https://form.nour-lab.com",
+        "message": "Invitation only — request an account"
+      },
+      "tags": [
+        "Full-stack",
+        "Next.js",
+        "TypeScript",
+        "React",
+        "SaaS",
+        "Payments",
+        "Mobile Money",
+        "Forms",
+        "Analytics",
+        "Authentication",
+        "Authorization",
+        "Database",
+        "External API",
+        "Web"
+      ],
+      "displayImage": "/assets/projects/nourForm/01.png",
+      "images": [
+        "/assets/projects/nourForm/01.png",
+        "/assets/projects/nourForm/02.png",
+        "/assets/projects/nourForm/03.png",
+        "/assets/projects/nourForm/04.png",
+        "/assets/projects/nourForm/05.png",
+        "/assets/projects/nourForm/06.png",
+        "/assets/projects/nourForm/07.png",
+        "/assets/projects/nourForm/08.png",
+        "/assets/projects/nourForm/09.png",
+        "/assets/projects/nourForm/10.png",
+        "/assets/projects/nourForm/11.png",
+        "/assets/projects/nourForm/13.png"
+      ]
+    },
+    {
       "name": "My Portfolio",
       "date": "Sep 2023",
       "description": "A website designed to showcase my skills, accomplishments, and provide all the professional information a recruiter or collaborator might need.",
@@ -224,6 +270,52 @@
   ],
   "fr": [
     {
+      "name": "NourForm — Générateur de formulaires et paiements",
+      "date": "Sep 2026",
+      "description": "Une plateforme SaaS qui réunit la création de formulaires, l'inscription et l'encaissement des paiements dans un seul outil. Les institutions créent des formulaires à leur marque grâce à un constructeur par glisser-déposer, encaissent les frais via mobile money et carte, puis suivent les réponses, les revenus et le taux de conversion depuis un tableau de bord unique — remplaçant les tableurs, les registres papier et les transferts manuels.",
+      "sourceCode": {
+        "public": false,
+        "link": "",
+        "message": "Le code source est privé"
+      },
+      "demo": {
+        "public": true,
+        "link": "https://form.nour-lab.com",
+        "message": "Sur invitation uniquement — demandez un compte"
+      },
+      "tags": [
+        "Full-stack",
+        "Next.js",
+        "TypeScript",
+        "React",
+        "SaaS",
+        "Paiements",
+        "Mobile Money",
+        "Formulaires",
+        "Analytics",
+        "Authentication",
+        "Authorization",
+        "Base de données",
+        "API externe",
+        "Web"
+      ],
+      "displayImage": "/assets/projects/nourForm/01.png",
+      "images": [
+        "/assets/projects/nourForm/01.png",
+        "/assets/projects/nourForm/02.png",
+        "/assets/projects/nourForm/03.png",
+        "/assets/projects/nourForm/04.png",
+        "/assets/projects/nourForm/05.png",
+        "/assets/projects/nourForm/06.png",
+        "/assets/projects/nourForm/07.png",
+        "/assets/projects/nourForm/08.png",
+        "/assets/projects/nourForm/09.png",
+        "/assets/projects/nourForm/10.png",
+        "/assets/projects/nourForm/11.png",
+        "/assets/projects/nourForm/13.png"
+      ]
+    },
+    {
       "name": "Mon Portfolio",
       "date": "Sep 2023",
       "description": "Un site web conçu pour présenter mes compétences et réalisations, et fournir toutes les informations professionnelles dont un recruteur ou un collaborateur pourrait avoir besoin.",
@@ -446,6 +538,52 @@
     }
   ],
   "ar": [
+    {
+      "name": "NourForm — إنشاء النماذج والدفع الإلكتروني",
+      "date": "سبتمبر 2026",
+      "description": "منصة SaaS تجمع إنشاء النماذج والتسجيل وتحصيل المدفوعات في أداة واحدة. تتيح للمؤسسات بناء نماذج بهويتها الخاصة عبر منشئ بالسحب والإفلات، وتحصيل الرسوم عبر وسائل الدفع الإقليمية (mobile money) والبطاقات، ثم متابعة الردود والمداخيل ومعدل التحويل من لوحة تحكم واحدة — بدلًا من الجداول والسجلات الورقية والتحويلات اليدوية.",
+      "sourceCode": {
+        "public": false,
+        "link": "",
+        "message": "الكود المصدري خاص"
+      },
+      "demo": {
+        "public": true,
+        "link": "https://form.nour-lab.com",
+        "message": "بالدعوة فقط — اطلب حسابًا"
+      },
+      "tags": [
+        "Full-stack",
+        "Next.js",
+        "TypeScript",
+        "React",
+        "SaaS",
+        "Payments",
+        "Mobile Money",
+        "Forms",
+        "Analytics",
+        "Authentication",
+        "Authorization",
+        "Database",
+        "External API",
+        "Web"
+      ],
+      "displayImage": "/assets/projects/nourForm/01.png",
+      "images": [
+        "/assets/projects/nourForm/01.png",
+        "/assets/projects/nourForm/02.png",
+        "/assets/projects/nourForm/03.png",
+        "/assets/projects/nourForm/04.png",
+        "/assets/projects/nourForm/05.png",
+        "/assets/projects/nourForm/06.png",
+        "/assets/projects/nourForm/07.png",
+        "/assets/projects/nourForm/08.png",
+        "/assets/projects/nourForm/09.png",
+        "/assets/projects/nourForm/10.png",
+        "/assets/projects/nourForm/11.png",
+        "/assets/projects/nourForm/13.png"
+      ]
+    },
     {
       "name": "موقعي الشخصي (My Portfolio)",
       "date": "سبتمبر 2023",
