@@ -1,4 +1,5 @@
 import TestimonialSection from "./components/testimonial/TestimonialSection";
+import ExpertiseSection from "./components/expertise/ExpertiseSection";
 import ServiceSection from "./components/services/ServiceSection";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
@@ -28,6 +29,8 @@ export default function Home() {
           </span>
         </p>
       </section>
+
+      <ExpertiseSection />
 
       <ServiceSection />
 

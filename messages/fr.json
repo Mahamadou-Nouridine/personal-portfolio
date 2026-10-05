@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "title": "Mahamadou Nouridine | Développeur Logiciel",
-    "description": "Je m'appelle Mahamadou Nouridine, développeur full-stack spécialisé dans la stack MERN, Next.js, NestJS, Rails et plus pour créer des solutions pour des entreprises et particuliers."
+    "title": "Mahamadou Nouridine | Ingénieur Logiciel Full Stack",
+    "description": "Ingénieur logiciel Full Stack avec plus de 3 ans d'expérience sur des applications web en production et des back-ends mobiles. Expert en API RESTful, SaaS multi-tenant, AWS et React/Next.js."
   },
   "Index": {
     "title": "Hello world!"
   },
   "sidebar": {
-    "role": "Développeur Full-stack",
+    "role": "Ingénieur Logiciel Full Stack",
     "email": "E-MAIL",
     "phone": "TELEPHONE",
     "birthday": "ANNIVERSAIRE",
@@ -23,13 +23,14 @@
     "blog": "Blog",
     "contact": "Contact"
   },
-  "about-page": {
-    "about": "Je m'appelle Mahamadou Nouridine, développeur full-stack spécialisé dans la stack MERN, NEXT js, NEST js, Rails et plus pour créer des solutions pour des entreprises et particuliers. Mes expériences de travail et d'étude m'ont permis d'être capable d'aborder des problématiques liées au développement informatique. Je suis passionné par la résolution de problèmes, animé par la curiosité et j'améliore continuellement mes compétences en codage pour développer des solutions innovantes.",
+"about-page": {
+    "about": "Je suis ingénieur logiciel Full Stack avec plus de 3 ans d'expérience professionnelle dans la conception et la maintenance d'applications web en production et des back-ends de clients mobiles. Je travaille sur l'ensemble du cycle de livraison — conception d'API RESTful, SaaS multi-tenant, frameworks back-end configurables, bases de données relationnelles et NoSQL, déploiements AWS — et côté front-end avec React, Next.js et Blazor. Je prends les décisions de conception, relis tout ce qui est livré, et collabore avec les product managers et les designers au sein d'équipes Agile internationales. J'intègre également des assistants de codage IA à mon flux de travail pour le prototypage, le débogage, l'aide à la revue de code et la documentation, tout en restant responsable du résultat final.",
     "consider": "Vous pouvez m'envoyer un message depuis ma",
     "contact-page": "page de contact",
     "or-email": "ou m'envoyer un e-mail à l'adresse",
     "for-more": "pour une discussion plus approfondie sur votre besoin",
-    "service-section-title": "Mes Services",
+    "expertise-section-title": "Expertise Clé",
+    "service-section-title": "Ce Que Je Peux Faire Pour Vous",
     "testimonial-section-tile": "Témoignages/Recommendations"
   },
   "resume-page": {

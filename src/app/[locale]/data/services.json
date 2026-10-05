@@ -1,68 +1,98 @@
 {
   "en": [
     {
-      "icon": "/assets/images/svg-icons/backend.svg",
-      "title": "Backend Development",
-      "description": "Architecting and implementing scalable application infrastructures using modern frameworks and industry best practices."
-    },
-    {
       "icon": "/assets/images/svg-icons/frontend.svg",
       "title": "Front-End Development",
-      "description": "Crafting high-performance, professional user interfaces with a focus on modern technologies and seamless user experiences."
+      "description": "Responsive, accessible interfaces built with React, Next.js and TypeScript, with a focus on performance and clear user flows."
+    },
+    {
+      "icon": "/assets/images/svg-icons/backend.svg",
+      "title": "Back-End Development",
+      "description": "RESTful APIs and services with Node.js, NestJS and Express, backed by PostgreSQL, MySQL, MongoDB or SQL Server."
+    },
+    {
+      "icon": "/assets/images/svg-icons/backend.svg",
+      "title": "Software Modelling & Architecture",
+      "description": "Data modelling, domain design and application architecture that stay maintainable as requirements and teams grow."
+    },
+    {
+      "icon": "/assets/images/svg-icons/backend.svg",
+      "title": "Training & Code Quality Consultancy",
+      "description": "Hands-on mentoring for junior developers on clean code, architecture, Git discipline and a real development workflow."
     },
     {
       "icon": "/assets/images/svg-icons/mobile.svg",
       "title": "Mobile Development",
-      "description": "Expert development of cross-platform and native applications for iOS and Android environments."
+      "description": "Cross-platform mobile apps with React Native, reusing the logic and APIs behind your existing web back-end."
     },
     {
       "icon": "/assets/images/svg-icons/deployment.svg",
-      "title": "Deployment & DevOps",
-      "description": "Streamlining the release process to ensure your solutions are production-ready and accessible to end-users."
+      "title": "Deployment & Monitoring",
+      "description": "Repeatable release pipelines and monitoring set up on AWS, Render or Vercel, so deployments stay boring and failures stay visible."
     }
   ],
   "fr": [
     {
-      "icon": "/assets/images/svg-icons/backend.svg",
-      "title": "Développement Backend",
-      "description": "Conception et mise en œuvre d'architectures d'application évolutives avec des technologies et frameworks modernes."
-    },
-    {
       "icon": "/assets/images/svg-icons/frontend.svg",
       "title": "Développement Front-End",
-      "description": "Développement d'interfaces utilisateur de haute qualité et de niveau professionnel, axé sur la performance et l'expérience utilisateur."
+      "description": "Interfaces responsives et accessibles construite avec React, Next.js et TypeScript, en misant sur la performance et des parcours utilisateur clairs."
+    },
+    {
+      "icon": "/assets/images/svg-icons/backend.svg",
+      "title": "Développement Back-End",
+      "description": "API RESTful et services avec Node.js, NestJS et Express, adossés à PostgreSQL, MySQL, MongoDB ou SQL Server."
+    },
+    {
+      "icon": "/assets/images/svg-icons/backend.svg",
+      "title": "Modélisation Logicielle & Architecture",
+      "description": "Modélisation des données, conception du domaine et architecture applicative qui restent maintenables à mesure que les besoins et les équipes grandissent."
+    },
+    {
+      "icon": "/assets/images/svg-icons/backend.svg",
+      "title": "Conseil en Formation & Qualité du Code",
+      "description": "Accompagnement pratique des développeurs juniors sur le clean code, l'architecture, la discipline Git et un vrai workflow de développement."
     },
     {
       "icon": "/assets/images/svg-icons/mobile.svg",
-      "title": "Applications Mobiles",
-      "description": "Développement professionnel d'applications mobiles performantes pour iOS et Android."
+      "title": "Développement Mobile",
+      "description": "Applications mobiles multiplateformes avec React Native, en réutilisant la logique et les API de votre back-end web existant."
     },
     {
       "icon": "/assets/images/svg-icons/deployment.svg",
-      "title": "Déploiement & DevOps",
-      "description": "Mise en production de vos solutions pour garantir leur accessibilité et leur stabilité auprès des utilisateurs finaux."
+      "title": "Déploiement & Supervision",
+      "description": "Chaînes de livraison reproductibles et supervision mises en place sur AWS, Render ou Vercel, pour des déploiements sans surprise et des pannes visibles."
     }
   ],
   "ar": [
     {
-      "icon": "/assets/images/svg-icons/backend.svg",
-      "title": "تطوير العمليات الخلفية (Backend)",
-      "description": "تصميم وتنفيذ بنيات برمجية قابلة للتوسع باستخدام أحدث الأطر والتقنيات العالمية."
+      "icon": "/assets/images/svg-icons/frontend.svg",
+      "title": "تطوير الواجهات الأمامية",
+      "description": "واجهات متجاوبة وسهلة الوصول مبنية بـ React و Next.js و TypeScript، مع التركيز على الأداء وتدفقات مستخدم واضحة."
     },
     {
-      "icon": "/assets/images/svg-icons/frontend.svg",
-      "title": "تطوير الواجهات الأمامية (Frontend)",
-      "description": "بناء واجهات مستخدم احترافية وعالية الأداء تركز على تجربة المستخدم والتقنيات الحديثة."
+      "icon": "/assets/images/svg-icons/backend.svg",
+      "title": "تطوير الواجهات الخلفية",
+      "description": "واجهات RESTful وخدمات باستخدام Node.js و NestJS و Express، مدعومة بـ PostgreSQL و MySQL و MongoDB أو SQL Server."
+    },
+    {
+      "icon": "/assets/images/svg-icons/backend.svg",
+      "title": "النمذجة البرمجية والمعمارية",
+      "description": "نمذجة البيانات وتصميم النطاق ومعمارية التطبيقات بحيث تبقى قابلة للصيانة مع نمو المتطلبات والفرق."
+    },
+    {
+      "icon": "/assets/images/svg-icons/backend.svg",
+      "title": "استشارة في التدريب وجودة الكود",
+      "description": "مرافقة عملية للمطورين المبتدئين في الكود النظيف والمعمارية وانضباط Git وسير عمل تطوير حقيقي."
     },
     {
       "icon": "/assets/images/svg-icons/mobile.svg",
       "title": "تطبيقات الهاتف المحمول",
-      "description": "تطوير احترافي لتطبيقات الهواتف الذكية لأنظمة iOS و Android بكفاءة عالية."
+      "description": "تطبيقات موبايل متعددة المنصات بـ React Native، مع إعادة استخدام منطق وواجهات صفحتك الخلفية على الويب."
     },
     {
       "icon": "/assets/images/svg-icons/deployment.svg",
-      "title": "النشر والعمليات (DevOps)",
-      "description": "تجهيز ونشر حلولكم البرمجية لضمان وصولها للمستخدمين النهائيين بأمان واستقرار."
+      "title": "النشر والمراقبة",
+      "description": "خطوط نشر قابلة للتكرار ومراقبة مُعدّة على AWS أو Render أو Vercel، لتبقى عمليات التسليم متوقعة وتظهر الأعطال بوضوح."
     }
   ]
 }

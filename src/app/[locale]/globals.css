@@ -659,6 +659,73 @@ main {
 }
 
 /**
+ *
+ * EXPERTISE
+ *
+ */
+
+.expertise-title {
+  margin-bottom: 20px;
+}
+
+.expertise-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.expertise-item {
+  position: relative;
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  background: var(--border-gradient-onyx);
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-2);
+  z-index: 1;
+  transition: box-shadow ease-in-out 0.15s;
+}
+
+.expertise-item::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.expertise-item:hover {
+  box-shadow: var(--shadow-3);
+}
+
+.expertise-icon-box {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border: 1px solid var(--jet);
+  border-radius: 12px;
+  background: var(--eerie-black-1);
+  color: var(--orange-yellow-crayola);
+  font-size: 22px;
+}
+
+.expertise-item-title {
+  margin-bottom: 7px;
+}
+
+.expertise-item-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-3);
+  line-height: 1.6;
+  text-wrap: pretty;
+}
+
+/**
  * #testimonials
  */
 
@@ -2323,6 +2390,13 @@ textarea.form-input::-webkit-resizer {
   /* service */
 
   .service-list {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 25px;
+  }
+
+  /* expertise */
+
+  .expertise-list {
     grid-template-columns: 1fr 1fr;
     gap: 20px 25px;
   }

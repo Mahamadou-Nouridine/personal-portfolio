@@ -1,0 +1,98 @@
+{
+  "en": [
+    {
+      "icon": "layers-outline",
+      "title": "Full-Stack Delivery",
+      "description": "Ships complete features end to end — front-end, RESTful APIs, data layer and deployment — from first commit to production."
+    },
+    {
+      "icon": "business-outline",
+      "title": "Multi-Tenant SaaS Architecture",
+      "description": "Tenant data isolation, role-based access control and secure APIs, delivered for legal case management, criminal-record issuing and sales platforms."
+    },
+    {
+      "icon": "git-branch-outline",
+      "title": "Configurable Platforms & Workflows",
+      "description": "Code-generation pipelines, BPMN business workflows and configurable reporting frameworks that run across PostgreSQL, MySQL, MongoDB and SQL Server."
+    },
+    {
+      "icon": "sparkles-outline",
+      "title": "AI-Assisted Engineering",
+      "description": "Uses AI coding assistants for prototyping, debugging, refactoring, and test and documentation drafts — then reviews and tests every line before it ships."
+    },
+    {
+      "icon": "shield-checkmark-outline",
+      "title": "Quality-Focused Development Workflow",
+      "description": "Unit and integration tests, code review, Git-based workflows and CI/CD, with logging and monitoring added to production systems to keep them reliable."
+    },
+    {
+      "icon": "people-outline",
+      "title": "Mentoring & Collaboration",
+      "description": "Technical mentor for junior developers on clean code and architecture, and a steady collaborator with product managers and designers in Agile, cross-border teams."
+    }
+  ],
+  "fr": [
+    {
+      "icon": "layers-outline",
+      "title": "Livraison Full Stack",
+      "description": "Je livre des fonctionnalités complètes de bout en bout — front-end, API RESTful, couche de données et déploiement — du premier commit jusqu'à la production."
+    },
+    {
+      "icon": "business-outline",
+      "title": "Architecture SaaS Multi-Tenant",
+      "description": "Isolation des données par tenant, contrôle d'accès par rôles et API sécurisées, pour la gestion de dossiers juridiques, la délivrance de casiers judiciaires et des plateformes de gestion des ventes."
+    },
+    {
+      "icon": "git-branch-outline",
+      "title": "Plateformes Configurables & Workflows",
+      "description": "Chaînes de génération de code, workflows métier BPMN et frameworks de reporting configurables, exécutables sur PostgreSQL, MySQL, MongoDB et SQL Server."
+    },
+    {
+      "icon": "sparkles-outline",
+      "title": "Développement Assisté Par IA",
+      "description": "J'utilise des assistants de codage IA pour le prototypage, le débogage, la refactorisation et la rédaction de tests et de documentation — puis je relis et teste chaque ligne avant livraison."
+    },
+    {
+      "icon": "shield-checkmark-outline",
+      "title": "Workflow de Développement Orienté Qualité",
+      "description": "Tests unitaires et d'intégration, revue de code, workflows Git et CI/CD, avec journalisation et supervision ajoutées aux systèmes en production pour les garder fiables."
+    },
+    {
+      "icon": "people-outline",
+      "title": "Mentorat & Collaboration",
+      "description": "Mentor technique pour développeurs juniors sur le clean code et l'architecture, et collaborateur régulier avec les product managers et les designers au sein d'équipes Agile internationales."
+    }
+  ],
+  "ar": [
+    {
+      "icon": "layers-outline",
+      "title": "تسليم متكامل (Full Stack)",
+      "description": "أسلّم ميزات متكاملة من البداية إلى النهاية — الواجهة الأمامية، واجهات RESTful، طبقة البيانات، والنشر — من أول التزام حتى الإنتاج."
+    },
+    {
+      "icon": "business-outline",
+      "title": "معمارية SaaS متعددة المستأجرين",
+      "description": "عزل بيانات كل مستأجر، والتحكم في الوصول حسب الأدوار، وواجهات آمنة، لإدارة الملفات القانونية وإصدار السجلات الجنائية ومنصات إدارة المبيعات."
+    },
+    {
+      "icon": "git-branch-outline",
+      "title": "منصات قابلة للتكوين وسير عمل الأعمال",
+      "description": "سلاسل توليد الكود، وسير عمل BPMN، وأطر تقارير قابلة للتكوين، تعمل على PostgreSQL و MySQL و MongoDB و SQL Server."
+    },
+    {
+      "icon": "sparkles-outline",
+      "title": "هندسة بمساعدة الذكاء الاصطناعي",
+      "description": "أستخدم مساعدات البرمجة بالذكاء الاصطناعي للنمذجة الأولية وتصحيح الأخطاء وإعادة الهيكلة وكتابة المسودات للاختبارات والتوثيق — ثم أراجع كل سطر وأختبره قبل التسليم."
+    },
+    {
+      "icon": "shield-checkmark-outline",
+      "title": "سير عمل تطوير يركّز على الجودة",
+      "description": "اختبارات وحدة وتكامل، ومراجعات كود، وسير عمل قائم على Git، و CI/CD، مع إضافة التسجيل والمراقبة لأنظمة الإنتاج للحفاظ على موثوقيتها."
+    },
+    {
+      "icon": "people-outline",
+      "title": "الإرشاد والتعاون",
+      "description": "مرشد تقني للمطورين المبتدئين في الكود النظيف والمعمارية، ومتعاون منتظم مع مديري المنتجات والمصممين ضمن فرق Agile دولية."
+    }
+  ]
+}
