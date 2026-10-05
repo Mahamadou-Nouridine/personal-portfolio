@@ -54,6 +54,10 @@
   --bittersweet-shimmer: hsl(0, 43%, 51%);
   --status-blue: rgb(18, 18, 255);
 
+  /* chrome */
+
+  --navbar-bg: hsla(240, 1%, 17%, 0.75);
+
   /**
    * typography
    */
@@ -93,6 +97,112 @@
 
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease-in-out;
+}
+
+/**
+ *
+ * LIGHT THEME
+ *
+ */
+
+:root[data-theme="light"] {
+  /**
+   * colors
+   */
+
+  /* gradient */
+
+  --bg-gradient-onyx: linear-gradient(
+    to bottom right,
+    hsl(0, 0%, 100%) 3%,
+    hsl(240, 24%, 94%) 97%
+  );
+  --bg-gradient-jet: linear-gradient(
+      to bottom right,
+      hsla(240, 20%, 78%, 0.35) 0%,
+      hsla(240, 20%, 95%, 0) 100%
+    ),
+    hsl(0, 0%, 100%);
+  --bg-gradient-yellow-1: linear-gradient(
+    to bottom right,
+    hsl(45, 100%, 60%) 0%,
+    hsla(36, 100%, 69%, 0) 50%
+  );
+  --bg-gradient-yellow-2: linear-gradient(
+      135deg,
+      hsla(45, 100%, 60%, 0.16) 0%,
+      hsla(35, 100%, 68%, 0) 59.86%
+    ),
+    hsl(0, 0%, 100%);
+  --border-gradient-onyx: linear-gradient(
+    to bottom right,
+    hsl(0, 0%, 80%) 0%,
+    hsla(0, 0%, 80%, 0) 50%
+  );
+  --text-gradient-yellow: linear-gradient(
+    to right,
+    hsl(35, 95%, 36%),
+    hsl(30, 95%, 44%)
+  );
+
+  /* solid */
+
+  --navbar-bg: hsla(0, 0%, 100%, 0.78);
+  --jet: #e0e0e6;
+  --onyx: hsl(240, 14%, 92%);
+  --eerie-black-1: hsl(240, 22%, 96%);
+  --eerie-black-2: #ffffff;
+  --smoky-black: hsl(240, 24%, 94%);
+  --white-1: hsl(240, 8%, 12%);
+  --white-2: hsl(240, 8%, 18%);
+  --orange-yellow-crayola: #8a5f00;
+  --vegas-gold: #7a6420;
+  --light-gray: hsl(240, 6%, 32%);
+  --light-gray-70: hsla(240, 6%, 30%, 0.75);
+  --bittersweet-shimmer: #c0392b;
+  --status-blue: #2f45d6;
+
+  /**
+   * shadow
+   */
+
+  --shadow-1: -4px 8px 24px hsla(240, 10%, 25%, 0.12);
+  --shadow-2: 0 16px 30px hsla(240, 10%, 25%, 0.1);
+  --shadow-3: 0 16px 40px hsla(240, 10%, 25%, 0.12);
+  --shadow-4: 0 25px 50px hsla(240, 10%, 25%, 0.1);
+  --shadow-5: 0 24px 80px hsla(240, 10%, 25%, 0.16);
+}
+
+/**
+ *
+ * LIGHT THEME OVERRIDES
+ *
+ * Rules that hardcode a colour outside the custom-property palette.
+ *
+ */
+
+:root[data-theme="light"] .accordion {
+  --bs-accordion-btn-bg: hsl(0, 0%, 89%);
+}
+
+:root[data-theme="light"] .select-item button:hover {
+  --eerie-black-2: hsl(240, 20%, 89%);
+}
+
+:root[data-theme="light"] body::-webkit-scrollbar-thumb,
+:root[data-theme="light"] .has-scrollbar::-webkit-scrollbar-thumb {
+  background: hsla(240, 6%, 40%, 0.32);
+  box-shadow: inset 1px 1px 0 hsla(240, 10%, 20%, 0.12),
+    inset -1px -1px 0 hsla(240, 10%, 20%, 0.12);
+}
+
+:root[data-theme="light"] body::-webkit-scrollbar-thumb:hover,
+:root[data-theme="light"] .has-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: hsla(240, 6%, 40%, 0.48);
+}
+
+:root[data-theme="light"] ::selection {
+  color: hsl(0, 0%, 100%);
 }
 
 /*-----------------------------------*\

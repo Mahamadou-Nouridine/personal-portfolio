@@ -34,7 +34,7 @@
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: white;
+  color: var(--light-gray);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -51,8 +51,8 @@
     border-radius: 20px;
 } */
 .selected {
-  background-color: #f1f1f1;
-  color: black;
+  background-color: var(--onyx);
+  color: var(--white-1);
   border-radius: 20px;
 }
 

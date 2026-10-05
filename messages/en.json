@@ -21,7 +21,8 @@
     "resume": "Resume",
     "portfolio": "Portfolio",
     "blog": "Blog",
-    "contact": "Contact"
+    "contact": "Contact",
+    "theme-toggle": "Toggle light and dark theme"
   },
   "about-page": {
     "about": "I'm a Full Stack Software Engineer with over 3 years of professional experience building and maintaining production web applications and the backends behind mobile clients. I work across the whole delivery cycle — RESTful API design, multi-tenant SaaS, configurable backend frameworks, relational and NoSQL databases and AWS deployments, on the front-end side with React, Next.js and Blazor. I'm comfortable owning design decisions, reviewing everything that ships, and collaborating with product managers and designers in Agile, cross-border teams. I also bring AI coding assistants into my workflow for prototyping, debugging, code review support and documentation, while staying accountable for the final result.",

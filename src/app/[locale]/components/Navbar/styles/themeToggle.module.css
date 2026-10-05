@@ -1,0 +1,46 @@
+/*-----------------------------------*\
+  #THEME TOGGLE
+\*-----------------------------------*/
+
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  margin: 0;
+  background: var(--onyx);
+  border: 1px solid var(--jet);
+  border-radius: 50%;
+  color: var(--orange-yellow-crayola);
+  cursor: pointer;
+  transition: color var(--transition-1), background var(--transition-1),
+    border-color var(--transition-1);
+}
+
+.toggle:hover {
+  background: var(--eerie-black-1);
+  border-color: var(--orange-yellow-crayola);
+}
+
+.toggle ion-icon {
+  font-size: 18px;
+}
+
+/* The icon reflects the mode that will be entered, not the active one.
+   Visibility is driven by the data-theme attribute that the inline
+   script in <head> sets before first paint, which avoids both a flash
+   and a hydration mismatch. */
+
+.moon {
+  display: none;
+}
+
+:global(html[data-theme="light"]) .sun {
+  display: none;
+}
+
+:global(html[data-theme="light"]) .moon {
+  display: block;
+}

@@ -21,9 +21,10 @@
     "resume": "CV",
     "portfolio": "Réalisations",
     "blog": "Blog",
-    "contact": "Contact"
+    "contact": "Contact",
+    "theme-toggle": "Basculer entre le thème clair et sombre"
   },
-"about-page": {
+  "about-page": {
     "about": "Je suis ingénieur logiciel Full Stack avec plus de 3 ans d'expérience professionnelle dans la conception et la maintenance d'applications web en production et des back-ends de clients mobiles. Je travaille sur l'ensemble du cycle de livraison — conception d'API RESTful, SaaS multi-tenant, frameworks back-end configurables, bases de données relationnelles et NoSQL, déploiements AWS — et côté front-end avec React, Next.js et Blazor. Je prends les décisions de conception, relis tout ce qui est livré, et collabore avec les product managers et les designers au sein d'équipes Agile internationales. J'intègre également des assistants de codage IA à mon flux de travail pour le prototypage, le débogage, l'aide à la revue de code et la documentation, tout en restant responsable du résultat final.",
     "consider": "Vous pouvez m'envoyer un message depuis ma",
     "contact-page": "page de contact",

@@ -19,6 +19,8 @@ import { LanguageNotice } from "./components/DevelopmentNotice";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const themeScript = `(function(){try{var s=localStorage.getItem("nouridine-theme");document.documentElement.dataset.theme=s==="light"?"light":"dark";}catch(e){document.documentElement.dataset.theme="dark";}})();`;
+
 export async function generateMetadata({
   params: { locale },
 }: {
@@ -120,8 +122,13 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
+    <html
+      lang={locale}
+      dir={locale === "ar" ? "rtl" : "ltr"}
+      suppressHydrationWarning
+    >
       <head>
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
         <link
           rel="icon"
           type="image/png"
