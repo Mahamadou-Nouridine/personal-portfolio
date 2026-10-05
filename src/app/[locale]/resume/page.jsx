@@ -1,6 +1,7 @@
 import React from "react";
 import EducationSection from "./components/EducationSection";
 import ExpericeSection from "./components/ExperienceSection";
+import ProjectsSection from "./components/ProjectsSection";
 import SkillsSection from "./components/SkillsSection";
 import CertificationsSection from "./components/CertificationsSection";
 import { useTranslations } from "next-intl";
@@ -18,6 +19,8 @@ const Resume = () => {
       </header>
 
       <ExpericeSection />
+
+      <ProjectsSection />
 
       <EducationSection />
 

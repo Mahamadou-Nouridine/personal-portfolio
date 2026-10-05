@@ -1,0 +1,80 @@
+{
+  "en": [
+    {
+      "name": "NourForm — Form Builder & Payments",
+      "period": "2026 — Present",
+      "description": "SaaS platform that brings form building, registration and payment collection into a single tool. Built the drag-and-drop form builder, per-organisation white-labelling, and the payment layer covering regional mobile money and card rails with country-aware method selection. Responses, revenue and conversion are tracked from one dashboard, with per-field analytics and Excel export.",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "React",
+        "REST API"
+      ],
+      "link": "https://form.nour-lab.com"
+    },
+    {
+      "name": "Vendora — Hotspot Ticket Management",
+      "period": "2026 — Present",
+      "description": "Multi-tenant SaaS for hotspot Wi-Fi zones. Started as a personal tool to run my own zone, then turned into a platform where each operator manages their hotspot on a dedicated dashboard: configurable access tickets and stock with low-stock alerts, reseller accounts, a manager approval and receipt trail for payments, revenue reporting and a full activity log.",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "MongoDB",
+        "REST API"
+      ],
+      "link": "https://vendora-black.vercel.app/"
+    }
+  ],
+  "fr": [
+    {
+      "name": "NourForm — Générateur de formulaires et paiements",
+      "period": "2026 — En cours",
+      "description": "Plateforme SaaS qui réunit la création de formulaires, l'inscription et l'encaissement des paiements dans un seul outil. Développement du constructeur de formulaires par glisser-déposer, de la personnalisation aux couleurs de chaque organisation et de la couche de paiement couvrant le mobile money régional et la carte, avec sélection des moyens selon le pays. Réponses, revenus et taux de conversion sont suivis depuis un tableau de bord unique, avec analyse par champ et export Excel.",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "React",
+        "API REST"
+      ],
+      "link": "https://form.nour-lab.com"
+    },
+    {
+      "name": "Vendora — Gestion de tickets pour zones Wi-Fi",
+      "period": "2026 — En cours",
+      "description": "Plateforme SaaS multi-tenant pour les zones Wi-Fi. Débutée comme un outil personnel pour gérer ma propre zone, puis transformée en une plateforme où chaque opérateur gère son hotspot sur un tableau de bord dédié : tickets d'accès configurables et stock avec seuils d'alerte, comptes vendeurs, circuit de validation et de reçu pour les paiements, rapports de revenus et journal d'activité complet.",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "MongoDB",
+        "API REST"
+      ],
+      "link": "https://vendora-black.vercel.app/"
+    }
+  ],
+  "ar": [
+    {
+      "name": "NourForm — إنشاء النماذج والدفع الإلكتروني",
+      "period": "2026 — قيد العمل",
+      "description": "منصة SaaS تجمع إنشاء النماذج والتسجيل وتحصيل المدفوعات في أداة واحدة. تطوير منشئ النماذج بالسحب والإفلات، والتخصيص بهوية كل مؤسسة، وطبقة الدفع التي تغطي وسائل الدفع الإقليمية عبر الهاتف والبطاقات مع اختيار الوسيلة حسب البلد. تُتابَع الردود والمداخيل ومعدل التحويل من لوحة تحكم واحدة، مع تحليل لكل حقل وتصدير إلى Excel.",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "React",
+        "REST API"
+      ],
+      "link": "https://form.nour-lab.com"
+    },
+    {
+      "name": "Vendora — إدارة تذاكر مناطق الواي فاي",
+      "period": "2026 — قيد العمل",
+      "description": "منصة SaaS متعددة المستأجرين لمناطق الواي فاي. بدأت كأداة شخصية لإدارة منطقتي الخاصة، ثم تحوّلت إلى منصة يدير فيها كل مشغّل نطاقه عبر لوحة تحكم مخصّصة: تذاكر وصول قابلة للضبط ومخزون مع حدود تنبيه، وحسابات موزّعين، ومسار موافقة وإصدار إيصال للمدفوعات، وتقارير إيرادات، وسجل نشاط كامل.",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "MongoDB",
+        "REST API"
+      ],
+      "link": "https://vendora-black.vercel.app/"
+    }
+  ]
+}

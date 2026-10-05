@@ -47,6 +47,51 @@
       ]
     },
     {
+      "name": "Vendora — Hotspot Ticket Management",
+      "date": "Oct 2026",
+      "description": "A multi-tenant SaaS for running hotspot Wi-Fi zones: resellers sell time-based access tickets that each operator configures themselves, and managers follow every order from request to payment. I built it to run my own zone, then turned it into a platform where any operator manages their hotspot with their own dashboard, ticket inventory, seller accounts and revenue reports.",
+      "sourceCode": {
+        "public": false,
+        "link": "",
+        "message": "The source code is private"
+      },
+      "demo": {
+        "public": true,
+        "link": "https://vendora-black.vercel.app/",
+        "message": "Private platform — accounts available through the waiting list"
+      },
+      "tags": [
+        "Full-stack",
+        "Next.js",
+        "TypeScript",
+        "React",
+        "MongoDB",
+        "SaaS",
+        "Multi-tenant",
+        "Analytics",
+        "Authentication",
+        "Authorization",
+        "Database",
+        "Web"
+      ],
+      "displayImage": "/assets/projects/vendora/01.png",
+      "images": [
+        "/assets/projects/vendora/01.png",
+        "/assets/projects/vendora/02.png",
+        "/assets/projects/vendora/03.png",
+        "/assets/projects/vendora/04.png",
+        "/assets/projects/vendora/05.png",
+        "/assets/projects/vendora/06.png",
+        "/assets/projects/vendora/07.png",
+        "/assets/projects/vendora/08.png",
+        "/assets/projects/vendora/09.png",
+        "/assets/projects/vendora/10.png",
+        "/assets/projects/vendora/11.png",
+        "/assets/projects/vendora/12.png",
+        "/assets/projects/vendora/13.png"
+      ]
+    },
+    {
       "name": "My Portfolio",
       "date": "Sep 2023",
       "description": "A website designed to showcase my skills, accomplishments, and provide all the professional information a recruiter or collaborator might need.",
@@ -316,6 +361,51 @@
       ]
     },
     {
+      "name": "Vendora — Gestion de tickets pour zones Wi-Fi",
+      "date": "Oct 2026",
+      "description": "Une plateforme SaaS multi-tenant pour gérer des zones Wi-Fi : des vendeurs proposent des tickets d'accès à durée limitée, configurables par chaque opérateur, et les managers suivent chaque commande, de la demande au paiement. Je l'ai créée pour gérer ma propre zone, puis transformée en une plateforme où chaque opérateur pilote son hotspot avec son tableau de bord, son inventaire de tickets, ses comptes vendeurs et ses rapports de revenus.",
+      "sourceCode": {
+        "public": false,
+        "link": "",
+        "message": "Le code source est privé"
+      },
+      "demo": {
+        "public": true,
+        "link": "https://vendora-black.vercel.app/",
+        "message": "Plateforme privée — comptes disponibles via la liste d'attente"
+      },
+      "tags": [
+        "Full-stack",
+        "Next.js",
+        "TypeScript",
+        "React",
+        "MongoDB",
+        "SaaS",
+        "Multi-tenant",
+        "Analytics",
+        "Authentication",
+        "Authorization",
+        "Base de données",
+        "Web"
+      ],
+      "displayImage": "/assets/projects/vendora/01.png",
+      "images": [
+        "/assets/projects/vendora/01.png",
+        "/assets/projects/vendora/02.png",
+        "/assets/projects/vendora/03.png",
+        "/assets/projects/vendora/04.png",
+        "/assets/projects/vendora/05.png",
+        "/assets/projects/vendora/06.png",
+        "/assets/projects/vendora/07.png",
+        "/assets/projects/vendora/08.png",
+        "/assets/projects/vendora/09.png",
+        "/assets/projects/vendora/10.png",
+        "/assets/projects/vendora/11.png",
+        "/assets/projects/vendora/12.png",
+        "/assets/projects/vendora/13.png"
+      ]
+    },
+    {
       "name": "Mon Portfolio",
       "date": "Sep 2023",
       "description": "Un site web conçu pour présenter mes compétences et réalisations, et fournir toutes les informations professionnelles dont un recruteur ou un collaborateur pourrait avoir besoin.",
@@ -582,6 +672,51 @@
         "/assets/projects/nourForm/10.png",
         "/assets/projects/nourForm/11.png",
         "/assets/projects/nourForm/13.png"
+      ]
+    },
+    {
+      "name": "Vendora — إدارة تذاكر مناطق الواي فاي",
+      "date": "أكتوبر 2026",
+      "description": "منصة SaaS متعددة المستأجرين لإدارة مناطق الواي فاي: يبيع الموزّعون تذاكر وصول محددة المدة يمكن لكل مشغّل ضبطها بنفسه، ويتابع المديرون كل طلب من الإنشاء إلى الدفع. أنشأتها أولًا لإدارة منطقتي الخاصة، ثم حوّلتها إلى منصة تتيح لكل مشغّل إدارة نطاقه عبر لوحة تحكم ومخزون تذاكر وحسابات موزّعين وتقارير إيرادات.",
+      "sourceCode": {
+        "public": false,
+        "link": "",
+        "message": "الكود المصدري خاص"
+      },
+      "demo": {
+        "public": true,
+        "link": "https://vendora-black.vercel.app/",
+        "message": "منصة خاصة — الحسابات متاحة عبر قائمة الانتظار"
+      },
+      "tags": [
+        "Full-stack",
+        "Next.js",
+        "TypeScript",
+        "React",
+        "MongoDB",
+        "SaaS",
+        "Multi-tenant",
+        "Analytics",
+        "Authentication",
+        "Authorization",
+        "Database",
+        "Web"
+      ],
+      "displayImage": "/assets/projects/vendora/01.png",
+      "images": [
+        "/assets/projects/vendora/01.png",
+        "/assets/projects/vendora/02.png",
+        "/assets/projects/vendora/03.png",
+        "/assets/projects/vendora/04.png",
+        "/assets/projects/vendora/05.png",
+        "/assets/projects/vendora/06.png",
+        "/assets/projects/vendora/07.png",
+        "/assets/projects/vendora/08.png",
+        "/assets/projects/vendora/09.png",
+        "/assets/projects/vendora/10.png",
+        "/assets/projects/vendora/11.png",
+        "/assets/projects/vendora/12.png",
+        "/assets/projects/vendora/13.png"
       ]
     },
     {
