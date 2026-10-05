@@ -9,7 +9,17 @@ const EducationItem = ({ education }) => {
         {education.from} — {education.to}
       </span>
 
-      <p className="timeline-text">{education.description}</p>
+      {education.description && (
+        <p className="timeline-text">{education.description}</p>
+      )}
+
+      {education.bullets?.length > 0 && (
+        <ul className="timeline-bullets">
+          {education.bullets.map((bullet, index) => (
+            <li key={index}>{bullet}</li>
+          ))}
+        </ul>
+      )}
     </li>
   );
 };

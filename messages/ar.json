@@ -33,12 +33,15 @@
     "testimonial-section-tile": "التوصيات / الشهادات"
   },
   "resume-page": {
-    "used-technology": "التقنيات التي أستخدمها",
-    "used-frameworks": "الأطر البرمجية التي أستخدمها",
-    "tools": "الأدوات والمنصات",
+    "skills": {
+      "frontend": "الواجهة الأمامية",
+      "backend": "الواجهة الخلفية",
+      "databases": "قواعد البيانات",
+      "cloud": "السحابة و DevOps",
+      "ai-assisted": "التطوير بمساعدة الذكاء الاصطناعي",
+      "practices": "الممارسات"
+    },
     "spoken": "اللغات المحكية",
-    "foreign": "أجنبية",
-    "local": "محلية",
     "download-cv": "تحميل سيرتي الذاتية"
   },
   "portfolio-page": {

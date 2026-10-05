@@ -4,39 +4,119 @@
       "name": "Full Stack Software Engineer (Gabera, Niger/Switzerland/Liechtenstein)",
       "from": "February 2025",
       "to": "Present",
-      "description": "Designing enterprise reporting frameworks using Blazor (MAUI) for frontend and C# RESTful APIs for backend. Integrated SQL Server, PostgreSQL, and MongoDB for unified data access, improving system performance and contributing to low-code platform integration."
+      "description": "Developing the front-end and back-end components of AGPP (Auto-Generated Pro-Code Platform), a platform that generates configurable business applications.",
+      "bullets": [
+        "Designed and implemented a database-agnostic reporting framework in C# with a unified adapter architecture supporting PostgreSQL, MySQL, MongoDB and SQL Server, exposed through RESTful APIs.",
+        "Built configurable reporting capabilities (data selection, aggregations, grouping, sorting, filtering) and RESTful APIs connecting the framework to multiple database systems, ensuring data integrity across sources.",
+        "Integrated the reporting and BPMN frameworks into the application-generation pipeline, enabling generated applications to run configurable reports and business workflows.",
+        "Built responsive front-end interfaces (Blazor/.NET MAUI) for configuring and using these features; debugged and optimized applications to improve reliability and performance.",
+        "Participated in code reviews and collaborated with product and engineering teams within an Agile workflow.",
+        "Used AI coding assistants to speed up prototyping, debugging and documentation of the reporting framework and UI components, reviewing and testing all generated code before merging."
+      ]
     },
     {
-      "name": "Full Stack Software Engineer (LEGALTECH PRIORITIES, Niamey, Niger)",
+      "name": "Freelance Full Stack Engineer (Remote)",
+      "from": "October 2023",
+      "to": "February 2025",
+      "description": "Selected clients — ride-hailing, government case management and beauty-booking platforms, each delivered end to end on AWS.",
+      "bullets": [
+        "Kano VTC: built a ride-hailing (VTC) platform made of two mobile clients and a web back-office, using Next.js and NestJS on AWS (Lambda, Cognito) with Docker and Stripe payment integration.",
+        "LIDAN: designed and built a criminal-record issuing system for government use with Next.js, NestJS and PostgreSQL, including role-based access control, secure RESTful APIs, query optimization and caching, and unit and integration tests.",
+        "Caly: took a partially built beauty-booking platform to production on AWS (EC2, S3), rebuilding it in Next.js, React and TypeScript with Firebase authentication, Google Maps geolocation, and TanStack Query / React Hook Form / Zod for state and validation."
+      ]
+    },
+    {
+      "name": "Full Stack Software Engineer (LegalTech Priorities, Niger)",
       "from": "December 2023",
       "to": "February 2024",
-      "description": "Developed a multi-tenant SaaS legal platform using Next.js and NestJS. Implemented secure RESTful APIs with strict data isolation and real-time updates to enhance lawyer-client collaboration."
+      "description": "Built a multi-tenant SaaS application end to end for secure case management using React, Next.js, TypeScript, NestJS and MongoDB.",
+      "bullets": [
+        "Designed RESTful APIs and real-time case-status features; implemented authentication, authorization and tenant-level data isolation.",
+        "Investigated production issues and added logging and monitoring to improve reliability and troubleshooting.",
+        "Used AI coding assistants to accelerate API and front-end implementation and to explore interface options before finalizing designs."
+      ]
     },
     {
-      "name": "Full Stack Developer (CodeLoccol, Niamey, Niger)",
+      "name": "Full Stack Developer (CodeLoccol, Niger)",
       "from": "July 2022",
       "to": "March 2023",
-      "description": "Built a MERN-stack learning platform for 100+ users. Developed automated student supervision tools using Node.js and Discord bots, alongside robust RESTful APIs with comprehensive error handling."
+      "description": "Built and maintained MERN learning platforms and back-end systems used by 100+ users.",
+      "bullets": [
+        "Built and maintained a MERN learning platform (React, Node.js, Express, MongoDB) used by 100+ users, covering project submissions, peer evaluations and progress tracking, plus school-admission and program-management systems.",
+        "Developed and maintained RESTful APIs with request validation, error handling and database access; built a Node.js Discord bot to automate student supervision and monitor real-time activity.",
+        "Participated in code reviews and applied clean, well-documented, testable coding practices throughout development."
+      ]
+    },
+    {
+      "name": "Full Stack Developer & Data Engineer (UNESCO-India-Africa Hackathon 2022, India)",
+      "from": "November 2022",
+      "to": "December 2022",
+      "description": "Represented Niger at the UNESCO-India-Africa Hackathon 2022 with a Python-based energy-consumption analysis solution.",
+      "bullets": [
+        "Represented Niger as a finalist among 100 teams from 23 countries with a Python-based energy-consumption analysis solution.",
+        "Built data extraction and processing pipelines using satellite imagery and the Google Earth Engine API.",
+        "Contributed to front-end and back-end development of the team's presentation platform under a 36-hour deadline."
+      ]
     }
   ],
   "fr": [
     {
-      "name": "Ingénieur Full Stack (Gabera, Niger/Suisse/Liechtenstein)",
+      "name": "Ingénieur Logiciel Full Stack (Gabera, Niger/Suisse/Liechtenstein)",
       "from": "Février 2025",
       "to": "Présent",
-      "description": "Conception de frameworks de reporting d'entreprise utilisant Blazor (MAUI) pour le front-end et des API RESTful en C# pour le back-end. Intégration de bases de données multiples (SQL Server, PostgreSQL, MongoDB) pour un accès unifié aux données, optimisant les performances du système."
+      "description": "Développement des composants front-end et back-end d'AGPP (Auto-Generated Pro-Code Platform), une plateforme de génération d'applications métier configurables.",
+      "bullets": [
+        "Conception et implémentation d'un framework de reporting indépendant de la base de données en C#, avec une architecture d'adaptateurs unifiée prenant en charge PostgreSQL, MySQL, MongoDB et SQL Server, exposés via des API RESTful.",
+        "Développement de fonctionnalités de reporting configurables (sélection de données, agrégations, regroupements, tris, filtres) et d'API RESTful reliant le framework à plusieurs systèmes de bases de données, en garantissant l'intégrité des données entre les sources.",
+        "Intégration des frameworks de reporting et BPMN dans la chaîne de génération d'applications, permettant aux applications générées d'exécuter des rapports configurables et des workflows métier.",
+        "Développement d'interfaces front-end responsives (Blazor/.NET MAUI) pour configurer et utiliser ces fonctionnalités ; débogage et optimisation des applications pour améliorer la fiabilité et les performances.",
+        "Participation aux revues de code et collaboration avec les équipes produit et ingénierie dans un cadre Agile.",
+        "Utilisation d'assistants de codage IA pour accélérer le prototypage, le débogage et la documentation du framework de reporting et des composants d'interface, avec relecture et tests de tout le code généré avant fusion."
+      ]
     },
     {
-      "name": "Ingénieur Full Stack (LEGALTECH PRIORITIES, Niamey, Niger)",
+      "name": "Ingénieur Logiciel Full Stack Freelance (Télétravail)",
+      "from": "Octobre 2023",
+      "to": "Février 2025",
+      "description": "Clients sélectionnés — plateformes de VTC, de gestion de casiers judiciaires et de réservation beauté, chacune livrée de bout en bout sur AWS.",
+      "bullets": [
+        "Kano VTC : création d'une plateforme de VTC composée de deux applications mobiles et d'un back-office web, avec Next.js et NestJS sur AWS (Lambda, Cognito), Docker et intégration des paiements Stripe.",
+        "LIDAN : conception et développement d'un système de délivrance de casiers judiciaires à usage gouvernemental avec Next.js, NestJS et PostgreSQL, incluant contrôle d'accès par rôles, API RESTful sécurisées, optimisation des requêtes et mise en cache, tests unitaires et d'intégration.",
+        "Caly : mise en production, sur AWS (EC2, S3), d'une plateforme de réservation beauté partiellement développée, reconstruite avec Next.js, React et TypeScript, avec authentification Firebase, géolocalisation Google Maps, et TanStack Query / React Hook Form / Zod pour l'état et la validation."
+      ]
+    },
+    {
+      "name": "Ingénieur Logiciel Full Stack (LegalTech Priorities, Niger)",
       "from": "Décembre 2023",
       "to": "Février 2024",
-      "description": "Développement d'une plateforme SaaS multi-locataires (multi-tenant) pour le secteur juridique avec Next.js et NestJS. Mise en place d'APIs REST sécurisées garantissant l'isolation des données et de mises à jour en temps réel."
+      "description": "Développement complet d'une application SaaS multi-tenant de gestion sécurisée des dossiers avec React, Next.js, TypeScript, NestJS et MongoDB.",
+      "bullets": [
+        "Conception d'API RESTful et de fonctionnalités temps réel de suivi de l'état des dossiers ; mise en place de l'authentification, de l'autorisation et de l'isolation des données par tenant.",
+        "Analyse des incidents en production et ajout de journalisation et de supervision pour améliorer la fiabilité et le diagnostic.",
+        "Utilisation d'assistants de codage IA pour accélérer le développement des API et du front-end et explorer des options d'interface avant de finaliser les maquettes."
+      ]
     },
     {
-      "name": "Développeur Full Stack (CodeLoccol, Niamey, Niger)",
+      "name": "Développeur Full Stack (CodeLoccol, Niger)",
       "from": "Juillet 2022",
       "to": "Mars 2023",
-      "description": "Création d'une plateforme d'apprentissage MERN pour plus de 100 utilisateurs. Automatisation du suivi des étudiants via des bots Discord en Node.js, et développement d'APIs REST robustes."
+      "description": "Développement et maintenance de plateformes d'apprentissage MERN et de systèmes back-end utilisés par plus de 100 utilisateurs.",
+      "bullets": [
+        "Développement et maintenance d'une plateforme d'apprentissage MERN (React, Node.js, Express, MongoDB) utilisée par plus de 100 utilisateurs, couvrant les soumissions de projets, les évaluations par les pairs et le suivi de progression, ainsi que des systèmes de gestion des admissions et des programmes.",
+        "Développement et maintenance d'API RESTful avec validation des requêtes, gestion des erreurs et accès aux données ; création d'un bot Discord Node.js pour automatiser l'encadrement des étudiants et suivre l'activité en temps réel.",
+        "Participation aux revues de code et application de pratiques de développement propres, documentées et testables."
+      ]
+    },
+    {
+      "name": "Développeur Full Stack & Ingénieur Données (Hackathon UNESCO-Inde-Afrique 2022, Inde)",
+      "from": "Novembre 2022",
+      "to": "Décembre 2022",
+      "description": "Représentation du Niger au Hackathon UNESCO-Inde-Afrique 2022 avec une solution d'analyse de la consommation d'énergie en Python.",
+      "bullets": [
+        "Représentation du Niger en tant que finaliste parmi 100 équipes de 23 pays avec une solution Python d'analyse de la consommation d'énergie.",
+        "Création de pipelines d'extraction et de traitement de données à partir d'images satellite avec l'API Google Earth Engine.",
+        "Contribution au développement front-end et back-end de la plateforme de présentation de l'équipe en 36 heures."
+      ]
     }
   ],
   "ar": [
@@ -44,19 +124,59 @@
       "name": "مهندس برمجيات متكامل (Gabera، النيجر/سويسرا/ليختنشتاين)",
       "from": "فبراير 2025",
       "to": "الحاضر",
-      "description": "تصميم أطر تقارير المؤسسات باستخدام Blazor (MAUI) للواجهة الأمامية وواجهات برمجة تطبيقات (RESTful APIs) بلغة C# للواجهة الخلفية. دمج قواعد بيانات متعددة (SQL Server، PostgreSQL، MongoDB) لتحقيق وصول موحد للبيانات وتحسين أداء النظام."
+      "description": "تطوير مكونات الواجهة الأمامية والخلفية لمنصة AGPP (Auto-Generated Pro-Code Platform)، وهي منصة تولّد تطبيقات أعمال قابلة للتكوين.",
+      "bullets": [
+        "تصميم وتنفيذ إطار عمل لإعداد التقارير مستقل عن قاعدة البيانات بلغة C#، بهندسة موحّدة للمهايئات تدعم PostgreSQL و MySQL و MongoDB و SQL Server، معزّض عبر واجهات RESTful.",
+        "بناء خصائص تقارير قابلة للتكوين (اختيار البيانات، التجميعات، التجميع، الترتيب، التصفية) وواجهات RESTful تربط الإطار بعدة أنظمة قواعد بيانات، مع ضمان سلامة البيانات بين المصادر.",
+        "دمج إطارَي التقارير و BPMN في سلسلة توليد التطبيقات، مما يتيح للتطبيقات المولَّدة تنفيذ تقارير قابلة للتكوين وسير عمل أعمال.",
+        "بناء واجهات أمامية متجاوبة (Blazor / .NET MAUI) لتهيئة واستخدام هذه الخصائص، مع تصحيح الأخطاء وتحسين التطبيقات لرفع الموثوقية والأداء.",
+        "المشاركة في مراجعات الكود والتعاون مع فرق المنتج والهندسة ضمن إطار عمل Agile.",
+        "استخدام مساعدات البرمجة بالذكاء الاصطناعي لتسريع النمذجة الأولية وتصحيح الأخطاء وتوثيق إطار التقارير ومكونات الواجهة، مع مراجعة واختبار كل الكود المولَّد قبل الدمج."
+      ]
     },
     {
-      "name": "مهندس برمجيات متكامل (LEGALTECH PRIORITIES، نيامي، النيجر)",
+      "name": "مهندس برمجيات متكامل مستقل (عن بُعد)",
+      "from": "أكتوبر 2023",
+      "to": "فبراير 2025",
+      "description": "عملاء مختارون — منصات نقل سيارات الأجرة (VTC)، وإصدار السجلات القضائية، وحجز خدمات التجميل، سُلِّمت كلّها من البداية إلى النهاية على AWS.",
+      "bullets": [
+        "Kano VTC: بناء منصة نقل سيارات الأجرة (VTC) تتكوّن من تطبيقَي موبايل ولوحة تحكم ويب، باستخدام Next.js و NestJS على AWS (Lambda، Cognito) مع Docker وتكامل الدفع عبر Stripe.",
+        "LIDAN: تصميم وبناء نظام إصدار السجلات الجنائية للاستخدام الحكومي باستخدام Next.js و NestJS و PostgreSQL، مع تحكّم في الوصول حسب الأدوار، وواجهات RESTful آمنة، وتحسين للاستعلامات والتخزين المؤقت، واختبارات وحدة وتكامل.",
+        "Caly: إطلاق منصة حجز خدمات التجميل قيد التطوير إلى الإنتاج على AWS (EC2، S3)، بعد إعادة بنائها بـ Next.js و React و TypeScript مع مصادقة Firebase، وتحديد الموقع عبر Google Maps، واستخدام TanStack Query / React Hook Form / Zod لإدارة الحالة والتحقق."
+      ]
+    },
+    {
+      "name": "مهندس برمجيات متكامل (LegalTech Priorities، النيجر)",
       "from": "ديسمبر 2023",
       "to": "فبراير 2024",
-      "description": "تطوير منصة SaaS قانونية متعددة المستأجرين باستخدام Next.js و NestJS. تنفيذ واجهات برمجة تطبيقات آمنة مع ضمان عزل البيانات وتحديثات فورية لتعزيز التعاون بين المحامي والعميل."
+      "description": "بناء تطبيق SaaS متعدد المستأجرين لإدارة الملفات بشكل آمن من البداية إلى النهاية باستخدام React و Next.js و TypeScript و NestJS و MongoDB.",
+      "bullets": [
+        "تصميم واجهات RESTful وخصائص فورية لمتابعة حالة الملفات؛ مع تنفيذ المصادقة والتفويض وعزل البيانات على مستوى المستأجر.",
+        "التحقيق في مشاكل الإنتاج وإضافة التسجيل والمراقبة لتحسين الموثوقية وسهولة التشخيص.",
+        "استخدام مساعدات البرمجة بالذكاء الاصطناعي لتسريع تنفيذ الواجهات الأمامية والخلفية واستكشاف خيارات الواجهة قبل اعتماد التصاميم النهائية."
+      ]
     },
     {
-      "name": "مطور ويب متكامل (CodeLoccol، نيامي، النيجر)",
+      "name": "مطور ويب متكامل (CodeLoccol، النيجر)",
       "from": "يوليو 2022",
       "to": "مارس 2023",
-      "description": "بناء منصة تعليمية بتقنية MERN لأكثر من 100 مستخدم. تطوير أدوات أتمتة للإشراف على الطلاب باستخدام Node.js وبوتات ديسكورد، إلى جانب واجهات برمجة تطبيقات REST قوية."
+      "description": "بناء وصيانة منصات تعلّم بتقنية MERN وأنظمة خلفية يستخدمها أكثر من 100 مستخدم.",
+      "bullets": [
+        "بناء وصيانة منصة تعلّم بتقنية MERN (React، Node.js، Express، MongoDB) يستخدمها أكثر من 100 مستخدم، تغطي تسليم المشاريع والتقييم من الأقران وتتبع التقدّم، إضافة إلى أنظمة إدارة القبول المدرسي وإدارة البرامج.",
+        "تطوير وصيانة واجهات RESTful مع التحقق من الطلبات ومعالجة الأخطاء والوصول إلى البيانات؛ وبناء بوت Discord بـ Node.js لأتمتة إشراف الطلاب ومراقبة النشاط في الوقت الفعلي.",
+        "المشاركة في مراجعات الكود وتطبيق ممارسات تطوير نظيفة وموثّقة وقابلة للاختبار طوال عملية التطوير."
+      ]
+    },
+    {
+      "name": "مطور برمجيات متكامل ومهندس بيانات (هاكاثون اليونسكو-الهند-أفريقيا 2022، الهند)",
+      "from": "نوفمبر 2022",
+      "to": "ديسمبر 2022",
+      "description": "تمثيل النيجر في هاكاثون اليونسكو-الهند-أفريقيا 2022 بحل لتحليل استهلاك الطاقة مبني على Python.",
+      "bullets": [
+        "تمثيل النيجر ضمن المتأهّلين النهائيين من بين 100 فريق من 23 دولة بحل لتحليل استهلاك الطاقة مبني على Python.",
+        "بناء خطوط استخراج ومعالجة البيانات من الصور الفضائية باستخدام واجهة Google Earth Engine.",
+        "المساهمة في تطوير الواجهة الأمامية والخلفية لمنصة العرض الخاصة بالفريق خلال مهلة زمنية قدرها 36 ساعة."
+      ]
     }
   ]
 }

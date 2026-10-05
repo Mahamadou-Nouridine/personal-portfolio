@@ -2,67 +2,31 @@
   "en": [
     {
       "lang": "French",
-      "percentage": 90,
-      "type": "foreign"
+      "level": "Native"
     },
     {
       "lang": "English",
-      "percentage": 70,
-      "type": "foreign"
-    },
-    {
-      "lang": "Hausa",
-      "percentage": 95,
-      "type": "local"
-    },
-    {
-      "lang": "Zarma",
-      "percentage": 80,
-      "type": "local"
+      "level": "Advanced / Professional Working Proficiency"
     }
   ],
   "fr": [
     {
       "lang": "Français",
-      "percentage": 90,
-      "type": "foreign"
+      "level": "Langue maternelle"
     },
     {
       "lang": "Anglais",
-      "percentage": 70,
-      "type": "foreign"
-    },
-    {
-      "lang": "Haoussa",
-      "percentage": 95,
-      "type": "local"
-    },
-    {
-      "lang": "Zarma",
-      "percentage": 80,
-      "type": "local"
+      "level": "Avancé / Maîtrise professionnelle"
     }
   ],
   "ar": [
     {
       "lang": "الفرنسية",
-      "percentage": 90,
-      "type": "foreign"
+      "level": "اللغة الأم"
     },
     {
       "lang": "الإنجليزية",
-      "percentage": 70,
-      "type": "foreign"
-    },
-    {
-      "lang": "الهوسا",
-      "percentage": 95,
-      "type": "local"
-    },
-    {
-      "lang": "الزارما",
-      "percentage": 80,
-      "type": "local"
+      "level": "متقدم / إتقان مهني"
     }
   ]
 }

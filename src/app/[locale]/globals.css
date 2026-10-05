@@ -1000,6 +1000,26 @@ main {
   line-height: 1.6;
 }
 
+.timeline-bullets {
+  display: block;
+  font-family: var(--ff-poppins);
+  margin: 0.5em 0 0.3em;
+  padding-left: 20px;
+  max-width: 700px;
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+.timeline-bullets li {
+  margin-bottom: 6px;
+}
+
+.timeline-bullets li::marker {
+  color: var(--orange-yellow-crayola);
+}
+
 /**
  * skills
  */
@@ -1018,7 +1038,8 @@ main {
 
 .skill .title-wrapper {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  align-items: baseline;
   gap: 5px;
   margin-bottom: 8px;
 }
@@ -1040,6 +1061,23 @@ main {
   background: var(--text-gradient-yellow);
   height: 100%;
   border-radius: inherit;
+}
+
+.skills-list.skill-tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skills-list.skill-tags-list .skills-item {
+  margin-bottom: 0;
+  background: var(--onyx);
+  color: var(--orange-yellow-crayola);
+  border: 1px solid var(--jet);
+  border-radius: 8px;
+  padding: 5px 12px;
+  font-size: var(--fs-7);
+  line-height: 1.5;
 }
 
 /*-----------------------------------*\

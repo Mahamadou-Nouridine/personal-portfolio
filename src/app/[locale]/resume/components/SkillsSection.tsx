@@ -4,36 +4,23 @@ import React from "react";
 import { Accordion } from "react-bootstrap";
 import SpokenLanguagesSection from "./SpokenLanguagesSection";
 import SkillSection from "./SkillSection";
+import skillCategories from "../../data/skills";
 import { useTranslations } from "next-intl";
-// import "../styles/accordion.css";
 
 
 const SkillsSection = () => {
   const t = useTranslations('resume-page')
-  const skills = [
-    {
-      title: t('used-technology'),
-      type: "tech",
-    },
-    {
-      title: t("used-frameworks"),
-      type: "framework",
-    },
-    {
-      title: t('tools'),
-      type: "tool",
-    },
-  ];
+  const tSkill = useTranslations('resume-page.skills')
   return (
     <Accordion defaultActiveKey="0">
-      {skills.map(({ title, type }, index) => (
+      {skillCategories.map(({ type }, index) => (
         <Accordion.Item
           key={index}
           style={{ backgroundColor: "transparent", border: "none" }}
           eventKey={`${index}`}
         >
           <Accordion.Header className="string">
-            {title}
+            {tSkill(type)}
           </Accordion.Header>
           <Accordion.Body bsPrefix="p-0">
             <SkillSection type={type} />
@@ -42,7 +29,7 @@ const SkillsSection = () => {
       ))}
       <Accordion.Item
         style={{ backgroundColor: "transparent", border: "none" }}
-        eventKey={`${skills.length}`}
+        eventKey={`${skillCategories.length}`}
       >
         <Accordion.Header>{t('spoken')}</Accordion.Header>
         <Accordion.Body bsPrefix="p-0">

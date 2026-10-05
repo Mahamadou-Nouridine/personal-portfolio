@@ -33,12 +33,15 @@
     "testimonial-section-tile": "Testimonials/Recommendations"
   },
   "resume-page": {
-    "used-technology": "Technologies I Use",
-    "used-frameworks": "Frameworks I Use",
-    "tools": "Tools & Platforms",
+    "skills": {
+      "frontend": "Front-End",
+      "backend": "Back-End",
+      "databases": "Databases",
+      "cloud": "Cloud & DevOps",
+      "ai-assisted": "AI-Assisted Development",
+      "practices": "Practices"
+    },
     "spoken": "Spoken Languages",
-    "foreign": "Foreign",
-    "local": "Local",
     "download-cv": "Download My CV"
   },
   "portfolio-page": {

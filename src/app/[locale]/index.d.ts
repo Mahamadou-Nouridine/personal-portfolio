@@ -6,8 +6,7 @@ interface Service {
 
 interface Language{
   "lang": string,
-  "percentage":number,
-  "type": string
+  "level": string
 }
 
 type Locals = "en" | "fr"

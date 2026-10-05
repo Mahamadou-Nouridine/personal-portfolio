@@ -1,5 +1,4 @@
 import React from "react";
-import Markdown from "react-markdown";
 
 const ExperienceItem = ({ experience }) => {
   return (
@@ -9,7 +8,18 @@ const ExperienceItem = ({ experience }) => {
       <span>
         {experience.from} — {experience.to}
       </span>
-      <pre className="timeline-text">{experience.description}</pre>
+
+      {experience.description && (
+        <pre className="timeline-text">{experience.description}</pre>
+      )}
+
+      {experience.bullets?.length > 0 && (
+        <ul className="timeline-bullets">
+          {experience.bullets.map((bullet, index) => (
+            <li key={index}>{bullet}</li>
+          ))}
+        </ul>
+      )}
     </li>
   );
 };

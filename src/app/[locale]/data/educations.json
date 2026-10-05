@@ -1,62 +1,119 @@
 {
   "en": [
     {
-      "name": "MICROVERSE",
+      "name": "Full-Stack Developer – Computer Software Engineering (Microverse)",
       "from": "March 2023",
       "to": "March 2024",
-      "description": "Remote Full Stack Web Development Program. Dedicated 1300+ hours to mastering algorithms, data structures, and full-stack development using Ruby on Rails, React, and Redux. Gained extensive experience in remote pair-programming and industry-standard Gitflow."
+      "description": "Remote full-stack software engineering program covering algorithms, data structures and modern web development.",
+      "bullets": [
+        "1,300+ hours of full-stack development covering algorithms, data structures, Ruby on Rails, JavaScript, React and Redux.",
+        "Developed software through remote pair programming, code reviews and Git-based workflows."
+      ]
     },
     {
-      "name": "CODELOCCOL",
-      "from": "Jan 2022",
-      "to": "Jan 2023",
-      "description": "Full Stack Developer Intensive. Specialized in the MERN stack and collaborated in an international hackathon to develop an AI-driven web solution using satellite imagery."
+      "name": "MERN Full-Stack Developer (CodeLoccol)",
+      "from": "January 2022",
+      "to": "January 2023",
+      "description": "Project-based full-stack training with an international hackathon.",
+      "bullets": [
+        "2,600+ hours of hands-on, project-based training in MongoDB, Express.js, React and Node.js."
+      ]
     },
     {
-      "name": "Université Tunisienne Internationale du Niger",
-      "from": "Jan 2020",
-      "to": "Jan 2022",
-      "description": "MPSI Scientific Preparatory Class Certificate. Rigorous study of advanced mathematics, physics, and computer science fundamentals."
+      "name": "Intensive Pre-Engineering Foundation Program (MP) (Université Tunisienne Internationale)",
+      "from": "January 2020",
+      "to": "December 2022",
+      "description": "Intensive mathematics, physics and engineering curriculum.",
+      "bullets": [
+        "Intensive mathematics, physics and engineering curriculum."
+      ]
+    },
+    {
+      "name": "Technical Mentor — Volunteer (Microverse and CodeLoccol)",
+      "from": "2023",
+      "to": "2024",
+      "description": "Mentoring junior developers alongside professional studies.",
+      "bullets": [
+        "Mentored junior developers through weekly code reviews, debugging sessions and guidance on best practices."
+      ]
     }
   ],
   "fr": [
     {
-      "name": "MICROVERSE",
+      "name": "Développeur Full Stack – Ingénierie Logicielle (Microverse)",
       "from": "Mars 2023",
       "to": "Mars 2024",
-      "description": "Programme intensif de développement Web Full Stack à distance. Plus de 1300 heures consacrées à la maîtrise des algorithmes, des structures de données et du développement avec Ruby on Rails et React. Expérience approfondie en programmation pair-à-pair et Gitflow."
+      "description": "Programme d'ingénierie logicielle full stack à distance : algorithmes, structures de données et développement web moderne.",
+      "bullets": [
+        "Plus de 1 300 heures de développement full stack : algorithmique, structures de données, Ruby on Rails, JavaScript, React et Redux.",
+        "Développement logiciel en pair programming à distance, revues de code et workflows basés sur Git."
+      ]
     },
     {
-      "name": "CODELOCCOL",
+      "name": "Développeur Full Stack MERN (CodeLoccol)",
       "from": "Janvier 2022",
       "to": "Janvier 2023",
-      "description": "Formation intensive de développeur Full Stack. Spécialisation dans la stack MERN et participation à un hackathon international pour créer une solution IA basée sur l'imagerie satellite."
+      "description": "Formation pratique full stack par projets, avec un hackathon international.",
+      "bullets": [
+        "Plus de 2 600 heures de formation pratique par projets en MongoDB, Express.js, React et Node.js."
+      ]
     },
     {
-      "name": "Université Tunisienne Internationale du Niger",
+      "name": "Classe préparatoire intensive aux études d'ingénieur (MP) (Université Tunisienne Internationale)",
       "from": "Janvier 2020",
-      "to": "Janvier 2022",
-      "description": "Certificat de classe préparatoire scientifique (MPSI). Études approfondies en mathématiques, physique et informatique."
+      "to": "Décembre 2022",
+      "description": "Cursus intensif de mathématiques, physique et sciences de l'ingénieur.",
+      "bullets": [
+        "Cursus intensif de mathématiques, physique et sciences de l'ingénieur."
+      ]
+    },
+    {
+      "name": "Mentor technique — Bénévolat (Microverse et CodeLoccol)",
+      "from": "2023",
+      "to": "2024",
+      "description": "Accompagnement de développeurs juniors parallèlement aux études professionnelles.",
+      "bullets": [
+        "Accompagnement de développeurs juniors : revues de code hebdomadaires, sessions de débogage et conseils de bonnes pratiques."
+      ]
     }
   ],
   "ar": [
     {
-      "name": "MICROVERSE",
+      "name": "مطور برمجيات متكامل – هندسة البرمجيات الحاسوبية (Microverse)",
       "from": "مارس 2023",
       "to": "مارس 2024",
-      "description": "برنامج تطوير الويب المتكامل (Full Stack) عن بعد. قضيت أكثر من 1300 ساعة في إتقان الخوارزميات، وهياكل البيانات، والتطوير باستخدام Ruby on Rails و React. خبرة واسعة في البرمجة الزوجية عن بعد واتباع معايير Gitflow العالمية."
+      "description": "برنامج عن بُعد في هندسة البرمجيات المتكاملة يغطي الخوارزميات وهياكل البيانات وتطوير الويب الحديث.",
+      "bullets": [
+        "أكثر من 1300 ساعة من التطوير المتكامل تشمل الخوارزميات وهياكل البيانات و Ruby on Rails و JavaScript و React و Redux.",
+        "تطوير البرمجيات عبر البرمجة الزوجية عن بُعد ومراجعات الكود وسير عمل قائم على Git."
+      ]
     },
     {
-      "name": "CODELOCCOL",
+      "name": "مطور برمجيات متكامل بتقنية MERN (CodeLoccol)",
       "from": "يناير 2022",
       "to": "يناير 2023",
-      "description": "دورة مكثفة لمطوري الويب المتكاملين. تخصصت في تقنيات MERN وشاركت في هاكاثون دولي لتطوير حل برمجي يعتمد على الذكاء الاصطناعي وصور الأقمار الصناعية."
+      "description": "تدريب عملي متكامل قائم على المشاريع، مع هاكاثون دولي.",
+      "bullets": [
+        "أكثر من 2600 ساعة من التدريب العملي القائم على المشاريع في MongoDB و Express.js و React و Node.js."
+      ]
     },
     {
-      "name": "Université Tunisienne Internationale du Niger",
+      "name": "برنامج تحضيري مكثّف للقبول في دراسة الهندسة (MP) (جامعة تونس الدولية)",
       "from": "يناير 2020",
-      "to": "يناير 2022",
-      "description": "شهادة الأقسام التحضيرية العلمية (MPSI). دراسة مكثفة في الرياضيات المتقدمة، الفيزياء، وأساسيات علوم الحاسوب."
+      "to": "ديسمبر 2022",
+      "description": "منهج مكثّف في الرياضيات والفيزياء وعلوم الهندسة.",
+      "bullets": [
+        "منهج مكثّف في الرياضيات والفيزياء وعلوم الهندسة."
+      ]
+    },
+    {
+      "name": "مرشد تقني – تطوعي (Microverse و CodeLoccol)",
+      "from": "2023",
+      "to": "2024",
+      "description": "مرافقة المطورين المبتدئين إلى جانب الدراسات المهنية.",
+      "bullets": [
+        "مرافقة المطورين المبتدئين عبر مراجعات كود أسبوعية وجلسات تصحيح أخطاء وإرشادهم إلى أفضل الممارسات."
+      ]
     }
   ]
 }

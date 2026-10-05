@@ -3,17 +3,16 @@ import skills from "../../data/skills";
 import SkillItem from "./SkillItem";
 
 const SkillSection = ({ type }) => {
+  const category = skills.find((skill) => skill.type === type);
+
+  if (!category) return null;
+
   return (
-    <>
-      <ul className="skills-list content-card">
-        {skills
-          .filter((skil) => skil.type == type)
-          .sort((a, b) => b.percentage - a.percentage)
-          .map((skill, index) => (
-            <SkillItem skill={skill} key={index} />
-          ))}
-      </ul>
-    </>
+    <ul className="skills-list content-card skill-tags-list">
+      {category.items.map((item, index) => (
+        <SkillItem item={item} key={index} />
+      ))}
+    </ul>
   );
 };
 
