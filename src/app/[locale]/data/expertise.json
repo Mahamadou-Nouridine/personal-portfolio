@@ -8,7 +8,7 @@
     {
       "icon": "business-outline",
       "title": "Multi-Tenant SaaS Architecture",
-      "description": "Tenant data isolation, role-based access control and secure APIs, delivered for legal case management, criminal-record issuing and sales platforms."
+      "description": "Tenant data isolation, role-based access control and secure APIs, delivered for legal case management, government records and sales platforms."
     },
     {
       "icon": "git-branch-outline",
@@ -40,7 +40,7 @@
     {
       "icon": "business-outline",
       "title": "Architecture SaaS Multi-Tenant",
-      "description": "Isolation des données par tenant, contrôle d'accès par rôles et API sécurisées, pour la gestion de dossiers juridiques, la délivrance de casiers judiciaires et des plateformes de gestion des ventes."
+      "description": "Isolation des données par tenant, contrôle d'accès par rôles et API sécurisées, pour la gestion de dossiers juridiques, l'enregistrement pour l'administration et des plateformes de gestion des ventes."
     },
     {
       "icon": "git-branch-outline",
@@ -72,7 +72,7 @@
     {
       "icon": "business-outline",
       "title": "معمارية SaaS متعددة المستأجرين",
-      "description": "عزل بيانات كل مستأجر، والتحكم في الوصول حسب الأدوار، وواجهات آمنة، لإدارة الملفات القانونية وإصدار السجلات الجنائية ومنصات إدارة المبيعات."
+      "description": "عزل بيانات كل مستأجر، والتحكم في الوصول حسب الأدوار، وواجهات آمنة، لإدارة الملفات القانونية والسجلات الحكومية ومنصات إدارة المبيعات."
     },
     {
       "icon": "git-branch-outline",
